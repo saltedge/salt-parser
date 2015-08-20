@@ -1,0 +1,13 @@
+!Type:Bank
+D13/12/2012
+T-10.00
+LDebit
+PDescription
+MReference
+^
+D12/13/2012
+T-20.00
+LDebit
+PDescription
+MReference
+^

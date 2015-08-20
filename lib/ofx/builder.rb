@@ -1,6 +1,6 @@
-module OFX
-  module Parser
-    class Base
+module SaltParser
+  module OFX
+    class Builder
       attr_reader :headers
       attr_reader :body
       attr_reader :content
@@ -10,7 +10,7 @@ module OFX
         resource = open_resource(resource)
         resource.rewind
         begin
-          @content = convert_to_utf8(resource.read)
+          @content        = convert_to_utf8(resource.read)
           @headers, @body = prepare(content)
         rescue Exception
           raise OFX::UnsupportedFileError
@@ -18,11 +18,11 @@ module OFX
 
         case headers["VERSION"]
         when /102|103/ then
-          @parser = OFX102.new(:headers => headers, :body => body)
+          @parser = SaltParser::OFX::Parser::OFX102.new(:headers => headers, :body => body)
         when /200|202|211/ then
-          @parser = OFX211.new(:headers => headers, :body => body)
+          @parser = SaltParser::OFX::Parser::OFX211.new(:headers => headers, :body => body)
         else
-          raise OFX::UnsupportedFileError
+          raise SaltParser::OFX::UnsupportedFileError
         end
       end
 
@@ -37,12 +37,13 @@ module OFX
       end
 
       private
+
       def prepare(content)
         # split headers & body
         header_text, body_text = content.dup.split(/<OFX>/, 2)
         header_text.gsub!("encoding=\"USASCII\"", "encoding=\"US-ASCII\"") if header_text.include?("encoding=\"USASCII\"")
 
-        raise OFX::UnsupportedFileError unless body_text
+        raise SaltParser::OFX::UnsupportedFileError unless body_text
 
         headers = extract_headers(header_text)
         body    = extract_body(body_text)
@@ -55,12 +56,12 @@ module OFX
         # parser a chance to parse the headers.
         headers = nil
 
-        OFX::Parser.constants.grep(/OFX/).each do |name|
-          headers = OFX::Parser.const_get(name).parse_headers(header_text)
+        SaltParser::OFX::Parser.constants.grep(/OFX/).each do |name|
+          headers = SaltParser::OFX::Parser.const_get(name).parse_headers(header_text)
           break if headers
         end
 
-        raise OFX::UnsupportedFileError if headers.empty?
+        raise SaltParser::OFX::UnsupportedFileError if headers.empty?
         headers
       end
 

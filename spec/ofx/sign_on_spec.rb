@@ -1,7 +1,7 @@
 require "spec_helper"
 
-describe OFX::SignOn do
-  let(:ofx)     { OFX::Parser::Base.new("spec/ofx/fixtures/creditcard.ofx") }
+describe SaltParser::OFX::SignOn do
+  let(:ofx)     { SaltParser::OFX::Builder.new("spec/ofx/fixtures/creditcard.ofx") }
   let(:parser)  { ofx.parser }
   let(:sign_on) { parser.sign_on }
   let(:hash)    { sign_on.to_hash }
@@ -29,7 +29,7 @@ describe OFX::SignOn do
     end
 
     context "#status" do
-      let(:sign_on) { OFX::Parser::Base.new("spec/ofx/fixtures/request_error.ofx").parser.sign_on }
+      let(:sign_on) { SaltParser::OFX::Builder.new("spec/ofx/fixtures/request_error.ofx").parser.sign_on }
       it "should return status code" do
         sign_on.code.should == "2000"
         hash[:code].should  == sign_on.code

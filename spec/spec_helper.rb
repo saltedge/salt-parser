@@ -1,8 +1,6 @@
 require "pry-byebug"
 require "simplecov"
 require "timecop"
-require "active_support"
-require "active_support/core_ext"
 
 require_relative "support/fixture"
 
@@ -11,7 +9,7 @@ SimpleCov.start do
   add_filter "/vendor/"
 end if ENV["COVERAGE"] == "true"
 
-require_relative "../lib/ofx"
+require_relative "../lib/salt-parser/base"
 
 ActiveSupport::JSON::Encoding.use_standard_json_time_format = true
 ActiveSupport::JSON::Encoding.time_precision = 0

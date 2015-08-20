@@ -1,0 +1,8669 @@
+!Type:Cat
+NBusiness Income
+DGross income / turnover
+I
+^
+NBusiness Income:Cleaning Income
+DIncome from cleaning
+I
+^
+NCapital Gains
+DAmount received
+I
+^
+NDividend
+DDividend Income
+I
+^
+NDSS Benefits
+DTax & social security benefits
+I
+^
+NDSS Benefits:Housing Benefit
+I
+^
+NDSS Benefits:Tax Credits
+DWorking tax credits
+I
+^
+NEmployment
+DEmployment income
+I
+^
+NEmployment:Salary & Wages
+DSalary & wages
+I
+^
+NGift Received
+DGift Received
+I
+^
+NInterest Received
+DInterest Income
+I
+^
+NInvestment Income
+DInvestment income
+I
+^
+NMisc Income
+DMiscellaneous Income
+I
+^
+NOther Income
+DOther Income
+I
+^
+NPension income
+DPension income
+I
+^
+NPension income:Personal
+DPersonal Pension
+I
+^
+NPension income:State
+DState pension
+I
+^
+NRefund
+DRefunded payments
+I
+^
+NRental Income
+DRental Income
+I
+^
+NSales
+DSales
+I
+^
+NTransfer In
+I
+^
+N_CapGnDst
+DCapital Gain Dist
+T
+I
+^
+N_DivInc
+DDividend
+T
+I
+^
+N_DivIncTaxFree
+DTax-Free Dividend
+T
+I
+^
+N_EmpStkOptInc
+DEmployee Stock Option Inc
+T
+I
+^
+N_EmpStkOptIncspouse
+DEmployee Stock Option Inc
+T
+I
+^
+N_ESPP Self Income
+D_ESPP Self Income
+T
+I
+^
+N_ESPP Spouse Income
+D_ESPP Spouse Income
+T
+I
+^
+N_IntInc
+DInvestment Interest Inc
+T
+I
+^
+N_IntIncTaxFree
+DTax-Free Inv Interest Inc
+T
+I
+^
+N_OthCapGnDst
+DOther Capital Gain Dist
+T
+I
+^
+N_RlsdGain
+DRealised Gain/Loss
+T
+I
+^
+N_UnrlsdGain
+DUnrealised Gain/Loss
+I
+^
+NBank Charges
+DBank Charges
+E
+^
+NBus. Expenses
+DBusiness expenses
+E
+^
+NBus. Expenses:Advertising
+DAdvertising
+E
+^
+NBus. Expenses:Bank Charges
+DBank charges & fees
+E
+^
+NBus. Expenses:COGS
+DCost of goods sold
+E
+^
+NBus. Expenses:COGS:Purchases
+DPurchases, materials...
+E
+^
+NBus. Expenses:Freight
+DFreight, couriers
+E
+^
+NBus. Expenses:Insurance
+DInsurance
+E
+^
+NBus. Expenses:Interest Exp
+DInterest expense
+E
+^
+NBus. Expenses:Leases
+DLeases & other finance
+E
+^
+NBus. Expenses:Legal-Prof Fees
+DLegal & Prof. Fees
+E
+^
+NBus. Expenses:Motor
+DMotor vehicle expenses
+E
+^
+NBus. Expenses:Motor:Finance
+DLoan  / lease
+E
+^
+NBus. Expenses:Motor:Other Motor Exp.
+DIns.,Roadworthy, insurances..
+E
+^
+NBus. Expenses:Motor:Petrol
+DPetrol & oils
+E
+^
+NBus. Expenses:Motor:Service
+DService & repairs
+E
+^
+NBus. Expenses:Office
+DOffice expenses
+E
+^
+NBus. Expenses:Other Expenses
+DOther expenses
+E
+^
+NBus. Expenses:Rent on Equip
+DRent mach, equip, car...
+E
+^
+NBus. Expenses:Rent Premises
+DRent office / factory
+E
+^
+NBus. Expenses:Repairs & Maint
+DRepairs & maintenance
+E
+^
+NBus. Expenses:Staff Expenses
+DWages, benefits...
+E
+^
+NBus. Expenses:Telephone
+DTelephone expense
+E
+^
+NBus. Expenses:Travel
+DTravel expenses
+E
+^
+NBus. Expenses:Utilities
+DWater, Gas, Electric
+E
+^
+NBus. Taxes
+DTaxes paid
+E
+^
+NBus. Taxes:Nat Ins
+DNational Insurance
+T
+E
+^
+NBusiness Expenses
+DBusiness expenses
+E
+^
+NBusiness Expenses:Mileage
+DMileage allowance
+E
+^
+NCash
+DCash withdrawal
+E
+^
+NCharity
+DDonations
+T
+E
+^
+NCharity:Covenants
+DCovenants
+T
+E
+^
+NCharity:Donations
+DGift aid donations
+T
+E
+^
+NChild Care
+DChild Care Expense
+E
+^
+NChristmas
+DChristmas Expenses
+E
+^
+NClothing
+DClothing
+E
+^
+NCommission
+DCommissions
+T
+E
+^
+NCouncil Tax
+E
+^
+NCovenants
+DCovenants
+T
+E
+^
+NCredit Card
+DCredit card payments
+E
+^
+NDining
+DDining Out
+E
+^
+NDrawings
+DProprietor's Drawings
+E
+^
+NEducation
+DEducation
+E
+^
+NEntertainment
+DEntertainment
+E
+^
+NGardening
+DGardening and Plants
+E
+^
+NGeneral Expenses
+E
+^
+NGifts
+DGift Expenses
+E
+^
+NGroceries
+DGroceries
+E
+^
+NHolidays
+DHoliday expenses
+E
+^
+NHome Repair
+DHome Repair & Maint
+E
+^
+NHousehold
+DHousehold Misc. Exp
+E
+^
+NInsurance
+DInsurance
+E
+^
+NInsurance:Accident
+DPersonal Accident Insurance
+E
+^
+NInsurance:Appliance
+DHome appliance insurance
+E
+^
+NInsurance:Car
+DCar insurance
+E
+^
+NInsurance:Health
+DPermanent health insurance
+E
+^
+NInsurance:Home
+DHome contents insurance
+E
+^
+NInsurance:Life
+E
+^
+NInsurance:Travel
+DTravel insurance
+E
+^
+NInterest Exp
+DInterest Expense
+T
+E
+^
+NInterest Paid
+DInterest Paid
+T
+E
+^
+NInvestment Exp
+DInvestment Expense
+T
+E
+^
+NLife Assurance
+DLife Assurance
+T
+E
+^
+NLoan Relief
+DInterest paid
+T
+E
+^
+NLoan Repayment
+DLoan repayments
+E
+^
+NMed. Insurance
+DMedical insurance premium
+T
+E
+^
+NMedical
+DMedical & Dental
+T
+E
+^
+NMisc
+DMiscellaneous
+E
+^
+NMobile phone
+DMobile phone costs
+E
+^
+NMortgage
+DMortgage repayments
+E
+^
+NMortgage:Interest
+DMortgage interest
+E
+^
+NMortgage Int
+DMortgage Interest Exp
+T
+E
+^
+NMotor
+DMotor Expenses
+E
+^
+NMotor:Fuel
+DMotor Fuel
+E
+^
+NMotor:Loan
+DMotor Loan Payment
+E
+^
+NMotor:Service
+DMotor Service
+E
+^
+NOffice
+DStationery etc
+E
+^
+NOther Expenses
+DOther Expenses
+T
+E
+^
+NPayments Abroad
+DPayments to foreign owner
+T
+E
+^
+NPension Cont-SP
+DSpouse's pension cont.
+T
+E
+^
+NPension Cont-SP:FSAVC
+DFSAVC scheme
+T
+E
+^
+NPension Cont-SP:Personal Pens.
+DPersonal pension
+T
+E
+^
+NPension Cont.
+DPension contributions
+T
+E
+^
+NPension Cont.:FSAVC
+DFSAVC scheme
+T
+E
+^
+NPension Cont.:Personal Pens.
+DPersonal pension
+T
+E
+^
+NPension Cont.:Retire Annuity
+DRetirement annuity
+T
+E
+^
+NPension Cont.:Trade Pension
+DTrade union pension
+T
+E
+^
+NPension Contributions
+DPension contributions
+E
+^
+NPetrol
+DVehicle fuel
+E
+^
+NPets & Vets
+DPet & Veterinary expenses
+E
+^
+NPurchases
+DPurchases and Materials
+T
+E
+^
+NRates
+DBusiness and Water Rates
+T
+E
+^
+NRecreation
+DRecreation Expense
+E
+^
+NRent Expenses
+DRental property expenses
+T
+E
+^
+NRent Paid
+DRent Paid
+T
+E
+^
+NRental Expenses
+DRental property expenses
+E
+^
+NRepairs
+DRepairs
+T
+E
+^
+NRet Savings
+DRetirement Savings Plan
+E
+^
+NReturns
+DReturns & Allowances
+T
+E
+^
+NSavings
+DGeneral savings
+E
+^
+NStationery
+DStationery
+T
+E
+^
+NSubscriptions
+D*Subscriptions
+E
+^
+NTax paid
+DTaxes paid
+E
+^
+NTax Spouse
+DSpouse's Taxes
+T
+E
+^
+NTax Spouse:Income Tax
+D*Income tax
+T
+E
+^
+NTax Spouse:Nat. Insurance
+DNational Insurance
+T
+E
+^
+NTaxes
+DTaxes paid
+T
+E
+^
+NTaxes:1st option
+D1st option bond tax deduc
+T
+E
+^
+NTaxes:Foreign Savings
+DTax deducted UK
+T
+E
+^
+NTaxes:Income Tax
+D*Income tax
+T
+E
+^
+NTaxes:Interest
+DTax deducted at source
+T
+E
+^
+NTaxes:Local Tax
+DCouncil Tax
+T
+E
+^
+NTaxes:Nat. Insurance
+DNational Insurance
+T
+E
+^
+NTaxes:Other Invest
+DTaxed deducted
+T
+E
+^
+NTaxes:Other Tax
+DMisc. Taxes
+T
+E
+^
+NTaxes:Unit Trust
+DTax deducted by trust
+T
+E
+^
+NTelephone
+DTelephone
+E
+^
+NTransfer out
+DTransfer out of account
+E
+^
+NTravel
+DTravel Expenses
+T
+E
+^
+NUtilities
+DDomestic Bills
+E
+^
+NUtilities:Electricity
+DElectricity
+E
+^
+NUtilities:Gas
+DGas
+E
+^
+NUtilities:Oil
+DHeating Oil
+E
+^
+NUtilities:Telephone
+DTelephone
+E
+^
+NUtilities:Water
+DWater
+E
+^
+NVehicle
+DMotor Expenses
+E
+^
+NVehicle:Repairs
+DRepairs
+E
+^
+NVehicle:Tax
+DVehicle Duty
+E
+^
+NWork Expense
+DEmployment related
+T
+E
+^
+N_Accrued Int
+DAccrued Interest
+T
+E
+^
+N_IntExp
+DInvestment Interest Exp
+T
+E
+^
+N_Tax Credit
+DTax Credit
+T
+E
+^
+!Type:Bank 
+D1/1/13
+U-55.00
+T-55.00
+CX
+PFriends Life (AXA)
+MRFM Life
+LInsurance:Life
+^
+D1/1/13
+U-11.89
+T-11.89
+CX
+PFriends Provident
+MSJM life
+LInsurance:Life
+^
+D1/1/13
+U-7.02
+T-7.02
+CX
+PAIG (UNAT)
+LInsurance:Accident
+^
+D1/1/13
+U-2.49
+T-2.49
+CX
+PAviva
+LInsurance:Health
+^
+D1/1/13
+U-19.18
+T-19.18
+CX
+PClick4warrenty
+LVehicle
+^
+D1/1/13
+U-14.00
+T-14.00
+CX
+PDirect Badminton
+LGeneral Expenses
+^
+D4/1/13
+U-25.00
+T-25.00
+CX
+PAsda
+LPetrol
+^
+D4/1/13
+U-30.97
+T-30.97
+CX
+PPaypal
+MBT replacement wheel
+LGeneral Expenses
+^
+D5/1/13
+U-30.07
+T-30.07
+CX
+PPlusnet
+LTelephone
+^
+D7/1/13
+U355.29
+T355.29
+CX
+PBroadland District Council
+LDSS Benefits:Housing Benefit
+^
+D8/1/13
+U-39.00
+T-39.00
+CX
+PShell Brundall
+LPetrol
+^
+D9/1/13
+U-100.00
+T-100.00
+CX
+PTransfer To SJM
+LTransfer out
+^
+D10/1/13
+U13.95
+T13.95
+CX
+PBroadland District Council
+LDSS Benefits
+^
+D10/1/13
+U-17.00
+T-17.00
+CX
+PVodafone
+LMobile phone
+^
+D10/1/13
+U-11.17
+T-11.17
+CX
+PBoots
+LGeneral Expenses
+^
+D11/1/13
+U-15.00
+T-15.00
+CX
+PEngage Mutual (Homeowners Friendly)
+MSavings for Jessica
+LSavings
+^
+D11/1/13
+U-100.00
+T-100.00
+CX
+PCash Withdrawal
+LCash
+^
+D12/1/13
+U368.42
+T368.42
+CX
+NDEP
+PAutoprotect Warranty
+LVehicle
+^
+D12/1/13
+U-74.85
+T-74.85
+CX
+PHM Revenue & Customs
+MRepayment of overpayment of £1796.46
+LDSS Benefits:Tax Credits
+^
+D12/1/13
+U-1.99
+T-1.99
+CX
+PGoogle Play
+MPerfect Keyboard
+LMobile phone
+^
+D15/1/13
+U-30.00
+T-30.00
+CX
+PNational Deposit
+MSavings - James, Matthew & Sophie
+LSavings
+^
+D15/1/13
+U-12.12
+T-12.12
+CX
+PTV Licensing
+LGeneral Expenses
+^
+D15/1/13
+U-21.54
+T-21.54
+CX
+PAnglian Water
+LUtilities:Water
+^
+D15/1/13
+U-21.00
+T-21.00
+CX
+PSwiftcover.com
+MM6 RFM
+LInsurance
+^
+D15/1/13
+U-2.49
+T-2.49
+CX
+PGoogle Play
+MxPhone
+LMobile phone
+^
+D15/1/13
+U-1.92
+T-1.92
+CX
+PGoogle Play
+MChomp
+LMobile phone
+^
+D16/1/13
+U-50.00
+T-50.00
+CX
+PEDF Energy
+LUtilities:Electricity
+^
+D17/1/13
+U500.00
+T500.00
+CX
+NTXFR
+PTransfer
+L[Virgin Cash ISA]
+^
+D17/1/13
+U-38.01
+T-38.01
+CX
+PShell Brundall
+LPetrol
+^
+D18/1/13
+U-100.00
+T-100.00
+CX
+PCash Withdrawal
+LCash
+^
+D21/1/13
+U-4.07
+T-4.07
+CX
+PLovefilm (Co-op Card)
+MDebit card payment
+LGeneral Expenses
+^
+D21/1/13
+U-2.59
+T-2.59
+CX
+PGoogle Play
+MAI Type Keyboard
+LMobile phone
+^
+D21/1/13
+U-20.00
+T-20.00
+CX
+PTransfer to Business A/c
+LTransfer out
+^
+D22/1/13
+U58.00
+T58.00
+CX
+PPartnership (pension)
+LPension income
+^
+D22/1/13
+U-490.00
+T-490.00
+CX
+PTW Gaze
+LRent Paid
+^
+D23/1/13
+U-10.01
+T-10.01
+CX
+PRAC Insurance
+MJ888 SJM
+LInsurance:Car
+^
+D23/1/13
+U-3.00
+T-3.00
+CX
+PGoogle Play
+MInoMail
+LMobile phone
+^
+D24/1/13
+U-30.01
+T-30.01
+CX
+PShell Brundall
+LPetrol
+^
+D25/1/13
+U-75.00
+T-75.00
+CX
+PCPL Petroleum
+LUtilities:Oil
+^
+D25/1/13
+U-100.00
+T-100.00
+CX
+PCash Withdrawal
+LCash
+^
+D28/1/13
+U250.00
+T250.00
+CX
+NTXFR
+PTransfer
+L[Virgin Cash ISA]
+^
+D29/1/13
+U-93.50
+T-93.50
+CX
+PPost Office
+MM6 RFM
+LVehicle:Tax
+^
+D1/2/13
+U-55.00
+T-55.00
+CX
+PFriends Life (AXA)
+MRFM Life
+LInsurance:Life
+^
+D1/2/13
+U-11.89
+T-11.89
+CX
+PFriends Provident
+MSJM life
+LInsurance:Life
+^
+D1/2/13
+U-7.02
+T-7.02
+CX
+PAIG (UNAT)
+LInsurance:Accident
+^
+D1/2/13
+U-2.49
+T-2.49
+CX
+PAviva
+LInsurance:Health
+^
+D1/2/13
+U-19.18
+T-19.18
+CX
+PClick4warrenty
+LVehicle
+^
+D1/2/13
+U-25.00
+T-25.00
+CX
+PMousehold Service Station
+LPetrol
+^
+D1/2/13
+U-120.00
+T-120.00
+CX
+PCash Withdrawal
+LCash
+^
+D4/2/13
+U369.24
+T369.24
+CX
+PBroadland District Council
+LDSS Benefits
+^
+D5/2/13
+U-30.00
+T-30.00
+CX
+PMousehold Service Station
+LPetrol
+^
+D6/2/13
+U300.00
+T300.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D6/2/13
+U-28.87
+T-28.87
+CX
+PPlusnet
+LTelephone
+^
+D6/2/13
+U-30.00
+T-30.00
+CX
+PCash Withdrawal
+LCash
+^
+D6/2/13
+U-25.00
+T-25.00
+CX
+PShell Brundall
+LPetrol
+^
+D8/2/13
+U-100.00
+T-100.00
+CX
+PCash Withdrawal
+LCash
+^
+D11/2/13
+U-15.00
+T-15.00
+CX
+PEngage Mutual (Homeowners Friendly)
+MSavings for Jessica
+LSavings
+^
+D12/2/13
+U-17.00
+T-17.00
+CX
+PVodafone
+LMobile phone
+^
+D12/2/13
+U-74.85
+T-74.85
+CX
+PHM Revenue & Customs
+MRepayment of overpayment of £1796.46
+LDSS Benefits:Tax Credits
+^
+D12/2/13
+U-30.00
+T-30.00
+CX
+PMousehold Service Station
+LPetrol
+^
+D13/2/13
+U-120.00
+T-120.00
+CX
+PCash Withdrawal
+LCash
+^
+D15/2/13
+U-30.00
+T-30.00
+CX
+PNational Deposit
+MSavings - James, Matthew & Sophie
+LSavings
+^
+D15/2/13
+U-12.12
+T-12.12
+CX
+PTV Licensing
+LGeneral Expenses
+^
+D15/2/13
+U-21.00
+T-21.00
+CX
+PSwiftcover.com
+MM6 RFM
+LInsurance
+^
+D15/2/13
+U-30.01
+T-30.01
+CX
+PAsda
+LPetrol
+^
+D16/2/13
+U-50.00
+T-50.00
+CX
+PEDF Energy
+LUtilities:Electricity
+^
+D18/2/13
+U500.00
+T500.00
+CX
+PTransfer
+L[Virgin Cash ISA]
+^
+D18/2/13
+U-25.00
+T-25.00
+CX
+PShell Brundall
+LPetrol
+^
+D20/2/13
+U300.00
+T300.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D20/2/13
+U-10.40
+T-10.40
+CX
+PHealthspan
+LGeneral Expenses
+^
+D21/2/13
+U-4.07
+T-4.07
+CX
+PLovefilm (Co-op Card)
+MDebit card payment
+LGeneral Expenses
+^
+D21/2/13
+U-46.97
+T-46.97
+CX
+PHomebase
+LGeneral Expenses
+^
+D21/2/13
+U-12.98
+T-12.98
+CX
+PCompanion Care Vets
+LPets & Vets
+^
+D22/2/13
+U58.00
+T58.00
+CX
+PPartnership (pension)
+LPension income
+^
+D22/2/13
+U-490.00
+T-490.00
+CX
+PTW Gaze
+LRent Paid
+^
+D22/2/13
+U-80.00
+T-80.00
+CX
+PCash Withdrawal
+LCash
+^
+D23/2/13
+U-10.01
+T-10.01
+CX
+PRAC Insurance
+MJ888 SJM
+LInsurance:Car
+^
+D25/2/13
+U-75.00
+T-75.00
+CX
+PCPL Petroleum
+LUtilities:Oil
+^
+D25/2/13
+U-17.50
+T-17.50
+CX
+PBrundall Dentists
+LGeneral Expenses
+^
+D26/2/13
+U-40.00
+T-40.00
+CX
+PMousehold Service Station
+LPetrol
+^
+D1/3/13
+U-55.00
+T-55.00
+CX
+PFriends Life (AXA)
+MRFM Life
+LInsurance:Life
+^
+D1/3/13
+U-11.89
+T-11.89
+CX
+PFriends Provident
+MSJM life
+LInsurance:Life
+^
+D1/3/13
+U-7.02
+T-7.02
+CX
+PAIG (UNAT)
+LInsurance:Accident
+^
+D1/3/13
+U-2.49
+T-2.49
+CX
+PAviva
+LInsurance:Health
+^
+D1/3/13
+U-19.18
+T-19.18
+CX
+PClick4warrenty
+LVehicle
+^
+D4/3/13
+U369.24
+T369.24
+CX
+PBroadland District Council
+LDSS Benefits
+^
+D4/3/13
+U-19.51
+T-19.51
+CX
+PPetfleas.co.uk
+LPets & Vets
+^
+D5/3/13
+U-40.00
+T-40.00
+CX
+PAsda
+LPetrol
+^
+D5/3/13
+U-49.99
+T-49.99
+CX
+PCurrys
+LOffice
+^
+D6/3/13
+U-30.48
+T-30.48
+CX
+PPlusnet
+LTelephone
+^
+D8/3/13
+U-30.00
+T-30.00
+CX
+PCash Withdrawal
+LCash
+^
+D8/3/13
+U-12.98
+T-12.98
+CX
+PWilco
+LVehicle
+^
+D8/3/13
+U-15.15
+T-15.15
+CX
+PBeechwood Pet Supplies
+LGeneral Expenses
+^
+D11/3/13
+U-15.00
+T-15.00
+CX
+PEngage Mutual (Jessica)
+MSavings for Jessica
+LSavings
+^
+D11/3/13
+U-49.00
+T-49.00
+CX
+PAsda
+LPetrol
+^
+D12/3/13
+U-17.00
+T-17.00
+CX
+PVodafone
+LMobile phone
+^
+D12/3/13
+U-74.85
+T-74.85
+CX
+PHM Revenue & Customs
+MRepayment of overpayment of £1796.46
+LDSS Benefits:Tax Credits
+^
+D13/3/13
+U800.00
+T800.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D13/3/13
+U-30.00
+T-30.00
+CX
+PRyanair (Scott)
+LGeneral Expenses
+^
+D14/3/13
+U-7.79
+T-7.79
+CX
+PPC World
+LGeneral Expenses
+^
+D15/3/13
+U-30.00
+T-30.00
+CX
+PNational Deposit (JH, MH & SH)
+MSavings - James, Matthew & Sophie
+LSavings
+^
+D15/3/13
+U-12.12
+T-12.12
+CX
+PTV Licensing
+LGeneral Expenses
+^
+D15/3/13
+U-21.00
+T-21.00
+CX
+PSwiftcover.com
+MM6 RFM
+LInsurance
+^
+D16/3/13
+U-50.00
+T-50.00
+CX
+PEDF Energy
+LUtilities:Electricity
+^
+D16/3/13
+U-15.00
+T-15.00
+CX
+PScottish Friendly (Frankie)
+LSavings
+^
+D16/3/13
+U-9.99
+T-9.99
+CX
+PBrundall Home Hardware
+LGeneral Expenses
+^
+D17/3/13
+U-21.35
+T-21.35
+CX
+PMr. Fothergills
+LGeneral Expenses
+^
+D18/3/13
+U-9.73
+T-9.73
+CX
+PBoots
+LGeneral Expenses
+^
+D18/3/13
+U-49.00
+T-49.00
+CX
+PSainsbury's
+LPetrol
+^
+D20/3/13
+U200.00
+T200.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D20/3/13
+U-10.00
+T-10.00
+CX
+PStansted Airport
+LGeneral Expenses
+^
+D21/3/13
+U-4.07
+T-4.07
+CX
+PLovefilm (Co-op Card)
+MDebit card payment
+LGeneral Expenses
+^
+D22/3/13
+U58.00
+T58.00
+CX
+PPartnership (Income)
+LPension income
+^
+D22/3/13
+U-490.00
+T-490.00
+CX
+PTW Gaze
+LRent Paid
+^
+D22/3/13
+U-2.99
+T-2.99
+CX
+PGoogle Play
+MSwiftkey software
+LMobile phone
+^
+D22/3/13
+U-40.00
+T-40.00
+CX
+PMousehold Service Station
+LPetrol
+^
+D23/3/13
+U-10.01
+T-10.01
+CX
+PRAC Insurance
+MJ888 SJM
+LInsurance:Car
+^
+D25/3/13
+U-90.00
+T-90.00
+CX
+PCPL Petroleum
+LUtilities:Oil
+^
+D26/3/13
+U-10.98
+T-10.98
+CX
+PSainsbury's
+LGeneral Expenses
+^
+D26/3/13
+U-12.98
+T-12.98
+CX
+PNorwich Camping
+LGeneral Expenses
+^
+D27/3/13
+U100.00
+T100.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D28/3/13
+U-40.00
+T-40.00
+CX
+PAsda
+LPetrol
+^
+D30/3/13
+U-6.94
+T-6.94
+CX
+PPaypal
+MBB software - ScreenOn
+LGeneral Expenses
+^
+D1/4/13
+U-55.00
+T-55.00
+CX
+PFriends Life (AXA)
+MRFM Life
+LInsurance:Life
+^
+D1/4/13
+U-11.89
+T-11.89
+CX
+PFriends Provident
+MSJM life
+LInsurance:Life
+^
+D1/4/13
+U-7.02
+T-7.02
+CX
+PAIG (UNAT)
+LInsurance:Accident
+^
+D1/4/13
+U-2.49
+T-2.49
+CX
+PAviva
+LInsurance:Health
+^
+D1/4/13
+U-19.18
+T-19.18
+CX
+PClick4warrenty
+LVehicle
+^
+D2/4/13
+U1,088.75
+T1,088.75
+CX
+PPension Service
+LDSS Benefits
+^
+D2/4/13
+U50.00
+T50.00
+CX
+PPension Service
+LPension income
+^
+D3/4/13
+U-23.94
+T-23.94
+CX
+PCherry Lane Garden Centre
+LGeneral Expenses
+^
+D3/4/13
+U-19.72
+T-19.72
+CX
+PThe Range
+LGeneral Expenses
+^
+D4/4/13
+U-29.02
+T-29.02
+CX
+PPlusnet
+LTelephone
+^
+D4/4/13
+U-40.00
+T-40.00
+CX
+PAsda
+LPetrol
+^
+D5/4/13
+U-75.00
+T-75.00
+CX
+PTransfer To SJM
+LTransfer out
+^
+D6/4/13
+U-40.00
+T-40.00
+CX
+PCash Withdrawal
+LCash
+^
+D8/4/13
+U-100.00
+T-100.00
+CX
+PTransfer To SJM
+LTransfer out
+^
+D10/4/13
+U-17.00
+T-17.00
+CX
+PVodafone
+LMobile phone
+^
+D10/4/13
+U-35.02
+T-35.02
+CX
+PSainsburys
+LPetrol
+^
+D11/4/13
+U167.50
+T167.50
+CX
+PPension Service
+LDSS Benefits
+^
+D11/4/13
+U-15.00
+T-15.00
+CX
+PEngage Mutual (Jessica)
+MSavings for Jessica
+LSavings
+^
+D12/4/13
+U-74.85
+T-74.85
+CX
+PHM Revenue & Customs
+MRepayment of overpayment of £1796.46
+LDSS Benefits:Tax Credits
+^
+D15/4/13
+U-30.00
+T-30.00
+CX
+PNational Deposit (JH, MH & SH)
+MSavings - James, Matthew & Sophie
+LSavings
+^
+D15/4/13
+U-12.12
+T-12.12
+CX
+PTV Licensing
+LGeneral Expenses
+^
+D15/4/13
+U-21.00
+T-21.00
+CX
+PSwiftcover.com
+MM6 RFM
+LInsurance
+^
+D15/4/13
+U-24.15
+T-24.15
+CX
+PAnglian Water
+LUtilities
+^
+D15/4/13
+U-19.99
+T-19.99
+CX
+PNorwich Camping
+LGeneral Expenses
+^
+D16/4/13
+U-50.00
+T-50.00
+CX
+PEDF Energy
+LUtilities:Electricity
+^
+D16/4/13
+U-15.00
+T-15.00
+CX
+PScottish Friendly (Frankie)
+LSavings
+^
+D17/4/13
+U-12.99
+T-12.99
+CX
+PNorwich Camping
+LGeneral Expenses
+^
+D18/4/13
+U157.51
+T157.51
+CX
+PPension Service
+LDSS Benefits
+^
+D18/4/13
+U-45.00
+T-45.00
+CX
+PAsda
+LPetrol
+^
+D19/4/13
+U-75.00
+T-75.00
+CX
+PSJM
+LTransfer out
+^
+D19/4/13
+U-469.07
+T-469.07
+CX
+NVisa
+PManor Garage
+LVehicle:Repairs
+^
+D20/4/13
+U400.00
+T400.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D21/4/13
+U-4.07
+T-4.07
+CX
+PLovefilm (Co-op Card)
+MDebit card payment
+LGeneral Expenses
+^
+D22/4/13
+U58.00
+T58.00
+CX
+PPartnership (Income)
+LPension income
+^
+D22/4/13
+U8.34
+T8.34
+CX
+PHM Revenue & Customs
+LDSS Benefits:Tax Credits
+^
+D22/4/13
+U-490.00
+T-490.00
+CX
+PTW Gaze
+LRent Paid
+^
+D22/4/13
+U-85.35
+T-85.35
+CX
+PJ Parker's
+LGeneral Expenses
+^
+D22/4/13
+U-22.94
+T-22.94
+CX
+PB&Q
+LGeneral Expenses
+^
+D22/4/13
+U-50.00
+T-50.00
+CX
+PTransfer To SJM
+LTransfer out
+^
+D23/4/13
+U-10.01
+T-10.01
+CX
+PRAC Insurance
+MJ888 SJM
+LInsurance:Car
+^
+D24/4/13
+U100.00
+T100.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D25/4/13
+U-90.00
+T-90.00
+CX
+PCPL Petroleum
+LUtilities:Oil
+^
+D26/4/13
+U-40.00
+T-40.00
+CX
+PMousehold Service Station
+LPetrol
+^
+D27/4/13
+U142.18
+T142.18
+CX
+NDEP
+PAutoprotect Warranty
+LVehicle
+^
+D27/4/13
+U-47.98
+T-47.98
+CX
+PBrundall Home Hardware
+LGeneral Expenses
+^
+D30/4/13
+U22.83
+T22.83
+CX
+PHM Revenue & Customs
+LDSS Benefits:Tax Credits
+^
+D30/4/13
+U-9.99
+T-9.99
+CX
+PHomebase
+LGeneral Expenses
+^
+D1/5/13
+U200.00
+T200.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D1/5/13
+U-55.00
+T-55.00
+CX
+PFriends Life (AXA)
+MRFM Life
+LInsurance:Life
+^
+D1/5/13
+U-11.89
+T-11.89
+CX
+PFriends Provident
+MSJM life
+LInsurance:Life
+^
+D1/5/13
+U-7.02
+T-7.02
+CX
+PAIG (UNAT)
+LInsurance:Accident
+^
+D1/5/13
+U-2.49
+T-2.49
+CX
+PAviva
+LInsurance:Health
+^
+D1/5/13
+U-19.18
+T-19.18
+CX
+PClick4warrenty
+LVehicle
+^
+D1/5/13
+U-114.20
+T-114.20
+CX
+PBoots Opticians
+LGeneral Expenses
+^
+D1/5/13
+U-30.00
+T-30.00
+CX
+PCash Withdrawal
+LCash
+^
+D1/5/13
+U-17.49
+T-17.49
+CX
+PBeechwood Pet Supplies
+LGeneral Expenses
+^
+D1/5/13
+U-15.94
+T-15.94
+CX
+PMousehold Garden Centre
+LGeneral Expenses
+^
+D1/5/13
+U-7.77
+T-7.77
+CX
+PDunelm
+LGeneral Expenses
+^
+D2/5/13
+U161.66
+T161.66
+CX
+PPension Service
+LPension income
+^
+D2/5/13
+U-45.00
+T-45.00
+CX
+PSainsbury's
+LPetrol
+^
+D3/5/13
+U-75.00
+T-75.00
+CX
+PSJM
+LTransfer out
+^
+D3/5/13
+U-25.60
+T-25.60
+CX
+PSainsbury's
+LGeneral Expenses
+^
+D4/5/13
+U-7.78
+T-7.78
+CX
+PMaplin
+LGeneral Expenses
+^
+D4/5/13
+U-21.46
+T-21.46
+CX
+PEbay
+MPeugeot fog light
+LGeneral Expenses
+^
+D5/5/13
+U500.00
+T500.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D5/5/13
+U-24.06
+T-24.06
+CX
+PAnglian Water
+LUtilities
+^
+D5/5/13
+U-13.50
+T-13.50
+CX
+PGreen Gardener
+LGeneral Expenses
+^
+D6/5/13
+U-35.64
+T-35.64
+CX
+PPlusnet
+LTelephone
+^
+D6/5/13
+U-9.40
+T-9.40
+CX
+PSave The Plants
+Mnemaslug
+LGeneral Expenses
+^
+D6/5/13
+U-9.70
+T-9.70
+CX
+PBudgens Brundall
+LGeneral Expenses
+^
+D8/5/13
+U-40.00
+T-40.00
+CX
+PCash Withdrawal
+LCash
+^
+D8/5/13
+U-47.46
+T-47.46
+CX
+PRhino Building Supplies
+LGeneral Expenses
+^
+D9/5/13
+U-50.00
+T-50.00
+CX
+PShell Sweetbriar
+LPetrol
+^
+D9/5/13
+U-35.51
+T-35.51
+CX
+PGardening Naturally
+LGeneral Expenses
+^
+D10/5/13
+U-29.47
+T-29.47
+CX
+PHomebase
+LGeneral Expenses
+^
+D11/5/13
+U-15.00
+T-15.00
+CX
+PEngage Mutual (Jessica)
+MSavings for Jessica
+LSavings
+^
+D12/5/13
+U-74.85
+T-74.85
+CX
+PHM Revenue & Customs
+MRepayment of overpayment of £1796.46
+LDSS Benefits:Tax Credits
+^
+D13/5/13
+U-17.00
+T-17.00
+CX
+PVodafone
+LMobile phone
+^
+D14/5/13
+U-30.00
+T-30.00
+CX
+PAsda
+LPetrol
+^
+D14/5/13
+U-18.05
+T-18.05
+CX
+PKens Corn Stores
+LGeneral Expenses
+^
+D15/5/13
+U-30.00
+T-30.00
+CX
+PNational Deposit (JH, MH & SH)
+MSavings - James, Matthew & Sophie
+LSavings
+^
+D15/5/13
+U-12.12
+T-12.12
+CX
+PTV Licensing
+LGeneral Expenses
+^
+D15/5/13
+U-21.00
+T-21.00
+CX
+PSwiftcover.com
+MM6 RFM
+LInsurance
+^
+D16/5/13
+U161.66
+T161.66
+CX
+PPension Service (income)
+LPension income
+^
+D16/5/13
+U-50.00
+T-50.00
+CX
+PEDF Energy
+LUtilities:Electricity
+^
+D16/5/13
+U-15.00
+T-15.00
+CX
+PScottish Friendly (Frankie)
+LSavings
+^
+D17/5/13
+U500.00
+T500.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D17/5/13
+U-75.00
+T-75.00
+CX
+PSJM
+LTransfer out
+^
+D18/5/13
+U-40.01
+T-40.01
+CX
+PAsda
+LPetrol
+^
+D20/5/13
+U-7.56
+T-7.56
+CX
+PHomebase
+LGeneral Expenses
+^
+D21/5/13
+U-4.07
+T-4.07
+CX
+PLovefilm (Co-op Card)
+MDebit card payment
+LGeneral Expenses
+^
+D22/5/13
+U58.00
+T58.00
+CX
+PPartnership (income)
+LPension income
+^
+D22/5/13
+U-490.00
+T-490.00
+CX
+PTW Gaze
+LRent Paid
+^
+D23/5/13
+U250.00
+T250.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D23/5/13
+U-40.01
+T-40.01
+CX
+PAsda
+LPetrol
+^
+D25/5/13
+U-90.00
+T-90.00
+CX
+PCPL Petroleum
+LUtilities:Oil
+^
+D25/5/13
+U-30.00
+T-30.00
+CX
+PCash Withdrawal
+LCash
+^
+D28/5/13
+U20.63
+T20.63
+CX
+PHM Revenue & Customs (income)
+LDSS Benefits:Tax Credits
+^
+D28/5/13
+U-20.85
+T-20.85
+CX
+PHealthspan
+LGeneral Expenses
+^
+D28/5/13
+U-23.97
+T-23.97
+CX
+PHomebase
+LGeneral Expenses
+^
+D29/5/13
+U-10.00
+T-10.00
+CX
+PBoots Opticians
+LGeneral Expenses
+^
+D30/5/13
+U161.66
+T161.66
+CX
+PPension Service (income)
+LPension income
+^
+D30/5/13
+U-40.00
+T-40.00
+CX
+PMousehold Service Station
+LPetrol
+^
+D31/5/13
+U-75.00
+T-75.00
+CX
+PSJM
+LTransfer out
+^
+D1/6/13
+U450.00
+T450.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D1/6/13
+U-55.00
+T-55.00
+CX
+PFriends Life (AXA)
+MRFM Life
+LInsurance:Life
+^
+D1/6/13
+U-11.89
+T-11.89
+CX
+PFriends Provident
+MSJM life
+LInsurance:Life
+^
+D1/6/13
+U-7.02
+T-7.02
+CX
+PAIG (UNAT)
+LInsurance:Accident
+^
+D1/6/13
+U-2.49
+T-2.49
+CX
+PAviva
+LInsurance:Health
+^
+D1/6/13
+U-19.18
+T-19.18
+CX
+PClick4warrenty
+LVehicle
+^
+D1/6/13
+U-26.92
+T-26.92
+CX
+PPlusnet
+LTelephone
+^
+D1/6/13
+U-17.99
+T-17.99
+CX
+PB&Q
+LGeneral Expenses
+^
+D1/6/13
+U-22.58
+T-22.58
+CX
+PSainsbury's
+LGeneral Expenses
+^
+D1/6/13
+U-7.97
+T-7.97
+CX
+PHomebase
+LGeneral Expenses
+^
+D4/6/13
+U-150.00
+T-150.00
+CX
+PCash Withdrawal
+LCash
+^
+D4/6/13
+U-14.76
+T-14.76
+CX
+PSalhouse Garden Centre
+LGeneral Expenses
+^
+D5/6/13
+U-24.06
+T-24.06
+CX
+PAnglian Water
+LUtilities
+^
+D5/6/13
+U-40.85
+T-40.85
+CX
+PHarrod UK
+LGeneral Expenses
+^
+D6/6/13
+U-50.00
+T-50.00
+CX
+PCash Withdrawal
+LCash
+^
+D7/6/13
+U-40.00
+T-40.00
+CX
+PAsda
+LPetrol
+^
+D8/6/13
+U-8.98
+T-8.98
+CX
+PNorwich Camping
+LGeneral Expenses
+^
+D8/6/13
+U-16.53
+T-16.53
+CX
+PSainsbury's
+LGeneral Expenses
+^
+D11/6/13
+U-17.14
+T-17.14
+CX
+PVodafone
+LMobile phone
+^
+D11/6/13
+U-15.00
+T-15.00
+CX
+PEngage Mutual (Jessica)
+MSavings for Jessica
+LSavings
+^
+D12/6/13
+U200.00
+T200.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D12/6/13
+U-74.85
+T-74.85
+CX
+PHM Revenue & Customs
+MRepayment of overpayment of £1796.46
+LDSS Benefits:Tax Credits
+^
+D12/6/13
+U-11.25
+T-11.25
+CX
+PGreen Gardener
+LGeneral Expenses
+^
+D13/6/13
+U152.68
+T152.68
+CX
+PPension Service (income)
+LPension income
+^
+D13/6/13
+U-84.32
+T-84.32
+CX
+PBudgens Brundall
+LGeneral Expenses
+^
+D14/6/13
+U300.00
+T300.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D14/6/13
+U-75.00
+T-75.00
+CX
+PSJM
+LTransfer out
+^
+D14/6/13
+U-100.00
+T-100.00
+CX
+PVulcan Motor Co
+MDeposit on Mazda 6
+LVehicle
+^
+D14/6/13
+U-15.96
+T-15.96
+CX
+PB&Q
+LGeneral Expenses
+^
+D14/6/13
+U-18.98
+T-18.98
+CX
+PDSL Developments
+MBrodit clip for Mazda 6
+LVehicle
+^
+D15/6/13
+U-30.00
+T-30.00
+CX
+PNational Deposit (JH, MH & SH)
+MSavings - James, Matthew & Sophie
+LSavings
+^
+D15/6/13
+U-12.12
+T-12.12
+CX
+PTV Licensing
+LGeneral Expenses
+^
+D15/6/13
+U-21.00
+T-21.00
+CX
+PSwiftcover.com
+MM6 RFM
+LInsurance
+^
+D16/6/13
+U-50.00
+T-50.00
+CX
+PEDF Energy
+LUtilities:Electricity
+^
+D16/6/13
+U-15.00
+T-15.00
+CX
+PScottish Friendly (Frankie)
+LSavings
+^
+D17/6/13
+U-20.00
+T-20.00
+CX
+PMousehold Service Station
+LPetrol
+^
+D18/6/13
+U-53.97
+T-53.97
+CX
+PCar Audo Security
+LVehicle
+^
+D18/6/13
+U-51.98
+T-51.98
+CX
+PPaypal
+MBB software - ScreenOn
+LGeneral Expenses
+^
+D18/6/13
+U-98.66
+T-98.66
+CX
+PPost Office
+MJ888 SJM
+LInsurance:Car
+^
+D20/6/13
+U500.00
+T500.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D20/6/13
+U-15.00
+T-15.00
+CX
+PThunder Lane Garage
+LPetrol
+^
+D21/6/13
+U-4.07
+T-4.07
+CX
+PLovefilm (Co-op Card)
+MDebit card payment
+LGeneral Expenses
+^
+D21/6/13
+U-4.98
+T-4.98
+CX
+PB&Q
+LGeneral Expenses
+^
+D21/6/13
+U-25.01
+T-25.01
+CX
+PRing Service Station
+LPetrol
+^
+D22/6/13
+U57.80
+T57.80
+CX
+PPartnership (income)
+LPension income
+^
+D22/6/13
+U250.00
+T250.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D22/6/13
+U-525.00
+T-525.00
+CX
+PTW Gaze
+LRent Paid
+^
+D25/6/13
+U20.63
+T20.63
+CX
+PHM Revenue & Customs (income)
+LDSS Benefits:Tax Credits
+^
+D25/6/13
+U-90.00
+T-90.00
+CX
+PCPL Petroleum
+LUtilities:Oil
+^
+D25/6/13
+U-40.01
+T-40.01
+CX
+PMFG Plumstead Rd
+LPetrol
+^
+D26/6/13
+U-62.04
+T-62.04
+CX
+PJustCarKits
+LVehicle
+^
+D27/6/13
+U152.68
+T152.68
+CX
+PPension Service (income)
+LPension income
+^
+D27/6/13
+U-39.25
+T-39.25
+CX
+PAmazon
+LGeneral Expenses
+^
+D28/6/13
+U150.00
+T150.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D28/6/13
+U-75.00
+T-75.00
+CX
+PSJM
+LTransfer out
+^
+D28/6/13
+U-15.15
+T-15.15
+CX
+PBeechwood Pet Supplies
+LGeneral Expenses
+^
+D1/7/13
+U-55.00
+T-55.00
+CX
+PFriends Life (AXA)
+MRFM Life
+LInsurance:Life
+^
+D1/7/13
+U-11.89
+T-11.89
+CX
+PFriends Provident
+MSJM life
+LInsurance:Life
+^
+D1/7/13
+U-7.02
+T-7.02
+CX
+PAIG (UNAT)
+LInsurance:Accident
+^
+D1/7/13
+U-2.49
+T-2.49
+CX
+PAviva
+LInsurance:Health
+^
+D1/7/13
+U-50.00
+T-50.00
+CX
+PInvesco (Jessica)
+MPayment ref MCBB100417
+LSavings
+^
+D1/7/13
+U-19.18
+T-19.18
+CX
+PClick4warrenty
+LVehicle
+^
+D1/7/13
+U-42.46
+T-42.46
+CX
+PClick4warrenty
+LVehicle
+^
+D2/7/13
+U-40.02
+T-40.02
+CX
+PMousehold Service Station
+LPetrol
+^
+D2/7/13
+U-18.09
+T-18.09
+CX
+PAmazon
+LGeneral Expenses
+^
+D3/7/13
+U350.00
+T350.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D3/7/13
+U-19.98
+T-19.98
+CX
+PDunelm
+LGeneral Expenses
+^
+D3/7/13
+U-50.00
+T-50.00
+CX
+PBoots
+LGeneral Expenses
+^
+D4/7/13
+U-32.08
+T-32.08
+CX
+PPlusnet
+LTelephone
+^
+D4/7/13
+U-0.69
+T-0.69
+CX
+PGoogle Play
+LMobile phone
+^
+D5/7/13
+U-24.06
+T-24.06
+CX
+PAnglian Water
+LUtilities
+^
+D5/7/13
+U-28.28
+T-28.28
+CX
+PSainsbury's
+LGeneral Expenses
+^
+D9/7/13
+U250.00
+T250.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D9/7/13
+U-26.64
+T-26.64
+CX
+PAmazon
+LGeneral Expenses
+^
+D10/7/13
+U-32.00
+T-32.00
+CX
+PMatalan
+LGeneral Expenses
+^
+D10/7/13
+U-9.99
+T-9.99
+CX
+PHoneysuckle Days Beccles
+LGeneral Expenses
+^
+D10/7/13
+U-9.00
+T-9.00
+CX
+PM&Co Beccles
+LGeneral Expenses
+^
+D10/7/13
+U-40.00
+T-40.00
+CX
+PShell Brundall
+LPetrol
+^
+D11/7/13
+U76.34
+T76.34
+CX
+PPension Service
+LPension income
+^
+D11/7/13
+U-17.00
+T-17.00
+CX
+PVodafone
+LMobile phone
+^
+D11/7/13
+U-15.00
+T-15.00
+CX
+PEngage Mutual (Jessica)
+MSavings for Jessica
+LSavings
+^
+D12/7/13
+U-74.85
+T-74.85
+CX
+PHM Revenue & Customs
+MRepayment of overpayment of £1796.46
+LDSS Benefits:Tax Credits
+^
+D12/7/13
+U-75.00
+T-75.00
+CX
+PSJM
+LTransfer out
+^
+D12/7/13
+U-48.67
+T-48.67
+CX
+PSainsbury's
+LGeneral Expenses
+^
+D13/7/13
+U-11.24
+T-11.24
+CX
+PBrundall Home Hardware
+LGeneral Expenses
+^
+D15/7/13
+U-3.81
+T-3.81
+CX
+PSwiftcover.com
+LInsurance
+^
+D15/7/13
+U-30.00
+T-30.00
+CX
+PNational Deposit (JH, MH & SH)
+MSavings - James, Matthew & Sophie
+LSavings
+^
+D15/7/13
+U-12.12
+T-12.12
+CX
+PTV Licensing
+LGeneral Expenses
+^
+D15/7/13
+U-39.23
+T-39.23
+CX
+PLV Insurance
+MM6 RFM
+LInsurance:Car
+^
+D16/7/13
+U665.90
+T665.90
+CX
+PHM Revenue & Customs
+LDSS Benefits:Tax Credits
+^
+D16/7/13
+U-50.00
+T-50.00
+CX
+PEDF Energy
+LUtilities:Electricity
+^
+D16/7/13
+U-15.00
+T-15.00
+CX
+PScottish Friendly (Frankie)
+LSavings
+^
+D16/7/13
+U-30.00
+T-30.00
+CX
+PMousehold Service Station
+LPetrol
+^
+D17/7/13
+U-61.92
+T-61.92
+CX
+PTaverham Nursery Centre
+LGeneral Expenses
+^
+D17/7/13
+U-27.49
+T-27.49
+CX
+PArgos
+LGeneral Expenses
+^
+D19/7/13
+U-25.00
+T-25.00
+CX
+PSainsbury's
+LPetrol
+^
+D20/7/13
+U300.00
+T300.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D20/7/13
+U-49.00
+T-49.00
+CX
+PSTS Tyres
+LVehicle
+^
+D20/7/13
+U-25.00
+T-25.00
+CX
+PShell Brundall
+LPetrol
+^
+D20/7/13
+U-18.76
+T-18.76
+CX
+PPaypal
+MPetfleas.co.uk (Effipro)
+LPets & Vets
+^
+D20/7/13
+U-11.25
+T-11.25
+CX
+PGreen Gardener
+LGeneral Expenses
+^
+D20/7/13
+U-70.50
+T-70.50
+CX
+PAutoNational
+MBreakdown (joint)
+LInsurance:Car
+^
+D21/7/13
+U-4.07
+T-4.07
+CX
+PLovefilm (Co-op Card)
+MDebit card payment
+LGeneral Expenses
+^
+D22/7/13
+U58.00
+T58.00
+CX
+PPartnership (income)
+LPension income
+^
+D22/7/13
+U-525.00
+T-525.00
+CX
+PTW Gaze
+LRent Paid
+^
+D22/7/13
+U-10.27
+T-10.27
+CX
+PBoots
+LGeneral Expenses
+^
+D22/7/13
+U-8.97
+T-8.97
+CX
+PPaypal
+M7 Day Shop
+LGeneral Expenses
+^
+D23/7/13
+U258.63
+T258.63
+CX
+PHM Revenue & Customs
+LDSS Benefits:Tax Credits
+^
+D23/7/13
+U53.97
+T53.97
+CX
+PCar Audo Security
+LRefund
+^
+D24/7/13
+U-50.00
+T-50.00
+CX
+PMousehold Service Station
+LPetrol
+^
+D24/7/13
+U-6.99
+T-6.99
+CX
+PWex Photographic
+LGeneral Expenses
+^
+D24/7/13
+U-19.30
+T-19.30
+CX
+PHobnails
+LGeneral Expenses
+^
+D25/7/13
+U-90.00
+T-90.00
+CX
+PCPL Petroleum
+LUtilities:Oil
+^
+D25/7/13
+U-100.00
+T-100.00
+CX
+PSJM
+LTransfer out
+^
+D26/7/13
+U-65.58
+T-65.58
+CX
+PBudgens Brundall
+LGeneral Expenses
+^
+D26/7/13
+U-15.99
+T-15.99
+CX
+PPaypal
+MEbay Laptop battery
+LGeneral Expenses
+^
+D29/7/13
+U700.00
+T700.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D29/7/13
+U-116.90
+T-116.90
+CX
+PEbuyer
+MTablet PC
+LGeneral Expenses
+^
+D31/7/13
+U-40.42
+T-40.42
+CX
+PMakro
+LGeneral Expenses
+^
+D1/8/13
+U-55.00
+T-55.00
+CX
+PFriends Life (AXA)
+MRFM Life
+LInsurance:Life
+^
+D1/8/13
+U-11.89
+T-11.89
+CX
+PFriends Provident
+MSJM life
+LInsurance:Life
+^
+D1/8/13
+U-7.02
+T-7.02
+CX
+PAIG (UNAT)
+LInsurance:Accident
+^
+D1/8/13
+U-2.49
+T-2.49
+CX
+PAviva
+LInsurance:Health
+^
+D1/8/13
+U-19.18
+T-19.18
+CX
+PClick4warrenty
+MMondeo
+LVehicle
+^
+D1/8/13
+U-100.00
+T-100.00
+CX
+PSJM
+LTransfer out
+^
+D1/8/13
+U-50.00
+T-50.00
+CX
+PAsda
+LPetrol
+^
+D2/8/13
+U-20.00
+T-20.00
+CX
+PVodafone
+MTop up Scotts phone
+LMobile phone
+^
+D2/8/13
+U-21.90
+T-21.90
+CX
+PBudgens Brundall
+LGeneral Expenses
+^
+D5/8/13
+U-24.06
+T-24.06
+CX
+PAnglian Water
+LUtilities
+^
+D5/8/13
+U-27.70
+T-27.70
+CX
+PPlusnet
+LTelephone
+^
+D5/8/13
+U-43.73
+T-43.73
+CX
+PSaga Insurance
+LInsurance:Home
+^
+D7/8/13
+U600.00
+T600.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D8/8/13
+U-100.00
+T-100.00
+CX
+PSJM
+LTransfer out
+^
+D9/8/13
+U-40.00
+T-40.00
+CX
+PMFG Plumstead Rd
+LPetrol
+^
+D9/8/13
+U-26.85
+T-26.85
+CX
+PAmazon
+LGeneral Expenses
+^
+D10/8/13
+U-0.99
+T-0.99
+CX
+PGoogle Play
+LGeneral Expenses
+^
+D10/8/13
+U-30.00
+T-30.00
+CX
+PAsda
+LPetrol
+^
+D11/8/13
+U-15.00
+T-15.00
+CX
+PEngage Mutual (Jessica)
+MSavings for Jessica
+LSavings
+^
+D12/8/13
+U-17.00
+T-17.00
+CX
+PVodafone
+LMobile phone
+^
+D12/8/13
+U-74.85
+T-74.85
+CX
+PHM Revenue & Customs
+MRepayment of overpayment of £1796.46
+LDSS Benefits:Tax Credits
+^
+D12/8/13
+U-123.75
+T-123.75
+CX
+PDVLA
+MJ888 SJM
+LVehicle
+^
+D13/8/13
+U-12.97
+T-12.97
+CX
+PSainsbury's
+LGeneral Expenses
+^
+D13/8/13
+U-2.99
+T-2.99
+CX
+PGoogle Play
+MSwiftkey tablet
+LGeneral Expenses
+^
+D14/8/13
+U800.00
+T800.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D14/8/13
+U-140.40
+T-140.40
+CX
+PKelcrow
+MEGR valve
+LVehicle
+^
+D15/8/13
+U-30.00
+T-30.00
+CX
+PNational Deposit (JH, MH & SH)
+MSavings - James, Matthew & Sophie
+LSavings
+^
+D15/8/13
+U-100.00
+T-100.00
+CX
+PSJM
+LTransfer out
+^
+D15/8/13
+U-12.18
+T-12.18
+CX
+PTV Licensing
+LGeneral Expenses
+^
+D16/8/13
+U-50.00
+T-50.00
+CX
+PEDF Energy
+LUtilities:Electricity
+^
+D16/8/13
+U-15.00
+T-15.00
+CX
+PScottish Friendly (Frankie)
+LSavings
+^
+D19/8/13
+U-9.00
+T-9.00
+CX
+PMakro
+LGeneral Expenses
+^
+D19/8/13
+U-44.49
+T-44.49
+CX
+PBudgens Brundall
+LGeneral Expenses
+^
+D21/8/13
+U-4.07
+T-4.07
+CX
+PLovefilm (Co-op Card)
+MDebit card payment
+LGeneral Expenses
+^
+D22/8/13
+U57.80
+T57.80
+CX
+PPartnership (income)
+LPension income
+^
+D22/8/13
+U42.96
+T42.96
+CX
+PHM Revenue & Customs
+LDSS Benefits:Tax Credits
+^
+D22/8/13
+U-525.00
+T-525.00
+CX
+PTW Gaze
+LRent Paid
+^
+D22/8/13
+U-100.00
+T-100.00
+CX
+PSJM
+LTransfer out
+^
+D22/8/13
+U-19.98
+T-19.98
+CX
+PB&Q
+LGeneral Expenses
+^
+D23/8/13
+U-40.01
+T-40.01
+CX
+PAsda
+LPetrol
+^
+D23/8/13
+U-57.30
+T-57.30
+CX
+NVisa
+PManor Garage
+LVehicle:Repairs
+^
+D23/8/13
+U-100.00
+T-100.00
+CX
+PTransfer To SJM
+LTransfer out
+^
+D23/8/13
+U-64.24
+T-64.24
+CX
+PBudgens Brundall
+LGeneral Expenses
+^
+D25/8/13
+U500.00
+T500.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D25/8/13
+U-90.00
+T-90.00
+CX
+PCPL Petroleum
+LUtilities:Oil
+^
+D27/8/13
+U-53.58
+T-53.58
+CX
+PCompanion Care Vets
+LPets & Vets
+^
+D27/8/13
+U-0.99
+T-0.99
+CX
+PGoogle Play
+LGeneral Expenses
+^
+D28/8/13
+U-37.21
+T-37.21
+CX
+PThe Range
+LGeneral Expenses
+^
+D28/8/13
+U-25.00
+T-25.00
+CX
+PShell Brundall
+LPetrol
+^
+D28/8/13
+U-4.99
+T-4.99
+CX
+PThe Range
+LGeneral Expenses
+^
+D29/8/13
+U-100.00
+T-100.00
+CX
+PSJM
+LTransfer out
+^
+D29/8/13
+U-50.00
+T-50.00
+CX
+PAsda
+LPetrol
+^
+D30/8/13
+U-17.97
+T-17.97
+CX
+PHomebase
+LGeneral Expenses
+^
+D30/8/13
+U-27.41
+T-27.41
+CX
+PBeechwood Pet Supplies
+LGeneral Expenses
+^
+D31/8/13
+U-20.34
+T-20.34
+CX
+PClick4warrenty
+MMazda
+LVehicle
+^
+D1/9/13
+U-55.00
+T-55.00
+CX
+PFriends Life (AXA)
+MRFM Life
+LInsurance:Life
+^
+D1/9/13
+U-11.89
+T-11.89
+CX
+PFriends Provident
+MSJM life
+LInsurance:Life
+^
+D1/9/13
+U-7.02
+T-7.02
+CX
+PAIG (UNAT)
+LInsurance:Accident
+^
+D1/9/13
+U-2.49
+T-2.49
+CX
+PAviva
+LInsurance:Health
+^
+D1/9/13
+U-19.18
+T-19.18
+CX
+PClick4warrenty
+MMondeo
+LVehicle
+^
+D2/9/13
+U300.00
+T300.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D2/9/13
+U-18.00
+T-18.00
+CX
+PBrundall Dentists
+LGeneral Expenses
+^
+D3/9/13
+U-43.18
+T-43.18
+CX
+PBudgens Brundall
+LGeneral Expenses
+^
+D3/9/13
+U-40.00
+T-40.00
+CX
+PMousehold Service Station
+LPetrol
+^
+D4/9/13
+U-30.02
+T-30.02
+CX
+PPlusnet
+LTelephone
+^
+D5/9/13
+U-71.99
+T-71.99
+CX
+PWrights Motors
+LVehicle:Repairs
+^
+D5/9/13
+U-16.49
+T-16.49
+CX
+PDirect Badminton
+LGeneral Expenses
+^
+D6/9/13
+U800.00
+T800.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D6/9/13
+U-3.99
+T-3.99
+CX
+PGoogle Play
+MBusiness Calendar
+LGeneral Expenses
+^
+D7/9/13
+U-14.68
+T-14.68
+CX
+PBudgens Brundall
+LGeneral Expenses
+^
+D7/9/13
+U-17.60
+T-17.60
+CX
+PBrundall Home Hardware
+LGeneral Expenses
+^
+D9/9/13
+U-19.62
+T-19.62
+CX
+PLV Insurance
+MM6 RFM
+LInsurance:Car
+^
+D10/9/13
+U-50.00
+T-50.00
+CX
+PAsda
+LPetrol
+^
+D11/9/13
+U-21.99
+T-21.99
+CX
+PVodafone
+LMobile phone
+^
+D11/9/13
+U-15.00
+T-15.00
+CX
+PEngage Mutual (Jessica)
+MSavings for Jessica
+LSavings
+^
+D11/9/13
+U-59.88
+T-59.88
+CX
+PSTS Tyres
+LVehicle
+^
+D12/9/13
+U-74.85
+T-74.85
+CX
+PHM Revenue & Customs
+MRepayment of overpayment of £1796.46
+LDSS Benefits:Tax Credits
+^
+D12/9/13
+U-24.00
+T-24.00
+CX
+PWrights Motors
+LVehicle
+^
+D15/9/13
+U-30.00
+T-30.00
+CX
+PNational Deposit (JH, MH & SH)
+MSavings - James, Matthew & Sophie
+LSavings
+^
+D15/9/13
+U-24.06
+T-24.06
+CX
+PAnglian Water
+LUtilities
+^
+D15/9/13
+U-12.12
+T-12.12
+CX
+PTV Licensing
+LGeneral Expenses
+^
+D16/9/13
+U-50.00
+T-50.00
+CX
+PEDF Energy
+LUtilities:Electricity
+^
+D16/9/13
+U-15.00
+T-15.00
+CX
+PScottish Friendly (Frankie)
+LSavings
+^
+D17/9/13
+U41.34
+T41.34
+CX
+PHM Revenue & Customs
+LDSS Benefits:Tax Credits
+^
+D17/9/13
+U500.00
+T500.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D18/9/13
+U-53.48
+T-53.48
+CX
+PAsda
+LGeneral Expenses
+^
+D19/9/13
+U-40.00
+T-40.00
+CX
+PMousehold Service Station
+LPetrol
+^
+D19/9/13
+U-65.99
+T-65.99
+CX
+PPaypal
+MViglen PC
+LGeneral Expenses
+^
+D19/9/13
+U-63.98
+T-63.98
+CX
+PPaypal
+MMonitor
+LGeneral Expenses
+^
+D20/9/13
+U-16.82
+T-16.82
+CX
+PSainsbury's
+LGeneral Expenses
+^
+D20/9/13
+U-12.79
+T-12.79
+CX
+PHomebase
+LGeneral Expenses
+^
+D21/9/13
+U-4.07
+T-4.07
+CX
+PLovefilm (Co-op Card)
+MDebit card payment
+LGeneral Expenses
+^
+D22/9/13
+U58.00
+T58.00
+CX
+PPartnership (income)
+LPension income
+^
+D22/9/13
+U-525.00
+T-525.00
+CX
+PTW Gaze
+LRent Paid
+^
+D23/9/13
+U850.00
+T850.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D25/9/13
+U-90.00
+T-90.00
+CX
+PCPL Petroleum
+LUtilities:Oil
+^
+D25/9/13
+U-163.74
+T-163.74
+CX
+NVisa
+PManor Garage
+LVehicle:Repairs
+^
+D26/9/13
+U-50.00
+T-50.00
+CX
+PAsda
+LPetrol
+^
+D27/9/13
+U-190.00
+T-190.00
+CX
+PCrown & Cushion
+LHolidays
+^
+D28/9/13
+U-4.98
+T-4.98
+CX
+POxfam Chipping Norton
+LGeneral Expenses
+^
+D28/9/13
+U-22.30
+T-22.30
+CX
+PBatsford Garden Centre
+LGeneral Expenses
+^
+D28/9/13
+U-15.98
+T-15.98
+CX
+PBeales Chipping Norton
+LGeneral Expenses
+^
+D28/9/13
+U-19.99
+T-19.99
+CX
+PPairs Stow On The Wold
+LGeneral Expenses
+^
+D29/9/13
+U-25.00
+T-25.00
+CX
+PShell Cringleford
+LPetrol
+^
+D29/9/13
+U-51.41
+T-51.41
+CX
+PCrown & Cushion
+LHolidays
+^
+D29/9/13
+U-14.98
+T-14.98
+CX
+PElvedon Estate Shops
+LGeneral Expenses
+^
+D29/9/13
+U-16.45
+T-16.45
+CX
+PElvedon Estate Shops
+LGeneral Expenses
+^
+D30/9/13
+U-20.34
+T-20.34
+CX
+PClick4warrenty
+MMazda
+LVehicle
+^
+D30/9/13
+U-47.01
+T-47.01
+CX
+PAsda
+LPetrol
+^
+D1/10/13
+U750.00
+T750.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D1/10/13
+U-50.00
+T-50.00
+CX
+PInvesco (Sophie)
+MPayment ref ASP10582437420
+LSavings
+^
+D1/10/13
+U-55.00
+T-55.00
+CX
+PFriends Life (AXA)
+MRFM Life
+LInsurance:Life
+^
+D1/10/13
+U-11.89
+T-11.89
+CX
+PFriends Provident
+MSJM life
+LInsurance:Life
+^
+D1/10/13
+U-7.02
+T-7.02
+CX
+PAIG (UNAT)
+LInsurance:Accident
+^
+D1/10/13
+U-2.49
+T-2.49
+CX
+PAviva
+LInsurance:Health
+^
+D1/10/13
+U-26.00
+T-26.00
+CX
+PAsda
+LPetrol
+^
+D1/10/13
+U-11.99
+T-11.99
+CX
+PHomebase
+LGeneral Expenses
+^
+D1/10/13
+U-0.99
+T-0.99
+CX
+PGoogle Play
+LGeneral Expenses
+^
+D2/10/13
+U-391.20
+T-391.20
+CX
+NVisa
+PManor Garage
+LVehicle:Repairs
+^
+D3/10/13
+U-24.94
+T-24.94
+CX
+PEbay
+Mriding boots
+LGeneral Expenses
+^
+D4/10/13
+U-29.91
+T-29.91
+CX
+PPlusnet
+LTelephone
+^
+D4/10/13
+U-20.85
+T-20.85
+CX
+PHealthspan
+LGeneral Expenses
+^
+D4/10/13
+U-95.99
+T-95.99
+CX
+PWrights Motors
+LVehicle
+^
+D5/10/13
+U-14.38
+T-14.38
+CX
+PB&Q
+LGeneral Expenses
+^
+D9/10/13
+U-19.62
+T-19.62
+CX
+PLV Insurance
+MM6 RFM
+LInsurance:Car
+^
+D9/10/13
+U-5.99
+T-5.99
+CX
+PPaypal
+MBB software - ScreenOn
+LGeneral Expenses
+^
+D11/10/13
+U-17.00
+T-17.00
+CX
+PVodafone
+LMobile phone
+^
+D11/10/13
+U-15.00
+T-15.00
+CX
+PEngage Mutual (Jessica)
+MSavings for Jessica
+LSavings
+^
+D11/10/13
+U-61.00
+T-61.00
+CX
+PAsda
+LPetrol
+^
+D11/10/13
+U-5.01
+T-5.01
+CX
+PAsda
+LPetrol
+^
+D12/10/13
+U-74.85
+T-74.85
+CX
+PHM Revenue & Customs
+MRepayment of overpayment of £1796.46
+LDSS Benefits:Tax Credits
+^
+D15/10/13
+U47.60
+T47.60
+CX
+PHM Revenue & Customs
+LDSS Benefits:Tax Credits
+^
+D15/10/13
+U-30.00
+T-30.00
+CX
+PNational Deposit (JH, MH & SH)
+MSavings - James, Matthew & Sophie
+LSavings
+^
+D15/10/13
+U-24.06
+T-24.06
+CX
+PAnglian Water
+LUtilities
+^
+D15/10/13
+U-12.12
+T-12.12
+CX
+PTV Licensing
+LGeneral Expenses
+^
+D16/10/13
+U1,000.00
+T1,000.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D16/10/13
+U-50.00
+T-50.00
+CX
+PEDF Energy
+LUtilities:Electricity
+^
+D16/10/13
+U-15.00
+T-15.00
+CX
+PScottish Friendly (Frankie)
+LSavings
+^
+D18/10/13
+U-95.99
+T-95.99
+CX
+PWrights Motors
+LVehicle
+^
+D19/10/13
+U-50.01
+T-50.01
+CX
+PAsda
+LPetrol
+^
+D19/10/13
+U-14.00
+T-14.00
+CX
+PBudgens Brundall
+LGeneral Expenses
+^
+D20/10/13
+U-24.99
+T-24.99
+CX
+PEbay
+MCordless Vac
+LGeneral Expenses
+^
+D21/10/13
+U-4.07
+T-4.07
+CX
+PLovefilm (Co-op Card)
+MDebit card payment
+LGeneral Expenses
+^
+D22/10/13
+U58.00
+T58.00
+CX
+PPartnership (income)
+LPension income
+^
+D22/10/13
+U-525.00
+T-525.00
+CX
+PTW Gaze
+LRent Paid
+^
+D24/10/13
+U-50.01
+T-50.01
+CX
+PAsda
+LPetrol
+^
+D25/10/13
+U-158.80
+T-158.80
+CX
+PBroadland District Council
+LCouncil Tax
+^
+D25/10/13
+U-90.00
+T-90.00
+CX
+PCPL Petroleum
+LUtilities:Oil
+^
+D26/10/13
+U200.00
+T200.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D26/10/13
+U-37.98
+T-37.98
+CX
+PNorwich Camping
+LGeneral Expenses
+^
+D26/10/13
+U-1.23
+T-1.23
+CX
+PGoogle Play
+LGeneral Expenses
+^
+D30/10/13
+U-27.98
+T-27.98
+CX
+PBrundall Home Hardware
+LGeneral Expenses
+^
+D31/10/13
+U-20.34
+T-20.34
+CX
+PClick4warranty
+MMazda
+LVehicle
+^
+D1/11/13
+U500.00
+T500.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D1/11/13
+U-55.00
+T-55.00
+CX
+PFriends Life (AXA)
+MRFM Life
+LInsurance:Life
+^
+D1/11/13
+U-11.89
+T-11.89
+CX
+PFriends Provident
+MSJM life
+LInsurance:Life
+^
+D1/11/13
+U-7.02
+T-7.02
+CX
+PAIG (UNAT)
+LInsurance:Accident
+^
+D1/11/13
+U-2.49
+T-2.49
+CX
+PAviva
+LInsurance:Health
+^
+D1/11/13
+U-50.00
+T-50.00
+CX
+PAsda
+LPetrol
+^
+D1/11/13
+U-17.98
+T-17.98
+CX
+PB&Q
+LGeneral Expenses
+^
+D1/11/13
+U-8.18
+T-8.18
+CX
+PB&Q
+LGeneral Expenses
+^
+D4/11/13
+U-29.25
+T-29.25
+CX
+PPlusnet
+LTelephone
+^
+D8/11/13
+U-29.97
+T-29.97
+CX
+PHomebase
+LGeneral Expenses
+^
+D8/11/13
+U-100.00
+T-100.00
+CX
+PCash Withdrawal
+LCash
+^
+D8/11/13
+U-7.99
+T-7.99
+CX
+PPaypal
+MBB software - ScreenOn
+LGeneral Expenses
+^
+D9/11/13
+U-19.62
+T-19.62
+CX
+PLV Insurance
+MM6 RFM
+LInsurance:Car
+^
+D9/11/13
+U-9.97
+T-9.97
+CX
+PNorwich Camping
+LGeneral Expenses
+^
+D10/11/13
+U-51.43
+T-51.43
+CX
+PThe Range
+LGeneral Expenses
+^
+D10/11/13
+U-11.48
+T-11.48
+CX
+PAmazon
+LGeneral Expenses
+^
+D11/11/13
+U-17.00
+T-17.00
+CX
+PVodafone
+LMobile phone
+^
+D11/11/13
+U-15.00
+T-15.00
+CX
+PEngage Mutual (Jessica)
+MSavings for Jessica
+LSavings
+^
+D11/11/13
+U-40.00
+T-40.00
+CX
+PMousehold Service Station
+LPetrol
+^
+D12/11/13
+U46.51
+T46.51
+CX
+PHM Revenue & Customs
+LDSS Benefits:Tax Credits
+^
+D12/11/13
+U-74.85
+T-74.85
+CX
+PHM Revenue & Customs
+MRepayment of overpayment of £1796.46
+LDSS Benefits:Tax Credits
+^
+D13/11/13
+U1,000.00
+T1,000.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D14/11/13
+U-19.80
+T-19.80
+CX
+PDT Brown
+LGeneral Expenses
+^
+D15/11/13
+U-30.00
+T-30.00
+CX
+PNational Deposit (JH, MH & SH)
+MSavings - James, Matthew & Sophie
+LSavings
+^
+D15/11/13
+U-24.06
+T-24.06
+CX
+PAnglian Water
+LUtilities
+^
+D15/11/13
+U-12.12
+T-12.12
+CX
+PTV Licensing
+LGeneral Expenses
+^
+D15/11/13
+U-10.00
+T-10.00
+CX
+PChildren In Need
+LCharity:Donations
+^
+D16/11/13
+U-50.00
+T-50.00
+CX
+PEDF Energy
+LUtilities:Electricity
+^
+D16/11/13
+U-15.00
+T-15.00
+CX
+PScottish Friendly (Frankie)
+LSavings
+^
+D16/11/13
+U-50.00
+T-50.00
+CX
+PMousehold Service Station
+LPetrol
+^
+D17/11/13
+U-13.20
+T-13.20
+CX
+PDT Brown
+LGeneral Expenses
+^
+D17/11/13
+U-11.70
+T-11.70
+CX
+PKings Seeds
+LGeneral Expenses
+^
+D17/11/13
+U-110.00
+T-110.00
+CX
+PDVLA
+MM6 RFM
+LVehicle:Tax
+^
+D19/11/13
+U-42.00
+T-42.00
+CX
+PCompanion Care Vets
+LPets & Vets
+^
+D19/11/13
+U-8.48
+T-8.48
+CX
+PWilco
+LVehicle
+^
+D19/11/13
+U-13.46
+T-13.46
+CX
+PJ Parkers
+LGeneral Expenses
+^
+D20/11/13
+U200.00
+T200.00
+CX
+PDWP
+LDSS Benefits
+^
+D20/11/13
+U-50.00
+T-50.00
+CX
+PCash Withdrawal
+LCash
+^
+D20/11/13
+U-23.99
+T-23.99
+CX
+PArgos
+LGeneral Expenses
+^
+D21/11/13
+U-4.07
+T-4.07
+CX
+PLovefilm (Co-op Card)
+MDebit card payment
+LGeneral Expenses
+^
+D22/11/13
+U57.80
+T57.80
+CX
+PPartnership (income)
+LPension income
+^
+D22/11/13
+U-525.00
+T-525.00
+CX
+PTW Gaze
+LRent Paid
+^
+D24/11/13
+U-39.95
+T-39.95
+CX
+PCarphone Warehouse
+LGeneral Expenses
+^
+D25/11/13
+U-90.00
+T-90.00
+CX
+PCPL Petroleum
+LUtilities:Oil
+^
+D26/11/13
+U-50.00
+T-50.00
+CX
+PAsda
+LPetrol
+^
+D27/11/13
+U-15.00
+T-15.00
+CX
+PGiffgaff
+LGeneral Expenses
+^
+D28/11/13
+U500.00
+T500.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D28/11/13
+U-156.20
+T-156.20
+CX
+PNo 12 Restaurant
+LGeneral Expenses
+^
+D29/11/13
+U-59.44
+T-59.44
+CX
+PBrundall Home Hardware
+LGeneral Expenses
+^
+D30/11/13
+U-20.34
+T-20.34
+CX
+PClick4warranty
+MMazda
+LVehicle
+^
+D1/12/13
+U-55.00
+T-55.00
+CX
+PFriends Life (AXA)
+MRFM Life
+LInsurance:Life
+^
+D1/12/13
+U-11.89
+T-11.89
+CX
+PFriends Provident
+MSJM life
+LInsurance:Life
+^
+D1/12/13
+U-7.02
+T-7.02
+CX
+PAIG (UNAT)
+LInsurance:Accident
+^
+D1/12/13
+U-2.49
+T-2.49
+CX
+PAviva
+LInsurance:Health
+^
+D2/12/13
+U20.00
+T20.00
+CX
+PCarphone Warehouse
+LRefund
+^
+D2/12/13
+U-49.50
+T-49.50
+CX
+PThe Perfume Shop
+LGeneral Expenses
+^
+D2/12/13
+U-62.98
+T-62.98
+CX
+PArgos
+LGeneral Expenses
+^
+D2/12/13
+U-24.99
+T-24.99
+CX
+PAmazon
+LGeneral Expenses
+^
+D3/12/13
+U-129.95
+T-129.95
+CX
+PBuymobilephone
+LGeneral Expenses
+^
+D4/12/13
+U-32.94
+T-32.94
+CX
+PPlusnet
+LTelephone
+^
+D5/12/13
+U-50.00
+T-50.00
+CX
+PKelcrow
+LVehicle
+^
+D5/12/13
+U-0.58
+T-0.58
+CX
+PGoogle Play
+LGeneral Expenses
+^
+D6/12/13
+U-40.00
+T-40.00
+CX
+PMousehold Service Station
+LPetrol
+^
+D6/12/13
+U-113.40
+T-113.40
+CX
+PThe Huntsman
+LGeneral Expenses
+^
+D7/12/13
+U-8.95
+T-8.95
+CX
+PGoogle Play
+LGeneral Expenses
+^
+D8/12/13
+U500.00
+T500.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D9/12/13
+U-19.62
+T-19.62
+CX
+PLV Insurance
+MM6 RFM
+LInsurance:Car
+^
+D10/12/13
+U49.50
+T49.50
+CX
+PThe Perfume Shop
+LRefund
+^
+D10/12/13
+U2.00
+T2.00
+CX
+PAmazon
+LRefund
+^
+D10/12/13
+U-17.00
+T-17.00
+CX
+PVodafone
+LMobile phone
+^
+D10/12/13
+U-16.99
+T-16.99
+CX
+PArgos
+LGeneral Expenses
+^
+D10/12/13
+U-15.40
+T-15.40
+CX
+PBeechwood Pet Supplies
+LGeneral Expenses
+^
+D10/12/13
+U-30.00
+T-30.00
+CX
+PAsda
+LPetrol
+^
+D11/12/13
+U-15.00
+T-15.00
+CX
+PEngage Mutual (Jessica)
+MSavings for Jessica
+LSavings
+^
+D12/12/13
+U-74.85
+T-74.85
+CX
+PHM Revenue & Customs
+MRepayment of overpayment of £1796.46
+LDSS Benefits:Tax Credits
+^
+D13/12/13
+U-5.56
+T-5.56
+CX
+PPaypal
+MBB software - ScreenOn
+LGeneral Expenses
+^
+D14/12/13
+U-41.01
+T-41.01
+CX
+PAsda
+LPetrol
+^
+D15/12/13
+U800.00
+T800.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D15/12/13
+U-160.00
+T-160.00
+CX
+PBroadland District Council
+LCouncil Tax
+^
+D15/12/13
+U-30.00
+T-30.00
+CX
+PNational Deposit (JH, MH & SH)
+MSavings - James, Matthew & Sophie
+LSavings
+^
+D15/12/13
+U-24.06
+T-24.06
+CX
+PAnglian Water
+LUtilities
+^
+D15/12/13
+U-12.12
+T-12.12
+CX
+PTV Licensing
+LGeneral Expenses
+^
+D16/12/13
+U-50.00
+T-50.00
+CX
+PEDF Energy
+LUtilities:Electricity
+^
+D16/12/13
+U-15.00
+T-15.00
+CX
+PScottish Friendly (Frankie)
+LSavings
+^
+D18/12/13
+U-20.36
+T-20.36
+CX
+PMakro
+LGeneral Expenses
+^
+D20/12/13
+U-485.00
+T-485.00
+CX
+PTW Gaze
+LRent Paid
+^
+D20/12/13
+U-50.00
+T-50.00
+CX
+PMousehold Service Station
+LPetrol
+^
+D21/12/13
+U58.00
+T58.00
+CX
+PPartnership (income)
+LPension income
+^
+D21/12/13
+U-4.07
+T-4.07
+CX
+PLovefilm (Co-op Card)
+MDebit card payment
+LGeneral Expenses
+^
+D21/12/13
+U-12.98
+T-12.98
+CX
+PSprowston Garden Centre
+LGeneral Expenses
+^
+D22/12/13
+U-23.13
+T-23.13
+CX
+PBudgens Brundall
+LGeneral Expenses
+^
+D24/12/13
+U-17.50
+T-17.50
+CX
+PCotton Traders
+LGeneral Expenses
+^
+D24/12/13
+U-31.08
+T-31.08
+CX
+PNotcutts
+LGeneral Expenses
+^
+D25/12/13
+U-90.00
+T-90.00
+CX
+PCPL Petroleum
+LUtilities:Oil
+^
+D27/12/13
+U300.00
+T300.00
+CX
+NDEP
+PTransfer From Business A/c
+^
+D28/12/13
+U-21.54
+T-21.54
+CX
+PArgos
+LGeneral Expenses
+^
+D28/12/13
+U-194.99
+T-194.99
+CX
+PHughes TV
+LGeneral Expenses
+^
+D31/12/13
+U-20.34
+T-20.34
+CX
+PClick4warranty
+MMazda
+LVehicle
+^
+D31/12/13
+U-49.95
+T-49.95
+CX
+PRicher Sounds
+LGeneral Expenses
+^
+D1/1/14
+U-55.00
+T-55.00
+CX
+PFriends Life (AXA)
+MRFM Life
+LInsurance:Life
+^
+D1/1/14
+U-11.89
+T-11.89
+CX
+PFriends Provident
+MSJM life
+LInsurance:Life
+^
+D1/1/14
+U-7.02
+T-7.02
+CX
+PAIG (UNAT)
+LInsurance:Accident
+^
+D1/1/14
+U-2.49
+T-2.49
+CX
+PAviva
+LInsurance:Health
+^
+D2/1/14
+U-40.00
+T-40.00
+CX
+PAsda
+LPetrol
+^
+D3/1/14
+U-43.89
+T-43.89
+CX
+PPaypal
+MHughes TV - Samsung Blueray
+LGeneral Expenses
+^
+D5/1/14
+U-14.00
+T-14.00
+CX
+PPaypal
+MEbay fees
+LGeneral Expenses
+^
+D6/1/14
+U194.99
+T194.99
+CX
+PHughes TV
+LRefund
+^
+D6/1/14
+U-28.87
+T-28.87
+CX
+PPlusnet
+LTelephone
+^
+D8/1/14
+U1,000.00
+T1,000.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D8/1/14
+U-637.00
+T-637.00
+CX
+PDFS
+LGeneral Expenses
+^
+D8/1/14
+U-3.85
+T-3.85
+CX
+PAmazon
+LGeneral Expenses
+^
+D9/1/14
+U-19.62
+T-19.62
+CX
+PLV Insurance
+MM6 RFM
+LInsurance:Car
+^
+D9/1/14
+U-50.01
+T-50.01
+CX
+PAsda
+LPetrol
+^
+D10/1/14
+U-16.54
+T-16.54
+CX
+PMousehold Garden Centre
+LGeneral Expenses
+^
+D11/1/14
+U750.00
+T750.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D11/1/14
+U-15.00
+T-15.00
+CX
+PEngage Mutual (Jessica)
+MSavings for Jessica
+LSavings
+^
+D12/1/14
+U-74.85
+T-74.85
+CX
+PHM Revenue & Customs
+MRepayment of overpayment of £1796.46
+LDSS Benefits:Tax Credits
+^
+D12/1/14
+U-91.51
+T-91.51
+CX
+PDunelm
+LGeneral Expenses
+^
+D12/1/14
+U-93.03
+T-93.03
+CX
+PHomebase
+LGeneral Expenses
+^
+D13/1/14
+U-23.00
+T-23.00
+CX
+PVodafone
+LMobile phone
+^
+D13/1/14
+U-3.00
+T-3.00
+CX
+PGoogle Play
+LGeneral Expenses
+^
+D13/1/14
+U-2.49
+T-2.49
+CX
+PGoogle Play
+LGeneral Expenses
+^
+D13/1/14
+U-8.98
+T-8.98
+CX
+PB&Q
+LGeneral Expenses
+^
+D15/1/14
+U-30.00
+T-30.00
+CX
+PNational Deposit (JH, MH & SH)
+MSavings - James, Matthew & Sophie
+LSavings
+^
+D15/1/14
+U-24.06
+T-24.06
+CX
+PAnglian Water
+LUtilities
+^
+D15/1/14
+U-12.12
+T-12.12
+CX
+PTV Licensing
+LGeneral Expenses
+^
+D15/1/14
+U-213.00
+T-213.00
+CX
+PBroadland District Council
+LCouncil Tax
+^
+D15/1/14
+U-16.99
+T-16.99
+CX
+PHoover
+LGeneral Expenses
+^
+D16/1/14
+U28.63
+T28.63
+CX
+PHomebase
+LRefund
+^
+D16/1/14
+U-50.00
+T-50.00
+CX
+PEDF Energy
+LUtilities:Electricity
+^
+D16/1/14
+U-15.00
+T-15.00
+CX
+PScottish Friendly (Frankie)
+LSavings
+^
+D17/1/14
+U-52.97
+T-52.97
+CX
+PHomebase
+LGeneral Expenses
+^
+D17/1/14
+U-50.00
+T-50.00
+CX
+PAsda
+LPetrol
+^
+D17/1/14
+U-176.92
+T-176.92
+CX
+NVisa
+PManor Garage
+LVehicle:Repairs
+^
+D19/1/14
+U500.00
+T500.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D20/1/14
+U-1.26
+T-1.26
+CX
+PGoogle Play
+LGeneral Expenses
+^
+D21/1/14
+U-4.07
+T-4.07
+CX
+PLovefilm (Co-op Card)
+MDebit card payment
+LGeneral Expenses
+^
+D22/1/14
+U57.80
+T57.80
+CX
+PPartnership (income)
+LPension income
+^
+D22/1/14
+U-525.00
+T-525.00
+CX
+PTW Gaze
+LRent Paid
+^
+D22/1/14
+U-115.60
+T-115.60
+CX
+NVisa
+PManor Garage
+LVehicle:Repairs
+^
+D23/1/14
+U128.92
+T128.92
+CX
+PClick4warrenty
+LVehicle
+^
+D23/1/14
+U-40.00
+T-40.00
+CX
+PAsda
+LPetrol
+^
+D23/1/14
+U-0.60
+T-0.60
+CX
+PGoogle Play
+LGeneral Expenses
+^
+D25/1/14
+U-90.00
+T-90.00
+CX
+PCPL Petroleum
+LUtilities:Oil
+^
+D25/1/14
+U-28.98
+T-28.98
+CX
+PHomebase
+LGeneral Expenses
+^
+D25/1/14
+U-1.22
+T-1.22
+CX
+PGoogle Play
+LGeneral Expenses
+^
+D28/1/14
+U300.00
+T300.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D29/1/14
+U-84.00
+T-84.00
+CX
+NVisa
+PManor Garage
+LVehicle:Repairs
+^
+D29/1/14
+U-25.00
+T-25.00
+CX
+PShell Brundall
+LPetrol
+^
+D29/1/14
+U-29.94
+T-29.94
+CX
+PSTS Tyres
+LVehicle
+^
+D31/1/14
+U-20.34
+T-20.34
+CX
+PClick4warranty
+MMazda
+LVehicle
+^
+D31/1/14
+U-9.99
+T-9.99
+CX
+PArgos
+LGeneral Expenses
+^
+D31/1/14
+U-10.98
+T-10.98
+CX
+PWilco
+LVehicle
+^
+D31/1/14
+U-50.00
+T-50.00
+CX
+PAsda
+LPetrol
+^
+D1/2/14
+U-55.00
+T-55.00
+CX
+PFriends Life (AXA)
+MRFM Life
+LInsurance:Life
+^
+D1/2/14
+U-11.89
+T-11.89
+CX
+PFriends Provident
+MSJM life
+LInsurance:Life
+^
+D1/2/14
+U-7.02
+T-7.02
+CX
+PAIG (UNAT)
+LInsurance:Accident
+^
+D1/2/14
+U-2.49
+T-2.49
+CX
+PAviva
+LInsurance:Health
+^
+D1/2/14
+U-50.00
+T-50.00
+CX
+PInvesco (Frankie)
+MPayment Ref :
+LSavings
+^
+D2/2/14
+U-23.44
+T-23.44
+CX
+PHomebase
+LGeneral Expenses
+^
+D3/2/14
+U500.00
+T500.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D3/2/14
+U-9.18
+T-9.18
+CX
+PStaples
+LOffice
+^
+D3/2/14
+U-12.05
+T-12.05
+CX
+PPaypal
+MBB software - ScreenOn
+LGeneral Expenses
+^
+D4/2/14
+U-17.74
+T-17.74
+CX
+PVodafone
+LMobile phone
+^
+D4/2/14
+U-29.84
+T-29.84
+CX
+PPlusnet
+LTelephone
+^
+D5/2/14
+U-19.75
+T-19.75
+CX
+PAsda
+LGeneral Expenses
+^
+D5/2/14
+U-16.00
+T-16.00
+CX
+PAsda
+LGeneral Expenses
+^
+D5/2/14
+U-5.00
+T-5.00
+CX
+PGiffgaff
+LGeneral Expenses
+^
+D6/2/14
+U-10.98
+T-10.98
+CX
+PHomebase
+LGeneral Expenses
+^
+D7/2/14
+U-50.00
+T-50.00
+CX
+PAsda
+LPetrol
+^
+D7/2/14
+U-7.98
+T-7.98
+CX
+PWilco
+LVehicle
+^
+D9/2/14
+U-19.62
+T-19.62
+CX
+PLV Insurance
+MM6 RFM
+LInsurance:Car
+^
+D11/2/14
+U350.00
+T350.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D11/2/14
+U-15.00
+T-15.00
+CX
+PEngage Mutual (Jessica)
+MSavings for Jessica
+LSavings
+^
+D11/2/14
+U-142.36
+T-142.36
+CX
+PSTS Tyres
+LVehicle
+^
+D12/2/14
+U-74.85
+T-74.85
+CX
+PHM Revenue & Customs
+MRepayment of overpayment of £1796.46
+LDSS Benefits:Tax Credits
+^
+D12/2/14
+U-123.75
+T-123.75
+CX
+PDVLA
+MTax J888 SJM
+LVehicle
+^
+D13/2/14
+U-1.60
+T-1.60
+CX
+PGoogle Play
+LGeneral Expenses
+^
+D13/2/14
+U-1.99
+T-1.99
+CX
+PGoogle Play
+LGeneral Expenses
+^
+D15/2/14
+U-30.00
+T-30.00
+CX
+PNational Deposit (JH, MH & SH)
+MSavings - James, Matthew & Sophie
+LSavings
+^
+D15/2/14
+U-12.12
+T-12.12
+CX
+PTV Licensing
+LGeneral Expenses
+^
+D15/2/14
+U-213.00
+T-213.00
+CX
+PBroadland District Council
+LCouncil Tax
+^
+D15/2/14
+U-86.42
+T-86.42
+CX
+PPaypal
+MArgos
+LGeneral Expenses
+^
+D16/2/14
+U-50.00
+T-50.00
+CX
+PEDF Energy
+LUtilities:Electricity
+^
+D16/2/14
+U-15.00
+T-15.00
+CX
+PScottish Friendly (Frankie)
+LSavings
+^
+D17/2/14
+U750.00
+T750.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D17/2/14
+U-47.00
+T-47.00
+CX
+PAsda
+LMotor:Fuel
+^
+D17/2/14
+U-25.84
+T-25.84
+CX
+PRhino Building Supplies
+LGeneral Expenses
+^
+D18/2/14
+U-33.72
+T-33.72
+CX
+PHomebase
+LGeneral Expenses
+^
+D19/2/14
+U-18.89
+T-18.89
+CX
+PBrundall Home Hardware
+LGeneral Expenses
+^
+D20/2/14
+U-7.19
+T-7.19
+CX
+PHomebase
+LGeneral Expenses
+^
+D20/2/14
+U-37.18
+T-37.18
+CX
+PViking Direct
+LOffice
+^
+D20/2/14
+U-4.03
+T-4.03
+CX
+PRhino Building Supplies
+LGeneral Expenses
+^
+D21/2/14
+U-4.07
+T-4.07
+CX
+PLovefilm (Co-op Card)
+MDebit card payment
+LGeneral Expenses
+^
+D21/2/14
+U-1.88
+T-1.88
+CX
+PGoogle Play
+LGeneral Expenses
+^
+D22/2/14
+U58.00
+T58.00
+CX
+PPartnership (income)
+LPension income
+^
+D22/2/14
+U300.00
+T300.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D22/2/14
+U-525.00
+T-525.00
+CX
+PTW Gaze
+LRent Paid
+^
+D22/2/14
+U-40.00
+T-40.00
+CX
+PMousehold Service Station
+LPetrol
+^
+D22/2/14
+U-59.99
+T-59.99
+CX
+PScrewfix
+LGeneral Expenses
+^
+D25/2/14
+U-90.00
+T-90.00
+CX
+PCPL Petroleum
+LUtilities:Oil
+^
+D25/2/14
+U-18.31
+T-18.31
+CX
+P1 & 1 Internet
+LGeneral Expenses
+^
+D26/2/14
+U-1.29
+T-1.29
+CX
+PGoogle Play
+LGeneral Expenses
+^
+D27/2/14
+U-27.49
+T-27.49
+CX
+PArgos
+LGeneral Expenses
+^
+D28/2/14
+U200.00
+T200.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D28/2/14
+U-20.34
+T-20.34
+CX
+PClick4warranty
+MMazda
+LVehicle
+^
+D28/2/14
+U-25.00
+T-25.00
+CX
+PAsda
+LMotor:Fuel
+^
+D28/2/14
+U-13.58
+T-13.58
+CX
+PHomebase
+LGeneral Expenses
+^
+D1/3/14
+U-55.00
+T-55.00
+CX
+PFriends Life (AXA)
+MRFM Life
+LInsurance:Life
+^
+D1/3/14
+U-11.89
+T-11.89
+CX
+PFriends Provident
+MSJM life
+LInsurance:Life
+^
+D1/3/14
+U-7.02
+T-7.02
+CX
+PAIG (UNAT)
+LInsurance:Accident
+^
+D1/3/14
+U-2.49
+T-2.49
+CX
+PAviva
+LInsurance:Health
+^
+D3/3/14
+U300.00
+T300.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D3/3/14
+U-18.00
+T-18.00
+CX
+PBrundall Dentists
+LGeneral Expenses
+^
+D5/3/14
+U-17.00
+T-17.00
+CX
+PVodafone
+LMobile phone
+^
+D5/3/14
+U-27.37
+T-27.37
+CX
+PPlusnet
+LTelephone
+^
+D5/3/14
+U-30.00
+T-30.00
+CX
+PCash Withdrawal
+LCash
+^
+D5/3/14
+U-30.01
+T-30.01
+CX
+PMFG Plumstead Rd
+LPetrol
+^
+D9/3/14
+U-19.62
+T-19.62
+CX
+PLV Insurance
+MM6 RFM
+LInsurance:Car
+^
+D11/3/14
+U500.00
+T500.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D11/3/14
+U-15.00
+T-15.00
+CX
+PEngage Mutual (Jessica)
+MSavings for Jessica
+LSavings
+^
+D11/3/14
+U-40.00
+T-40.00
+CX
+PMousehold Service Station
+LPetrol
+^
+D11/3/14
+U-2.62
+T-2.62
+CX
+PGoogle Play
+LGeneral Expenses
+^
+D12/3/14
+U-74.85
+T-74.85
+CX
+PHM Revenue & Customs
+MRepayment of overpayment of £1796.46
+LDSS Benefits:Tax Credits
+^
+D12/3/14
+U-31.59
+T-31.59
+CX
+PCherry Lane Garden Centre
+LGeneral Expenses
+^
+D13/3/14
+U300.00
+T300.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D13/3/14
+U-5.00
+T-5.00
+CX
+PGiffgaff
+LGeneral Expenses
+^
+D15/3/14
+U-30.00
+T-30.00
+CX
+PNational Deposit (JH, MH & SH)
+MSavings - James, Matthew & Sophie
+LSavings
+^
+D15/3/14
+U-12.12
+T-12.12
+CX
+PTV Licensing
+LGeneral Expenses
+^
+D15/3/14
+U-214.00
+T-214.00
+CX
+PBroadland District Council
+LCouncil Tax
+^
+D16/3/14
+U-50.00
+T-50.00
+CX
+PEDF Energy
+LUtilities:Electricity
+^
+D16/3/14
+U-15.00
+T-15.00
+CX
+PScottish Friendly (Frankie)
+LSavings
+^
+D17/3/14
+U-26.96
+T-26.96
+CX
+PB&Q
+LGeneral Expenses
+^
+D17/3/14
+U-40.01
+T-40.01
+CX
+PAsda
+LMotor:Fuel
+^
+D20/3/14
+U-50.00
+T-50.00
+CX
+PAsda
+LMotor:Fuel
+^
+D20/3/14
+U-10.00
+T-10.00
+CX
+PGiffgaff
+LGeneral Expenses
+^
+D20/3/14
+U-20.00
+T-20.00
+CX
+PSport Relief
+LCharity
+^
+D21/3/14
+U-4.07
+T-4.07
+CX
+PLovefilm (Co-op Card)
+MDebit card payment
+LGeneral Expenses
+^
+D21/3/14
+U-11.89
+T-11.89
+CX
+PArgos
+LGeneral Expenses
+^
+D22/3/14
+U58.00
+T58.00
+CX
+PPartnership (income)
+LPension income
+^
+D22/3/14
+U-525.00
+T-525.00
+CX
+PTW Gaze
+LRent Paid
+^
+D22/3/14
+U-10.31
+T-10.31
+CX
+PBudgens Brundall
+LGeneral Expenses
+^
+D22/3/14
+U-1.19
+T-1.19
+CX
+PGoogle Play
+LGeneral Expenses
+^
+D23/3/14
+U1,200.00
+T1,200.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D23/3/14
+U-750.00
+T-750.00
+CX
+PTransfer To Claire
+LVehicle
+^
+D25/3/14
+U-90.00
+T-90.00
+CX
+PCPL Petroleum
+LUtilities:Oil
+^
+D25/3/14
+U-10.00
+T-10.00
+CX
+NVisa
+PManor Garage
+LPetrol
+^
+D27/3/14
+U-40.00
+T-40.00
+CX
+PPetrogas Firs
+LPetrol
+^
+D28/3/14
+U-30.00
+T-30.00
+CX
+PAsda
+LMotor:Fuel
+^
+D29/3/14
+U-14.48
+T-14.48
+CX
+PHalfords
+LGeneral Expenses
+^
+D31/3/14
+U-20.34
+T-20.34
+CX
+PClick4warranty
+MMazda
+LVehicle
+^
+D31/3/14
+U-29.48
+T-29.48
+CX
+PNorwich Camping
+LGeneral Expenses
+^
+D1/4/14
+U450.00
+T450.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D1/4/14
+U-55.00
+T-55.00
+CX
+PFriends Life (AXA)
+MRFM Life
+LInsurance:Life
+^
+D1/4/14
+U-11.89
+T-11.89
+CX
+PFriends Provident
+MSJM life
+LInsurance:Life
+^
+D1/4/14
+U-7.02
+T-7.02
+CX
+PAIG (UNAT)
+LInsurance:Accident
+^
+D1/4/14
+U-2.49
+T-2.49
+CX
+PAviva
+LInsurance:Health
+^
+D1/4/14
+U-27.04
+T-27.04
+CX
+PEnterprise Hire
+LGeneral Expenses
+^
+D2/4/14
+U-22.00
+T-22.00
+CX
+PVodafone
+LMobile phone
+^
+D2/4/14
+U-10.90
+T-10.90
+CX
+PBeechwood Pet Supplies
+LGeneral Expenses
+^
+D2/4/14
+U-198.24
+T-198.24
+CX
+PManor Garage
+LVehicle:Repairs
+^
+D4/4/14
+U-27.47
+T-27.47
+CX
+PPlusnet
+LTelephone
+^
+D4/4/14
+U-13.98
+T-13.98
+CX
+PSalhouse Garden Centre
+LGeneral Expenses
+^
+D5/4/14
+U2,840.00
+T2,840.00
+CX
+PLV Insurance
+LInsurance:Car
+^
+D5/4/14
+U-40.00
+T-40.00
+CX
+PMousehold Service Station
+LPetrol
+^
+D5/4/14
+U-100.00
+T-100.00
+CX
+PManor Garage
+LVehicle
+^
+D5/4/14
+U-24.97
+T-24.97
+CX
+PHalfords
+LVehicle
+^
+D6/4/14
+U850.00
+T850.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D6/4/14
+U-22.89
+T-22.89
+CX
+PPaypal
+MBB software - ScreenOn
+LGeneral Expenses
+^
+D7/4/14
+U-150.00
+T-150.00
+CX
+NTXFR
+PHargreaves Lansdown
+MISA - 3 funds
+L[Advantage ISA]
+^
+D7/4/14
+U-4.80
+T-4.80
+CX
+PHalfords
+LVehicle
+^
+D7/4/14
+U-7.99
+T-7.99
+CX
+PHomebase
+LGeneral Expenses
+^
+D8/4/14
+U-10.54
+T-10.54
+CX
+PPlants By Post
+LGeneral Expenses
+^
+D9/4/14
+U-19.62
+T-19.62
+CX
+PLV Insurance
+MM6 RFM
+LInsurance:Car
+^
+D9/4/14
+U-50.99
+T-50.99
+CX
+PEbay
+Mparrot bluetooth kit
+LGeneral Expenses
+^
+D9/4/14
+U-250.00
+T-250.00
+CX
+PCash Withdrawal
+LCash
+^
+D9/4/14
+U-40.06
+T-40.06
+CX
+PSalhouse Garden Centre
+LGeneral Expenses
+^
+D10/4/14
+U-250.00
+T-250.00
+CX
+PCash Withdrawal
+LCash
+^
+D10/4/14
+U-20.00
+T-20.00
+CX
+PManor Garage
+LPetrol
+^
+D10/4/14
+U-20.01
+T-20.01
+CX
+PAsda
+LMotor:Fuel
+^
+D10/4/14
+U-27.81
+T-27.81
+CX
+PLV Insurance
+MAdditional premium for Merc. C200
+LInsurance:Car
+^
+D11/4/14
+U-15.00
+T-15.00
+CX
+PEngage Mutual (Jessica)
+MSavings for Jessica
+LSavings
+^
+D11/4/14
+U-250.00
+T-250.00
+CX
+PCash Withdrawal
+LCash
+^
+D11/4/14
+U-2.72
+T-2.72
+CX
+PEnterprise Hire
+LGeneral Expenses
+^
+D12/4/14
+U-74.85
+T-74.85
+CX
+PHM Revenue & Customs
+MRepayment of overpayment of £1796.46
+LDSS Benefits:Tax Credits
+^
+D12/4/14
+U-30.00
+T-30.00
+CX
+PManor Garage
+LPetrol
+^
+D12/4/14
+U-1,800.00
+T-1,800.00
+CX
+PManor Garage
+LVehicle
+^
+D15/4/14
+U660.00
+T660.00
+CX
+PLV Insurance
+LInsurance:Car
+^
+D15/4/14
+U-24.97
+T-24.97
+CX
+PAnglian Water
+LUtilities
+^
+D15/4/14
+U-127.18
+T-127.18
+CX
+PBroadland District Council
+LCouncil Tax
+^
+D15/4/14
+U-30.00
+T-30.00
+CX
+PNational Deposit (JH, MH & SH)
+MSavings - James, Matthew & Sophie
+LSavings
+^
+D15/4/14
+U-12.12
+T-12.12
+CX
+PTV Licensing
+LGeneral Expenses
+^
+D15/4/14
+U-29.99
+T-29.99
+CX
+PHalfords
+LVehicle
+^
+D15/4/14
+U-50.00
+T-50.00
+CX
+PMFG Plumstead Rd
+LPetrol
+^
+D15/4/14
+U-79.99
+T-79.99
+CX
+PPaypal
+MTomtom car kit
+LGeneral Expenses
+^
+D16/4/14
+U-50.00
+T-50.00
+CX
+PEDF Energy
+LUtilities:Electricity
+^
+D16/4/14
+U-15.00
+T-15.00
+CX
+PScottish Friendly (Frankie)
+LSavings
+^
+D16/4/14
+U-100.00
+T-100.00
+CX
+PTransfer To SJM
+LTransfer out
+^
+D16/4/14
+U-10.99
+T-10.99
+CX
+PSainsbury's
+LGeneral Expenses
+^
+D16/4/14
+U-14.00
+T-14.00
+CX
+PPaypal
+MBrodit proclip
+LGeneral Expenses
+^
+D16/4/14
+U-17.09
+T-17.09
+CX
+PPaypal
+MBrodit for tomtom
+LGeneral Expenses
+^
+D17/4/14
+U29.99
+T29.99
+CX
+PHalfords
+LRefund
+^
+D17/4/14
+U-150.00
+T-150.00
+CX
+PCash Withdrawal
+LCash
+^
+D18/4/14
+U131.11
+T131.11
+CX
+PCPP
+MCompensation award
+LRefund
+^
+D21/4/14
+U153.00
+T153.00
+CX
+PLV Insurance
+MTHB Bury kit
+LInsurance:Car
+^
+D21/4/14
+U-4.07
+T-4.07
+CX
+PLovefilm (Co-op Card)
+MDebit card payment
+LGeneral Expenses
+^
+D21/4/14
+U-11.88
+T-11.88
+CX
+PPaypal
+MRoboform licence
+LGeneral Expenses
+^
+D22/4/14
+U58.00
+T58.00
+CX
+PPartnership (income)
+LPension income
+^
+D22/4/14
+U400.00
+T400.00
+CX
+PCash Deposit
+MSale of Peugeot 206
+LMisc Income
+^
+D22/4/14
+U-41.88
+T-41.88
+CX
+PPost Office
+MAdj for Ford Focus
+LInsurance:Car
+^
+D22/4/14
+U-525.00
+T-525.00
+CX
+PTW Gaze
+LRent Paid
+^
+D22/4/14
+U-40.00
+T-40.00
+CX
+PAsda
+LMotor:Fuel
+^
+D22/4/14
+U-44.35
+T-44.35
+CX
+PPaypal
+MBalance for Tabtronics Tablet
+LGeneral Expenses
+^
+D23/4/14
+U-102.85
+T-102.85
+CX
+PManor Garage
+LVehicle
+^
+D23/4/14
+U-14.98
+T-14.98
+CX
+PWilco
+LVehicle
+^
+D23/4/14
+U-13.48
+T-13.48
+CX
+PSprowston Garden Centre
+LGeneral Expenses
+^
+D23/4/14
+U-7.34
+T-7.34
+CX
+PBoots
+LGeneral Expenses
+^
+D23/4/14
+U-45.00
+T-45.00
+CX
+PMatalan
+LGeneral Expenses
+^
+D23/4/14
+U-15.00
+T-15.00
+CX
+PShell Brundall
+LPetrol
+^
+D25/4/14
+U-90.00
+T-90.00
+CX
+PCPL Petroleum
+LUtilities:Oil
+^
+D25/4/14
+U-19.46
+T-19.46
+CX
+PNorwich Camping
+LGeneral Expenses
+^
+D26/4/14
+U-4.49
+T-4.49
+CX
+PGoogle Play
+MPicasa Tool
+LGeneral Expenses
+^
+D27/4/14
+U-29.45
+T-29.45
+CX
+PJ Parkers
+LGeneral Expenses
+^
+D28/4/14
+U-16.99
+T-16.99
+CX
+PArgos
+LGeneral Expenses
+^
+D28/4/14
+U-40.00
+T-40.00
+CX
+PMFG Plumstead Rd
+LPetrol
+^
+D28/4/14
+U-23.00
+T-23.00
+CX
+PSTS Tyres
+LVehicle
+^
+D28/4/14
+U-48.00
+T-48.00
+CX
+PMondeo Spares
+Mfocus bumper
+LVehicle
+^
+D29/4/14
+U-30.00
+T-30.00
+CX
+PCash Withdrawal
+LCash
+^
+D30/4/14
+U-20.34
+T-20.34
+CX
+PClick4warranty
+MMazda
+LVehicle
+^
+D1/5/14
+U-55.00
+T-55.00
+CX
+PFriends Life (AXA)
+MRFM Life
+LInsurance:Life
+^
+D1/5/14
+U-11.89
+T-11.89
+CX
+PFriends Provident
+MSJM life
+LInsurance:Life
+^
+D1/5/14
+U-7.02
+T-7.02
+CX
+PAIG (UNAT)
+LInsurance:Accident
+^
+D1/5/14
+U-2.49
+T-2.49
+CX
+PAviva
+LInsurance:Health
+^
+D3/5/14
+U-40.00
+T-40.00
+CX
+PMousehold Service Station
+LPetrol
+^
+D5/5/14
+U500.00
+T500.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D5/5/14
+U-28.22
+T-28.22
+CX
+PVodafone
+LMobile phone
+^
+D6/5/14
+U-7.99
+T-7.99
+CX
+PHomebase
+LGeneral Expenses
+^
+D7/5/14
+U-39.39
+T-39.39
+CX
+PPlusnet
+LTelephone
+^
+D7/5/14
+U-150.00
+T-150.00
+CX
+NTXFR
+PHargreaves Lansdown
+MISA - 3 funds
+L[Advantage ISA]
+^
+D7/5/14
+U-61.24
+T-61.24
+CX
+PThe Factory Shop
+LGeneral Expenses
+^
+D8/5/14
+U-40.00
+T-40.00
+CX
+PMFG Plumstead Rd
+LPetrol
+^
+D9/5/14
+U-19.62
+T-19.62
+CX
+PLV Insurance
+MM6 RFM
+LInsurance:Car
+^
+D11/5/14
+U100.00
+T100.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D11/5/14
+U-15.00
+T-15.00
+CX
+PEngage Mutual (Jessica)
+MSavings for Jessica
+LSavings
+^
+D11/5/14
+U-99.00
+T-99.00
+CX
+PDVLA
+MJ888 SJM tax
+LVehicle
+^
+D12/5/14
+U-74.85
+T-74.85
+CX
+PHM Revenue & Customs
+MRepayment of overpayment of £1796.46
+LDSS Benefits:Tax Credits
+^
+D12/5/14
+U-15.36
+T-15.36
+CX
+PAmazon
+LGeneral Expenses
+^
+D15/5/14
+U750.00
+T750.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D15/5/14
+U-30.00
+T-30.00
+CX
+PNational Deposit (JH, MH & SH)
+MSavings - James, Matthew & Sophie
+LSavings
+^
+D15/5/14
+U-12.12
+T-12.12
+CX
+PTV Licensing
+LGeneral Expenses
+^
+D15/5/14
+U-24.96
+T-24.96
+CX
+PAnglian Water
+LUtilities
+^
+D15/5/14
+U-132.00
+T-132.00
+CX
+PBroadland District Council
+LCouncil Tax
+^
+D15/5/14
+U-50.01
+T-50.01
+CX
+PAsda
+LMotor:Fuel
+^
+D16/5/14
+U-50.00
+T-50.00
+CX
+PEDF Energy
+LUtilities:Electricity
+^
+D16/5/14
+U-15.00
+T-15.00
+CX
+PScottish Friendly (Frankie)
+LSavings
+^
+D21/5/14
+U276.58
+T276.58
+CX
+PTax Credits
+LRefund
+^
+D21/5/14
+U-4.07
+T-4.07
+CX
+PLovefilm (Co-op Card)
+MDebit card payment
+LGeneral Expenses
+^
+D21/5/14
+U-40.00
+T-40.00
+CX
+PMousehold Service Station
+LPetrol
+^
+D22/5/14
+U58.00
+T58.00
+CX
+PPartnership (income)
+LPension income
+^
+D22/5/14
+U-525.00
+T-525.00
+CX
+PTW Gaze
+LRent Paid
+^
+D23/5/14
+U-9.98
+T-9.98
+CX
+PSalhouse Garden Centre
+LGeneral Expenses
+^
+D23/5/14
+U-15.00
+T-15.00
+CX
+PShell Brundall
+LPetrol
+^
+D24/5/14
+U-40.01
+T-40.01
+CX
+PAsda
+LPetrol
+^
+D25/5/14
+U-90.00
+T-90.00
+CX
+PCPL Petroleum
+LUtilities:Oil
+^
+D26/5/14
+U300.00
+T300.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D26/5/14
+U-28.11
+T-28.11
+CX
+PSalhouse Garden Centre
+LGeneral Expenses
+^
+D26/5/14
+U-10.54
+T-10.54
+CX
+PPlants By Post
+LGeneral Expenses
+^
+D27/5/14
+U16.66
+T16.66
+CX
+PDVLA
+MTax refund for Mazda 6
+LRefund
+^
+D28/5/14
+U-78.95
+T-78.95
+CX
+PAmazon
+LGeneral Expenses
+^
+D29/5/14
+U-40.00
+T-40.00
+CX
+PAsda
+LPetrol
+^
+D30/5/14
+U-20.00
+T-20.00
+CX
+PAsda
+LPetrol
+^
+D1/6/14
+U-55.00
+T-55.00
+CX
+PFriends Life (AXA)
+MRFM Life
+LInsurance:Life
+^
+D1/6/14
+U-11.89
+T-11.89
+CX
+PFriends Provident
+MSJM life
+LInsurance:Life
+^
+D1/6/14
+U-7.02
+T-7.02
+CX
+PAIG (UNAT)
+LInsurance:Accident
+^
+D1/6/14
+U-2.49
+T-2.49
+CX
+PAviva
+LInsurance:Health
+^
+D3/6/14
+U-23.00
+T-23.00
+CX
+PVodafone
+LMobile phone
+^
+D4/6/14
+U-25.03
+T-25.03
+CX
+PPlusnet
+LTelephone
+^
+D5/6/14
+U-58.00
+T-58.00
+CX
+PBudgens Brundall
+LGeneral Expenses
+^
+D5/6/14
+U-40.00
+T-40.00
+CX
+PAsda
+LPetrol
+^
+D7/6/14
+U-150.00
+T-150.00
+CX
+NTXFR
+PHargreaves Lansdown
+MISA - 3 funds
+L[Advantage ISA]
+^
+D9/6/14
+U500.00
+T500.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D9/6/14
+U-19.58
+T-19.58
+CX
+PLV Insurance
+MM6 RFM
+LInsurance:Car
+^
+D10/6/14
+U-30.00
+T-30.00
+CX
+PAsda
+LPetrol
+^
+D10/6/14
+U-42.00
+T-42.00
+CX
+PCompanion Care Vets
+LPets & Vets
+^
+D11/6/14
+U-15.00
+T-15.00
+CX
+PEngage Mutual (Jessica)
+MSavings for Jessica
+LSavings
+^
+D11/6/14
+U-8.48
+T-8.48
+CX
+PBlooms Of Bressingham
+LGeneral Expenses
+^
+D12/6/14
+U-74.85
+T-74.85
+CX
+PHM Revenue & Customs
+MRepayment of overpayment of £1796.46
+LDSS Benefits:Tax Credits
+^
+D13/6/14
+U-50.00
+T-50.00
+CX
+PMFG Plumstead Rd
+LPetrol
+^
+D14/6/14
+U-11.48
+T-11.48
+CX
+PAmazon
+LGeneral Expenses
+^
+D15/6/14
+U-30.00
+T-30.00
+CX
+PNational Deposit (JH, MH & SH)
+MSavings - James, Matthew & Sophie
+LSavings
+^
+D15/6/14
+U-12.12
+T-12.12
+CX
+PTV Licensing
+LGeneral Expenses
+^
+D15/6/14
+U-24.96
+T-24.96
+CX
+PAnglian Water
+LUtilities
+^
+D15/6/14
+U-132.00
+T-132.00
+CX
+PBroadland District Council
+LCouncil Tax
+^
+D16/6/14
+U-50.00
+T-50.00
+CX
+PEDF Energy
+LUtilities:Electricity
+^
+D16/6/14
+U-15.00
+T-15.00
+CX
+PScottish Friendly (Frankie)
+LSavings
+^
+D16/6/14
+U-11.24
+T-11.24
+CX
+PRIAS Insurance (Ageas)
+MJ888 SJM
+LInsurance
+^
+D18/6/14
+U750.00
+T750.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D19/6/14
+U-50.01
+T-50.01
+CX
+PAsda
+LPetrol
+^
+D19/6/14
+U-34.03
+T-34.03
+CX
+PSainsbury's
+LGeneral Expenses
+^
+D20/6/14
+U-7.50
+T-7.50
+CX
+PManor Garage
+LVehicle
+^
+D21/6/14
+U-4.07
+T-4.07
+CX
+PLovefilm (Co-op Card)
+MDebit card payment
+LGeneral Expenses
+^
+D22/6/14
+U57.80
+T57.80
+CX
+PPartnership (income)
+LPension income
+^
+D22/6/14
+U-525.00
+T-525.00
+CX
+PTW Gaze
+LRent Paid
+^
+D23/6/14
+U-1.55
+T-1.55
+CX
+PEbay
+LGeneral Expenses
+^
+D25/6/14
+U300.00
+T300.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D25/6/14
+U-90.00
+T-90.00
+CX
+PCPL Petroleum
+LUtilities:Oil
+^
+D25/6/14
+U-10.95
+T-10.95
+CX
+PHealthspan
+LGeneral Expenses
+^
+D26/6/14
+U-50.00
+T-50.00
+CX
+PAsda
+LPetrol
+^
+D28/6/14
+U-200.00
+T-200.00
+CX
+POak Street Cars
+LVehicle
+^
+D29/6/14
+U250.00
+T250.00
+CX
+PTransfer
+L[Savings (SJM)]
+^
+D29/6/14
+U-75.00
+T-75.00
+CX
+PAutoglass
+LVehicle
+^
+D30/6/14
+U-12.51
+T-12.51
+CX
+PAgeas Insurance (RIAS)
+MJ888 SJM
+LInsurance
+^
+D30/6/14
+U-10.00
+T-10.00
+CX
+PPaypal
+MBB software - ScreenOn
+LGeneral Expenses
+^
+D30/6/14
+U-25.01
+T-25.01
+CX
+PAsda
+LPetrol
+^
+D1/7/14
+U-55.00
+T-55.00
+CX
+PFriends Life (AXA)
+MRFM Life
+LInsurance:Life
+^
+D1/7/14
+U-11.89
+T-11.89
+CX
+PFriends Provident
+MSJM life
+LInsurance:Life
+^
+D1/7/14
+U-7.02
+T-7.02
+CX
+PAIG (UNAT)
+LInsurance:Accident
+^
+D1/7/14
+U-2.49
+T-2.49
+CX
+PAviva
+LInsurance:Health
+^
+D1/7/14
+U-50.00
+T-50.00
+CX
+PInvesco (Jessica)
+MPayment ref MCBB100417
+LSavings
+^
+D2/7/14
+U-6.73
+T-6.73
+CX
+PLV Insurance
+LInsurance:Car
+^
+D3/7/14
+U-23.00
+T-23.00
+CX
+PVodafone
+LMobile phone
+^
+D4/7/14
+U-24.25
+T-24.25
+CX
+PPlusnet
+LTelephone
+^
+D5/7/14
+U-20.00
+T-20.00
+CX
+PMFG Plumstead Rd
+LPetrol
+^
+D7/7/14
+U-150.00
+T-150.00
+CX
+NTXFR
+PHargreaves Lansdown
+MISA - 3 funds
+L[Advantage ISA]
+^
+D9/7/14
+U500.00
+T500.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D9/7/14
+U-34.49
+T-34.49
+CX
+PTaverham Nursery Centre
+LGeneral Expenses
+^
+D9/7/14
+U-20.00
+T-20.00
+CX
+PMousehold Service Station
+LPetrol
+^
+D9/7/14
+U-30.02
+T-30.02
+CX
+PMFG Plumstead Rd
+LPetrol
+^
+D9/7/14
+U-7.05
+T-7.05
+CX
+PAmazon
+Mcar spectacle holders
+LGeneral Expenses
+^
+D9/7/14
+U-10.54
+T-10.54
+CX
+PPlants By Post
+Mslug nematodes
+LGeneral Expenses
+^
+D9/7/14
+U-25.97
+T-25.97
+CX
+PSuttons Seeds
+Mplant support rings
+LGeneral Expenses
+^
+D11/7/14
+U-15.00
+T-15.00
+CX
+PEngage Mutual (Jessica)
+MSavings for Jessica
+LSavings
+^
+D12/7/14
+U-74.85
+T-74.85
+CX
+PHM Revenue & Customs
+MRepayment of overpayment of £1796.46
+LDSS Benefits:Tax Credits
+^
+D13/7/14
+U300.00
+T300.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D13/7/14
+U-143.81
+T-143.81
+CX
+PStapletons
+LVehicle
+^
+D15/7/14
+U-30.00
+T-30.00
+CX
+PNational Deposit (JH, MH & SH)
+MSavings - James, Matthew & Sophie
+LSavings
+^
+D15/7/14
+U-12.12
+T-12.12
+CX
+PTV Licensing
+LGeneral Expenses
+^
+D15/7/14
+U-24.96
+T-24.96
+CX
+PAnglian Water
+LUtilities
+^
+D15/7/14
+U-132.00
+T-132.00
+CX
+PBroadland District Council
+LCouncil Tax
+^
+D16/7/14
+U-50.00
+T-50.00
+CX
+PEDF Energy
+LUtilities:Electricity
+^
+D16/7/14
+U-15.00
+T-15.00
+CX
+PScottish Friendly (Frankie)
+LSavings
+^
+D16/7/14
+U-40.01
+T-40.01
+CX
+PShell Brundall
+LPetrol
+^
+D19/7/14
+U-9.96
+T-9.96
+CX
+PBudgens Brundall
+LGeneral Expenses
+^
+D21/7/14
+U-4.07
+T-4.07
+CX
+PLovefilm (Co-op Card)
+MDebit card payment
+LGeneral Expenses
+^
+D22/7/14
+U58.00
+T58.00
+CX
+PPartnership (income)
+LPension income
+^
+D22/7/14
+U-47.00
+T-47.00
+CX
+PB&Q
+LGeneral Expenses
+^
+D22/7/14
+U-40.01
+T-40.01
+CX
+PShell Brundall
+LPetrol
+^
+D23/7/14
+U600.00
+T600.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D23/7/14
+U-525.00
+T-525.00
+CX
+PTW Gaze
+LRent Paid
+^
+D25/7/14
+U-90.00
+T-90.00
+CX
+PCPL Petroleum
+LUtilities:Oil
+^
+D25/7/14
+U-30.00
+T-30.00
+CX
+PAsda
+LPetrol
+^
+D26/7/14
+U-9.64
+T-9.64
+CX
+PBudgens Brundall
+LGeneral Expenses
+^
+D29/7/14
+U-10.00
+T-10.00
+CX
+PAsda
+LPetrol
+^
+D29/7/14
+U-17.50
+T-17.50
+CX
+PPets At Home
+LGeneral Expenses
+^
+D30/7/14
+U500.00
+T500.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D30/7/14
+U-12.51
+T-12.51
+CX
+PAgeas Insurance (RIAS)
+MJ888 SJM
+LInsurance
+^
+D30/7/14
+U-57.76
+T-57.76
+CX
+PStart Rescue
+LVehicle
+^
+D30/7/14
+U-17.98
+T-17.98
+CX
+PCoopers Of Stortford
+LGeneral Expenses
+^
+D30/7/14
+U-23.44
+T-23.44
+CX
+PScrewfix
+LGeneral Expenses
+^
+D31/7/14
+U-40.00
+T-40.00
+CX
+PMousehold Service Station
+LPetrol
+^
+D1/8/14
+U-55.00
+T-55.00
+CX
+PFriends Life (AXA)
+MRFM Life
+LInsurance:Life
+^
+D1/8/14
+U-11.89
+T-11.89
+CX
+PFriends Provident
+MSJM life
+LInsurance:Life
+^
+D1/8/14
+U-7.02
+T-7.02
+CX
+PAIG (UNAT)
+LInsurance:Accident
+^
+D1/8/14
+U-2.49
+T-2.49
+CX
+PAviva
+LInsurance:Health
+^
+D2/8/14
+U4.00
+T4.00
+CX
+PNational Lottery
+LRefund
+^
+D2/8/14
+U-67.42
+T-67.42
+CX
+PBudgens Brundall
+LGeneral Expenses
+^
+D2/8/14
+U-34.99
+T-34.99
+CX
+PPaypal
+MBB software - ScreenOn
+LGeneral Expenses
+^
+D2/8/14
+U-28.64
+T-28.64
+CX
+PLV Insurance
+LInsurance:Car
+^
+D3/8/14
+U250.00
+T250.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D4/8/14
+U-23.49
+T-23.49
+CX
+PVodafone
+LMobile phone
+^
+D4/8/14
+U-34.99
+T-34.99
+CX
+PPaypal
+MBB software - ScreenOn
+LGeneral Expenses
+^
+D4/8/14
+U-25.00
+T-25.00
+CX
+PShell Brundall
+LPetrol
+^
+D6/8/14
+U400.00
+T400.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D6/8/14
+U-24.89
+T-24.89
+CX
+PPlusnet
+LTelephone
+^
+D6/8/14
+U-25.44
+T-25.44
+CX
+PEvergreens Garden Centre
+LGeneral Expenses
+^
+D6/8/14
+U-13.99
+T-13.99
+CX
+PEWM Beccles
+LGeneral Expenses
+^
+D7/8/14
+U-150.00
+T-150.00
+CX
+NTXFR
+PHargreaves Lansdown
+MISA - 3 funds
+L[Advantage ISA]
+^
+D8/8/14
+U-50.33
+T-50.33
+CX
+PAmazon
+LGeneral Expenses
+^
+D8/8/14
+U-8.99
+T-8.99
+CX
+PAmazon
+LGeneral Expenses
+^
+D8/8/14
+U-39.78
+T-39.78
+CX
+PBudgens Brundall
+LGeneral Expenses
+^
+D8/8/14
+U-18.57
+T-18.57
+CX
+PPaypal
+MBB software - ScreenOn
+LGeneral Expenses
+^
+D8/8/14
+U-25.00
+T-25.00
+CX
+PMousehold Service Station
+LPetrol
+^
+D11/8/14
+U-15.00
+T-15.00
+CX
+PEngage Mutual (Jessica)
+MSavings for Jessica
+LSavings
+^
+D11/8/14
+U-30.01
+T-30.01
+CX
+PSainsbury's
+LPetrol
+^
+D11/8/14
+U-79.99
+T-79.99
+CX
+PAvast
+LGeneral Expenses
+^
+D12/8/14
+U-74.85
+T-74.85
+CX
+PHM Revenue & Customs
+MRepayment of overpayment of £1796.46
+LDSS Benefits:Tax Credits
+^
+D13/8/14
+U800.00
+T800.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D13/8/14
+U-15.00
+T-15.00
+CX
+PShell Brundall
+LPetrol
+^
+D15/8/14
+U-30.00
+T-30.00
+CX
+PNational Deposit (JH, MH & SH)
+MSavings - James, Matthew & Sophie
+LSavings
+^
+D15/8/14
+U-12.18
+T-12.18
+CX
+PTV Licensing
+LGeneral Expenses
+^
+D15/8/14
+U-24.96
+T-24.96
+CX
+PAnglian Water
+LUtilities
+^
+D15/8/14
+U-132.00
+T-132.00
+CX
+PBroadland District Council
+LCouncil Tax
+^
+D15/8/14
+U-12.10
+T-12.10
+CX
+PBeechwood Pet Supplies
+LGeneral Expenses
+^
+D15/8/14
+U-40.00
+T-40.00
+CX
+PEsso Mousehold Lane
+LPetrol
+^
+D15/8/14
+U-26.05
+T-26.05
+CX
+PWilco
+LVehicle
+^
+D16/8/14
+U100.00
+T100.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D16/8/14
+U-50.00
+T-50.00
+CX
+PEDF Energy
+LUtilities:Electricity
+^
+D16/8/14
+U-15.00
+T-15.00
+CX
+PScottish Friendly (Frankie)
+LSavings
+^
+D16/8/14
+U-9.05
+T-9.05
+CX
+PBudgens Brundall
+LGeneral Expenses
+^
+D19/8/14
+U-4.55
+T-4.55
+CX
+PAmazon
+LGeneral Expenses
+^
+D21/8/14
+U-4.07
+T-4.07
+CX
+PLovefilm (Co-op Card)
+MDebit card payment
+LGeneral Expenses
+^
+D21/8/14
+U-25.02
+T-25.02
+CX
+PMFG Plumstead Rd
+LPetrol
+^
+D22/8/14
+U57.80
+T57.80
+CX
+PPartnership (income)
+LPension income
+^
+D22/8/14
+U-525.00
+T-525.00
+CX
+PTW Gaze
+MSort Code 202634. A/c 10535389
+LRent Paid
+^
+D23/8/14
+U-12.31
+T-12.31
+CX
+PBudgens Brundall
+LGeneral Expenses
+^
+D25/8/14
+U-90.00
+T-90.00
+CX
+PCPL Petroleum
+LUtilities:Oil
+^
+D28/8/14
+U500.00
+T500.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D28/8/14
+U224.55
+T224.55
+CX
+PHM Revenue & Customs
+LDSS Benefits:Tax Credits
+^
+D28/8/14
+U-40.00
+T-40.00
+CX
+PMFG Plumstead Rd
+LPetrol
+^
+D28/8/14
+U-112.75
+T-112.75
+CX
+PDVLA
+MM6 RFM
+LVehicle:Tax
+^
+D28/8/14
+U-60.06
+T-60.06
+CX
+PInSure
+LInsurance:Home
+^
+D30/8/14
+U-12.51
+T-12.51
+CX
+PAgeas Insurance (RIAS)
+MJ888 SJM
+LInsurance
+^
+D30/8/14
+U-40.74
+T-40.74
+CX
+PBudgens Brundall
+LGeneral Expenses
+^
+D31/8/14
+U-29.99
+T-29.99
+CX
+PO2 Telefonica
+LGeneral Expenses
+^
+D31/8/14
+U-14.98
+T-14.98
+CX
+PHomebase
+LGeneral Expenses
+^
+D1/9/14
+U-55.00
+T-55.00
+CX
+PFriends Life (AXA)
+MRFM Life
+LInsurance:Life
+^
+D1/9/14
+U-11.89
+T-11.89
+CX
+PFriends Provident
+MSJM life
+LInsurance:Life
+^
+D1/9/14
+U-7.02
+T-7.02
+CX
+PAIG (UNAT)
+LInsurance:Accident
+^
+D1/9/14
+U-2.49
+T-2.49
+CX
+PAviva
+LInsurance:Health
+^
+D1/9/14
+U-18.50
+T-18.50
+CX
+PBrundall Dentists
+LGeneral Expenses
+^
+D2/9/14
+U-50.88
+T-50.88
+CX
+PVodafone
+LMobile phone
+^
+D2/9/14
+U-30.00
+T-30.00
+CX
+PMFG Plumstead Rd
+LPetrol
+^
+D2/9/14
+U-5.32
+T-5.32
+CX
+PCo-op Pharmacy
+LGeneral Expenses
+^
+D6/9/14
+U-25.79
+T-25.79
+CX
+PPlusnet
+LTelephone
+^
+D6/9/14
+U-17.66
+T-17.66
+CX
+PBudgens Brundall
+LGeneral Expenses
+^
+D6/9/14
+U-25.00
+T-25.00
+CX
+PAsda
+LPetrol
+^
+D7/9/14
+U350.00
+T350.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D7/9/14
+U-150.00
+T-150.00
+CX
+NTXFR
+PHargreaves Lansdown
+MISA - 3 funds
+L[Advantage ISA]
+^
+D8/9/14
+U-15.00
+T-15.00
+CX
+PGiffgaff
+LGeneral Expenses
+^
+D9/9/14
+U-17.95
+T-17.95
+CX
+PLV Insurance
+LInsurance:Car
+^
+D9/9/14
+U-5.00
+T-5.00
+CX
+PGiffgaff
+LGeneral Expenses
+^
+D10/9/14
+U-25.62
+T-25.62
+CX
+PBoots
+LGeneral Expenses
+^
+D10/9/14
+U-38.98
+T-38.98
+CX
+PThe Range
+LGeneral Expenses
+^
+D10/9/14
+U-27.98
+T-27.98
+CX
+PArgos
+LGeneral Expenses
+^
+D10/9/14
+U-57.54
+T-57.54
+CX
+PPaypal
+MBB software - ScreenOn
+LGeneral Expenses
+^
+D11/9/14
+U-15.00
+T-15.00
+CX
+PEngage Mutual (Jessica)
+MSavings for Jessica
+LSavings
+^
+D11/9/14
+U-50.00
+T-50.00
+CX
+PAsda
+LPetrol
+^
+D13/9/14
+U200.00
+T200.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D13/9/14
+U-13.09
+T-13.09
+CX
+PBudgens Brundall
+LGeneral Expenses
+^
+D15/9/14
+U-30.00
+T-30.00
+CX
+PNational Deposit (JH, MH & SH)
+MSavings - James, Matthew & Sophie
+LSavings
+^
+D15/9/14
+U-12.12
+T-12.12
+CX
+PTV Licensing
+LGeneral Expenses
+^
+D15/9/14
+U-24.96
+T-24.96
+CX
+PAnglian Water
+LUtilities
+^
+D15/9/14
+U-132.00
+T-132.00
+CX
+PBroadland District Council
+LCouncil Tax
+^
+D15/9/14
+U-0.99
+T-0.99
+CX
+PPaypal
+MBB software - ScreenOn
+LGeneral Expenses
+^
+D16/9/14
+U-50.00
+T-50.00
+CX
+PEDF Energy
+LUtilities:Electricity
+^
+D16/9/14
+U-15.00
+T-15.00
+CX
+PScottish Friendly (Frankie)
+LSavings
+^
+D16/9/14
+U-10.00
+T-10.00
+CX
+PThree
+LTelephone
+^
+D17/9/14
+U600.00
+T600.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D17/9/14
+U-51.00
+T-51.00
+CX
+PThe Factory Shop
+LGeneral Expenses
+^
+D18/9/14
+U-40.00
+T-40.00
+CX
+PMFG Plumstead Rd
+LPetrol
+^
+D21/9/14
+U-4.07
+T-4.07
+CX
+PLovefilm (Co-op Card)
+MDebit card payment
+LGeneral Expenses
+^
+D22/9/14
+U58.00
+T58.00
+CX
+PPartnership (income)
+LPension income
+^
+D22/9/14
+U-525.00
+T-525.00
+CX
+PTW Gaze
+MSort Code 202634. A/c 10535389
+LRent Paid
+^
+D24/9/14
+U250.00
+T250.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D24/9/14
+U-19.00
+T-19.00
+CX
+PMatalan
+LGeneral Expenses
+^
+D24/9/14
+U-12.00
+T-12.00
+CX
+POutfit
+LGeneral Expenses
+^
+D25/9/14
+U-90.00
+T-90.00
+CX
+PCPL Petroleum
+LUtilities:Oil
+^
+D25/9/14
+U-40.00
+T-40.00
+CX
+PMFG Plumstead Rd
+LPetrol
+^
+D25/9/14
+U-40.00
+T-40.00
+CX
+PSt Benedicts Restaurant
+LGeneral Expenses
+^
+D26/9/14
+U-20.00
+T-20.00
+CX
+PYesPay
+LGeneral Expenses
+^
+D26/9/14
+U-55.00
+T-55.00
+CX
+PNCP Norwich
+LGeneral Expenses
+^
+D28/9/14
+U100.00
+T100.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D28/9/14
+U-10.95
+T-10.95
+CX
+PHealthspan
+LGeneral Expenses
+^
+D29/9/14
+U-14.99
+T-14.99
+CX
+PWilco
+LVehicle
+^
+D30/9/14
+U-12.51
+T-12.51
+CX
+PAgeas Insurance (RIAS)
+MJ888 SJM
+LInsurance
+^
+D1/10/14
+U-55.00
+T-55.00
+CX
+PFriends Life (AXA)
+MRFM Life
+LInsurance:Life
+^
+D1/10/14
+U-11.89
+T-11.89
+CX
+PFriends Provident
+MSJM life
+LInsurance:Life
+^
+D1/10/14
+U-7.02
+T-7.02
+CX
+PAIG (UNAT)
+LInsurance:Accident
+^
+D1/10/14
+U-2.49
+T-2.49
+CX
+PAviva
+LInsurance:Health
+^
+D2/10/14
+U-40.00
+T-40.00
+CX
+PMousehold Service Station
+LPetrol
+^
+D4/10/14
+U500.00
+T500.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D4/10/14
+U-17.00
+T-17.00
+CX
+PVodafone
+LMobile phone
+^
+D5/10/14
+U-1.19
+T-1.19
+CX
+PPaypal
+MBB software - ScreenOn
+LGeneral Expenses
+^
+D6/10/14
+U200.00
+T200.00
+CX
+PTransfer
+L[Savings (SJM)]
+^
+D6/10/14
+U-25.49
+T-25.49
+CX
+PPlusnet
+LTelephone
+^
+D7/10/14
+U-150.00
+T-150.00
+CX
+PHargreaves Lansdown
+MISA - 3 funds
+L[Advantage ISA]
+^
+D7/10/14
+U-10.51
+T-10.51
+CX
+PMytton Flooring
+LGeneral Expenses
+^
+D8/10/14
+U500.00
+T500.00
+CX
+PTransfer From Business A/c
+LTransfer In
+^
+D9/10/14
+U-17.95
+T-17.95
+CX
+PLV Insurance
+LInsurance:Car
+^
+D9/10/14
+U-20.00
+T-20.00
+CX
+PMFG Plumstead Rd
+LPetrol
+^
+D11/10/14
+U-15.00
+T-15.00
+CX
+PEngage Mutual (Jessica)
+MSavings for Jessica
+LSavings
+^
+D15/10/14
+U-30.00
+T-30.00
+CX
+PNational Deposit (JH, MH & SH)
+MSavings - James, Matthew & Sophie
+LSavings
+^
+D15/10/14
+U-12.12
+T-12.12
+CX
+PTV Licensing
+LGeneral Expenses
+^
+D15/10/14
+U-24.96
+T-24.96
+C*
+PAnglian Water
+LUtilities
+^
+D15/10/14
+U-132.00
+T-132.00
+C*
+PBroadland District Council
+LCouncil Tax
+^
+D16/10/14
+U-5.98
+T-5.98
+C*
+PDomestic & General
+MWashing m/c.
+LInsurance
+^
+D16/10/14
+U-51.00
+T-51.00
+C*
+PEDF Energy
+LUtilities:Electricity
+^
+D16/10/14
+U-15.00
+T-15.00
+C*
+PScottish Friendly (Frankie)
+LSavings
+^
+D16/10/14
+U-5.98
+T-5.98
+C*
+PDomestic & General
+MWashing m/c.
+LInsurance
+^
+D16/10/14
+U-27.29
+T-27.29
+C*
+PGouvia - Chemist
+M€33.26 (@ 1.16 approx)
+LHolidays
+^
+D16/10/14
+U-12.26
+T-12.26
+C*
+PGouvia - Indi
+M€15.00 (@ 1.16 approx)
+LHolidays
+^
+D16/10/14
+U-67.63
+T-67.63
+C*
+PGouvia - Cash
+M€80.00 (@ 1.16 approx)
+LHolidays
+^
+D20/10/14
+U-30.01
+T-30.01
+C*
+PMousehold Service Station
+LPetrol
+^
+D21/10/14
+U-4.07
+T-4.07
+C*
+PLovefilm (Co-op Card)
+MDebit card payment
+LGeneral Expenses
+^
+D22/10/14
+U58.00
+T58.00
+C*
+PPartnership (income)
+LPension income
+^
+D22/10/14
+U-525.00
+T-525.00
+C*
+PTW Gaze
+MSort Code 202634. A/c 10535389
+LRent Paid
+^
+D24/10/14
+U-15.97
+T-15.97
+PStaples
+LGeneral Expenses
+^
+D24/10/14
+U-25.00
+T-25.00
+PMousehold Service Station
+LPetrol
+^
+D25/10/14
+U-90.00
+T-90.00
+PCPL Petroleum
+LUtilities:Oil
+^
