@@ -1,0 +1,258 @@
+OFXHEADER: 100
+DATA: OFXSGML
+VERSION: 102
+SECURITY: NONE
+ENCODING: USASCII
+CHARSET: 1252
+COMPRESSION: NONE
+OLDFILEUID: NONE
+NEWFILEUID: NONE
+
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+                <MESSAGE>SUCCESS
+            </STATUS>
+            <DTSERVER>20060101230000.000[-5:EST]
+            <LANGUAGE>ENG
+            <FI>
+                <ORG>Intuit Test Bank
+                <FID>5680
+            </FI>
+            <INTU.BID>5680
+	    <INTU.USERID>USERID
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <BANKMSGSRSV1>
+        <STMTTRNRS>
+            <TRNUID>0
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <STMTRS>
+                <CURDEF>USD
+                <BANKACCTFROM>
+                    <BANKID>123456789
+                    <ACCTID>989898989
+                    <ACCTTYPE>CHECKING
+                </BANKACCTFROM>
+                <BANKTRANLIST>
+                    <DTSTART>20050101000000.000[-5:EST]
+                    <DTEND>20060101000000.000[-5:EST]
+                    <STMTTRN>
+                        <TRNTYPE>ATM
+                        <DTPOSTED>20050101000000.000[-5:EST]
+                        <DTUSER>20050101000000.000[-5:EST]
+                        <TRNAMT>500.00
+                        <FITID>2005010100000000012345
+                        <NAME>ATM Deposit
+                        <MEMO>Detailed description for an ATM Deposit Transaction
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>ATM
+                        <DTPOSTED>20050102000000.000[-5:EST]
+                        <DTUSER>20050102000000.000[-5:EST]
+                        <TRNAMT>-45.95
+                        <FITID>2005010200000000012345
+                        <NAME>ATM Withdrawl
+                        <MEMO>Detailed description for an ATM Withdrawl Transaction
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CASH
+                        <DTPOSTED>20050103000000.000[-5:EST]
+                        <DTUSER>20050103000000.000[-5:EST]
+                        <TRNAMT>-25.78
+                        <FITID>2005010300000000012345
+                        <NAME>Cash Withdrawl
+                        <MEMO>Detailed description for a Cash Withdrawl transaction
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CHECK
+                        <DTPOSTED>20050104000000.000[-5:EST]
+                        <DTUSER>20050104000000.000[-5:EST]
+                        <TRNAMT>-127.04
+                        <FITID>2005010400000000012345
+                        <CHECKNUM>101
+                        <NAME>John Smith
+                        <MEMO>Detailed description for a Check transaction
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20050105000000.000[-5:EST]
+                        <DTUSER>20050105000000.000[-5:EST]
+                        <TRNAMT>2.00
+                        <FITID>2005010500000000012341
+                        <NAME>Generic Credit
+                        <MEMO>Detailed description for a Generic Credit transaction
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20050105000000.000[-5:EST]
+                        <DTUSER>20050105000000.000[-5:EST]
+                        <TRNAMT>-2.00
+                        <FITID>2005010500000000012342
+                        <NAME>Generic Debit
+                        <MEMO>Detailed description for a Generic Debit transaction
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEP
+                        <DTPOSTED>20050106000000.000[-5:EST]
+                        <DTUSER>20050106000000.000[-5:EST]
+                        <TRNAMT>81923.99
+                        <FITID>2005010600000000012345
+                        <NAME>Deposit
+                        <MEMO>Detailed description for a Deposit transaction
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEBIT
+                        <DTPOSTED>20050107000000.000[-5:EST]
+                        <DTUSER>20050107000000.000[-5:EST]
+                        <TRNAMT>-298.29
+                        <FITID>2005010700000000012345
+                        <NAME>Merchant Initiated Debit
+                        <MEMO>Detailed description for a Direct Debit transaction
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DIRECTDEP
+                        <DTPOSTED>20050107000000.000[-5:EST]
+                        <DTUSER>20050107000000.000[-5:EST]
+                        <TRNAMT>2368.05
+                        <FITID>2005010700000000012346
+                        <NAME>Direct Deposit
+                        <MEMO>Detailed description for a Direct Deposit transaction
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DIV
+                        <DTPOSTED>20050108000000.000[-5:EST]
+                        <DTUSER>20050108000000.000[-5:EST]
+                        <TRNAMT>0.87
+                        <FITID>2005010800000000012345
+                        <NAME>Dividend
+                        <MEMO>Detailed description for a Dividend transaction
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>FEE
+                        <DTPOSTED>20050109000000.000[-5:EST]
+                        <DTUSER>20050109000000.000[-5:EST]
+                        <TRNAMT>-4.95
+                        <FITID>2005010900000000012345
+                        <NAME>Financial Institution Fee
+                        <MEMO>Detailed description for a Fee transaction
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>INT
+                        <DTPOSTED>20050201000000.000[-5:EST]
+                        <DTUSER>20050201000000.000[-5:EST]
+                        <TRNAMT>0.98
+                        <FITID>2005020100000000012345
+                        <NAME>Interest Earned
+                        <MEMO>Detailed description for an Interest Earned transaction
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>INT
+                        <DTPOSTED>20050201000000.000[-5:EST]
+                        <DTUSER>20050201000000.000[-5:EST]
+                        <TRNAMT>-0.98
+                        <FITID>2005020100000000054321
+                        <NAME>Interest Paid
+                        <MEMO>Detailed description for an Interest Paid transaction
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20050202000000.000[-5:EST]
+                        <DTUSER>20050202000000.000[-5:EST]
+                        <TRNAMT>-1218.01
+                        <FITID>2005020200000000012345
+                        <NAME>Debit transaction (Other)
+                        <MEMO>Detailed description for an Other debit transaction
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20050202000000.000[-5:EST]
+                        <DTUSER>20050202000000.000[-5:EST]
+                        <TRNAMT>1218.01
+                        <FITID>2005020200000000012346
+                        <NAME>Credit transaction (Other)
+                        <MEMO>Detailed description for an Other credit transaction
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20050205000000.000[-5:EST]
+                        <DTUSER>20050205000000.000[-5:EST]
+                        <TRNAMT>-724.09
+                        <FITID>2005020500000000012345
+                        <CHECKNUM>29705
+                        <NAME>Electronic Payment
+                        <MEMO>Detailed description for an Electronic Payment transaction
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>POS
+                        <DTPOSTED>20050206000000.000[-5:EST]
+                        <DTUSER>20050206000000.000[-5:EST]
+                        <TRNAMT>17.80
+                        <FITID>2005020600000000012342
+                        <NAME>Point of Sale Credit
+                        <MEMO>Detailed description for a Point of sale credit transaction
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>POS
+                        <DTPOSTED>20050206000000.000[-5:EST]
+                        <DTUSER>20050206000000.000[-5:EST]
+                        <TRNAMT>-17.80
+                        <FITID>2005020600000000012341
+                        <NAME>Point of Sale Debit
+                        <MEMO>Detailed description for a Point of sale debit transaction
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>REPEATPMT
+                        <DTPOSTED>20050207000000.000[-5:EST]
+                        <DTUSER>20050207000000.000[-5:EST]
+                        <TRNAMT>-121.35
+                        <FITID>2005020700000000012345
+                        <NAME>Repeating Pmt/standing order
+                        <MEMO>Description for a Repeating payment/standing order transaction
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>SRVCHG
+                        <DTPOSTED>20050208000000.000[-5:EST]
+                        <DTUSER>20050208000000.000[-5:EST]
+                        <TRNAMT>-3.95
+                        <FITID>2005020800000000012345
+                        <NAME>Service Charge
+                        <MEMO>Detailed description for a Service Charge transaction
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>XFER
+                        <DTPOSTED>20050209000000.000[-5:EST]
+                        <DTUSER>20050209000000.000[-5:EST]
+                        <TRNAMT>1.01
+                        <FITID>2005020900000000012345
+                        <NAME>Transfer from Acct #12345678
+                        <MEMO>Detailed description for a Transfer in transaction
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>XFER
+                        <DTPOSTED>20050209000000.000[-5:EST]
+                        <DTUSER>20050209000000.000[-5:EST]
+                        <TRNAMT>-1.01
+                        <FITID>2005020900000000012346
+                        <NAME>Transfer to Acct #12345678
+                        <MEMO>Detailed description for a Transfer out transaction
+                    </STMTTRN>
+                </BANKTRANLIST>
+                <LEDGERBAL>
+                    <BALAMT>83441.51
+                    <DTASOF>20060101230000.000[-5:EST]
+                </LEDGERBAL>
+                <AVAILBAL>
+                    <BALAMT>83441.51
+                    <DTASOF>20060101230000.000[-5:EST]
+                </AVAILBAL>
+            </STMTRS>
+        </STMTTRNRS>
+    </BANKMSGSRSV1>
+</OFX>

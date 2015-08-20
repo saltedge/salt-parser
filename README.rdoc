@@ -1,0 +1,9 @@
+= Salt Parser
+
+Library for parsing OFX, HBCI, QIF and SWIFT formats.
+
+== Credits
+#TODO
+
+== License
+# TODO

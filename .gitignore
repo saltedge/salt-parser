@@ -1,0 +1,11 @@
+.bundle/*
+coverage/*
+vendor/bundle
+.DS_Store
+*.gem
+pkg
+.project
+
+# temporary files
+bin/**
+spec/tmp/**

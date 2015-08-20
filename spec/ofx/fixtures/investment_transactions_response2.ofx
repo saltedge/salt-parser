@@ -1,0 +1,200 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+                <MESSAGE>Successful Sign On
+            </STATUS>
+            <DTSERVER>20150122230510
+            <LANGUAGE>ENG
+            <FI>
+                <ORG>Vanguard
+                <FID>15103
+            </FI>
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <INVSTMTMSGSRSV1>
+        <INVSTMTTRNRS>
+            <TRNUID>1234567890
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <INVSTMTRS>
+                <DTASOF>20150121160000.000[-5:EST]
+                <CURDEF>USD
+                <INVACCTFROM>
+                    <BROKERID>vanguard.com
+                    <ACCTID>123456
+                </INVACCTFROM>
+                <INVTRANLIST>
+                    <DTSTART>20130722160000.000[-5:EST]
+                    <DTEND>20150122230510.000[-5:EST]
+                    <BUYMF>
+                        <INVBUY>
+                            <INVTRAN>
+                                <FITID>1234567890123456789012345AAA
+                                <DTTRADE>20130726160000.000[-5:EST]
+                                <DTSETTLE>20130726160000.000[-5:EST]
+                                <MEMO>Price as of date based on closing price
+                            </INVTRAN>
+                            <SECID>
+                                <UNIQUEID>54321V321
+                                <UNIQUEIDTYPE>CUSIP
+                            </SECID>
+                            <UNITS>5.962
+                            <UNITPRICE>22.28
+                            <TOTAL>-132.83
+                            <SUBACCTSEC>CASH
+                            <SUBACCTFUND>OTHER
+                            <INV401KSOURCE>PRETAX
+                        </INVBUY>
+                        <BUYTYPE>BUY
+                    </BUYMF>
+                    <TRANSFER>
+                        <INVTRAN>
+                            <FITID>123456789012345678901234PN999
+                            <DTTRADE>20140310160000.000[-5:EST]
+                            <DTSETTLE>20140311160000.000[-5:EST]
+                            <MEMO>Investment Expense
+                        </INVTRAN>
+                        <SECID>
+                            <UNIQUEID>123456789
+                            <UNIQUEIDTYPE>CUSIP
+                        </SECID>
+                        <SUBACCTSEC>CASH
+                        <UNITS>-0.0057
+                        <TFERACTION>OUT
+                        <POSTYPE>LONG
+                        <UNITPRICE>40.34
+                        <INV401KSOURCE>ROLLOVER
+                    </TRANSFER>
+                    <REINVEST>
+                        <INVTRAN>
+                            <FITID>12345678901234567890123PN999
+                            <DTTRADE>20131213160000.000[-5:EST]
+                            <DTSETTLE>20131213160000.000[-5:EST]
+                            <MEMO>Price as of date based on closing price
+                        </INVTRAN>
+                        <SECID>
+                            <UNIQUEID>123456789
+                            <UNIQUEIDTYPE>CUSIP
+                        </SECID>
+                        <INCOMETYPE>DIV
+                        <TOTAL>382.36
+                        <SUBACCTSEC>CASH
+                        <UNITS>10.284
+                        <UNITPRICE>37.18
+                        <INV401KSOURCE>ROLLOVER
+                    </REINVEST>
+                </INVTRANLIST>
+                <INVPOSLIST>
+                    <POSMF>
+                        <INVPOS>
+                            <SECID>
+                                <UNIQUEID>123456789
+                                <UNIQUEIDTYPE>CUSIP
+                            </SECID>
+                            <HELDINACCT>OTHER
+                            <POSTYPE>LONG
+                            <UNITS>205.987
+                            <UNITPRICE>10.26
+                            <MKTVAL>2113.43
+                            <DTPRICEASOF>20150121160000.000[-5:EST]
+                            <MEMO>Price as of date based on closing price
+                            <INV401KSOURCE>OTHERNONVEST
+                        </INVPOS>
+                        <REINVDIV>Y
+                        <REINVCG>Y
+                    </POSMF>
+                </INVPOSLIST>
+            </INVSTMTRS>
+        </INVSTMTTRNRS>
+    </INVSTMTMSGSRSV1>
+    <SECLISTMSGSRSV1>
+        <SECLIST>
+            <MFINFO>
+                <SECINFO>
+                    <SECID>
+                        <UNIQUEID>123456789
+                        <UNIQUEIDTYPE>CUSIP
+                    </SECID>
+                    <SECNAME>Turner Small Cap Growth
+                    <TICKER>TSCEX
+                    <FIID>1896
+                    <UNITPRICE>17.2
+                    <DTASOF>20150121160000.000[-5:EST]
+                    <MEMO>Price as of date based on closing price
+                </SECINFO>
+            </MFINFO>
+            <MFINFO>
+                <SECINFO>
+                    <SECID>
+                        <UNIQUEID>123456789
+                        <UNIQUEIDTYPE>CUSIP
+                    </SECID>
+                    <SECNAME>Vanguard Extended Market Index Fund Investor Shares
+                    <TICKER>VEXMX
+                    <FIID>0098
+                    <UNITPRICE>66.53
+                    <DTASOF>20150122160000.000[-5:EST]
+                    <MEMO>Price as of date based on closing price
+                </SECINFO>
+                <YIELD>1.04
+                <DTYIELDASOF>20150121160000.000[-5:EST]
+            </MFINFO>
+            <MFINFO>
+                <SECINFO>
+                    <SECID>
+                        <UNIQUEID>123456789
+                        <UNIQUEIDTYPE>CUSIP
+                    </SECID>
+                    <SECNAME>Vanguard Extended Market Index Fund Institutional Shares
+                    <TICKER>VIEIX
+                    <FIID>0856
+                    <UNITPRICE>66.51
+                    <DTASOF>20150122160000.000[-5:EST]
+                    <MEMO>Price as of date based on closing price
+                </SECINFO>
+                <YIELD>1.19
+                <DTYIELDASOF>20150121160000.000[-5:EST]
+            </MFINFO>
+            <MFINFO>
+                <SECINFO>
+                    <SECID>
+                        <UNIQUEID>123456789
+                        <UNIQUEIDTYPE>CUSIP
+                    </SECID>
+                    <SECNAME>Harbor Small Cap Growth Opportunities Institutional Class
+                    <TICKER>HASOX
+                    <FIID>BE58
+                    <UNITPRICE>10.26
+                    <DTASOF>20150121160000.000[-5:EST]
+                    <MEMO>Price as of date based on closing price
+                </SECINFO>
+            </MFINFO>
+            <MFINFO>
+                <SECINFO>
+                    <SECID>
+                        <UNIQUEID>12345V123
+                        <UNIQUEIDTYPE>CUSIP
+                    </SECID>
+                    <SECNAME>Target Retirement 2035 Trust II
+                    <FIID>1477
+                    <MEMO>Price as of date based on closing price
+                </SECINFO>
+            </MFINFO>
+        </SECLIST>
+    </SECLISTMSGSRSV1>
+</OFX>

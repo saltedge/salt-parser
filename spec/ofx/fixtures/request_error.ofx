@@ -1,0 +1,39 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+  <SIGNONMSGSRSV1>
+    <SONRS>
+      <STATUS>
+        <CODE>2000
+        <SEVERITY>ERROR
+        <MESSAGE>Application which you are using is not enabled. Please call customer service.
+      </STATUS>
+      <DTSERVER>20140908140727
+      <LANGUAGE>ENG
+      <DTPROFUP>20131012020000
+      <FI>
+        <ORG>HAN
+        <FID>5959
+      </FI>
+    </SONRS>
+  </SIGNONMSGSRSV1>
+  <SIGNUPMSGSRSV1>
+    <ACCTINFOTRNRS>
+      <TRNUID>1410185245
+      <STATUS>
+        <CODE>2000
+        <SEVERITY>ERROR
+        <MESSAGE>Application which you are using is not enabled. Please call customer service.
+      </STATUS>
+      <CLTCOOKIE>1
+    </ACCTINFOTRNRS>
+  </SIGNUPMSGSRSV1>
+</OFX>

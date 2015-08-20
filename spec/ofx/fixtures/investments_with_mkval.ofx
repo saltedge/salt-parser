@@ -1,0 +1,99 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+                <MESSAGE>SUCCESS
+            </STATUS>
+            <DTSERVER>20141104105042.517[-6:CST]
+            <LANGUAGE>ENG
+            <FI>
+                <ORG>hewitt.com
+                <FID>242
+            </FI>
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <INVSTMTMSGSRSV1>
+        <INVSTMTTRNRS>
+            <TRNUID>1234567890
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+                <MESSAGE>SUCCESS
+            </STATUS>
+            <INVSTMTRS>
+                <DTASOF>20141103105042.000[-5:CDT]
+                <CURDEF>USD
+                <INVACCTFROM>
+                    <BROKERID>hewitt.com
+                    <ACCTID>1234-12345678
+                </INVACCTFROM>
+                <INVTRANLIST>
+                    <DTSTART>20131104105042.000[-5:CDT]
+                    <DTEND>20141103105042.000[-5:CDT]
+                    <BUYMF>
+                        <INVBUY>
+                            <INVTRAN>
+                                <FITID>CT12345678901234567890123456789012
+                                <DTTRADE>20140304105042.000[-6:CST]
+                                <MEMO>Contribution
+                            </INVTRAN>
+                            <SECID>
+                                <UNIQUEID>123456789
+                                <UNIQUEIDTYPE>CUSIP
+                            </SECID>
+                            <UNITS>56.355139
+                            <UNITPRICE>1.150738
+                            <TOTAL>-64.85
+                            <SUBACCTSEC>CASH
+                            <SUBACCTFUND>CASH
+                        </INVBUY>
+                        <BUYTYPE>BUY
+                    </BUYMF>
+                </INVTRANLIST>
+                <INVPOSLIST>
+                    <POSMF>
+                        <INVPOS>
+                            <SECID>
+                                <UNIQUEID>123456789
+                                <UNIQUEIDTYPE>CUSIP
+                            </SECID>
+                            <HELDINACCT>CASH
+                            <POSTYPE>LONG
+                            <UNITS>337.502827
+                            <UNITPRICE>1.157869
+                            <MKTVAL>390.78
+                            <DTPRICEASOF>20141103105042.000[-6:CST]
+                        </INVPOS>
+                    </POSMF>
+                </INVPOSLIST>
+            </INVSTMTRS>
+        </INVSTMTTRNRS>
+    </INVSTMTMSGSRSV1>
+    <SECLISTMSGSRSV1>
+        <SECLIST>
+            <MFINFO>
+                <SECINFO>
+                    <SECID>
+                        <UNIQUEID>123456789
+                        <UNIQUEIDTYPE>CUSIP
+                    </SECID>
+                    <SECNAME>Short Term Investment Fund
+                    <UNITPRICE>1.157869
+                    <DTASOF>20141103105042.000[-5:CDT]
+                </SECINFO>
+            </MFINFO>
+        </SECLIST>
+    </SECLISTMSGSRSV1>
+</OFX>

@@ -1,0 +1,47 @@
+
+
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+                <CODE>0</CODE>
+                <SEVERITY>INFO</SEVERITY>
+            </STATUS>
+                  <DTSERVER>20110614</DTSERVER>
+                  <LANGUAGE></LANGUAGE>
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <BANKMSGSRSV1>
+        <STMTTRNRS>
+            <TRNUID>1</TRNUID>
+            <STATUS>
+                <CODE>0</CODE>
+                <SEVERITY>INFO</SEVERITY>
+            </STATUS>
+            <STMTRS>
+            <CURDEF>USD</CURDEF>
+            <BANKACCTFROM>
+                <BANKID>123456789</BANKID>
+                <ACCTID>123456789</ACCTID>
+                <ACCTTYPE>CHECKING</ACCTTYPE>
+            </BANKACCTFROM>
+
+            <BANKTRANLIST>
+            <DTSTART>20110412</DTSTART>
+            <DTEND>20110614</DTEND>
+				<STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>-80.00</TRNAMT>
+                    <FITID>123456789</FITID>
+                    <NAME>TestFail1</NAME>
+                </STMTTRN>
+            </BANKTRANLIST>
+
+            <LEDGERBAL>
+                <BALAMT>0</BALAMT>
+                <DTASOF>20110614</DTASOF>
+            </LEDGERBAL>
+            </STMTRS>
+        </STMTTRNRS>
+    </BANKMSGSRSV1>
+</OFX>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="USASCII" ?>
+
+<?OFX OFXHEADER="200" VERSION="202" SECURITY="NONE" OLDFILEUID="NONE" NEWFILEUID="NONE"?>
+
+<OFX>
+  <SIGNONMSGSRSV1>
+    <SONRS>
+      <STATUS>
+        <CODE>15500</CODE>
+<SEVERITY>ERROR</SEVERITY>
+<MESSAGE>You have entered an invalid ID / Password combination. Please try again or contact your investment professional at Citi Personal Wealth Management.</MESSAGE>
+</STATUS><DTSERVER>20150124095448</DTSERVER>
+<LANGUAGE>ENG</LANGUAGE>
+<DTPROFUP>20130121100000.000[-5:EST]</DTPROFUP>
+<FI><ORG>Citigroup</ORG>
+<FID>060</FID>
+</FI></SONRS></SIGNONMSGSRSV1><SIGNUPMSGSRSV1><ACCTINFOTRNRS><TRNUID>1422154487</TRNUID>
+<STATUS><CODE>15500</CODE>
+<SEVERITY>ERROR</SEVERITY>
+<MESSAGE>You have entered an invalid ID / Password combination. Please try again or contact your investment professional at Citi Personal Wealth Management.</MESSAGE>
+</STATUS></ACCTINFOTRNRS></SIGNUPMSGSRSV1>
+</OFX>

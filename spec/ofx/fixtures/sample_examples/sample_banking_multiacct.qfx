@@ -1,0 +1,284 @@
+OFXHEADER: 100
+DATA: OFXSGML
+VERSION: 102
+SECURITY: NONE
+ENCODING: USASCII
+CHARSET: 1252
+COMPRESSION: NONE
+OLDFILEUID: NONE
+NEWFILEUID: NONE
+
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+                <MESSAGE>SUCCESS
+            </STATUS>
+            <DTSERVER>20060101230000.000[-5:EST]
+            <LANGUAGE>ENG
+            <FI>
+                <ORG>Intuit Test Bank
+                <FID>5680
+            </FI>
+            <INTU.BID>5680
+	    <INTU.USERID>USERID
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <BANKMSGSRSV1>
+        <STMTTRNRS>
+            <TRNUID>0
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <STMTRS>
+                <CURDEF>USD
+                <BANKACCTFROM>
+                    <BANKID>123456789
+                    <ACCTID>989898989
+                    <ACCTTYPE>CHECKING
+                </BANKACCTFROM>
+                <BANKTRANLIST>
+                    <DTSTART>20050101000000.000[-5:EST]
+                    <DTEND>20050201230000.000[-5:EST]
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20050101000000.000[-5:EST]
+                        <DTUSER>20050101000000.000[-5:EST]
+                        <TRNAMT>295.00
+                        <FITID>2005010100000000012345
+                        <NAME>Home Banking
+                        <MEMO>Credit Home Banking Ref #0121043
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>ATM
+                        <DTPOSTED>20050102000000.000[-5:EST]
+                        <DTUSER>20050102000000.000[-5:EST]
+                        <TRNAMT>-45.95
+                        <FITID>2005010200000000012345
+                        <NAME>ATM Withdrawl
+                        <MEMO>ATM Loc 1st/Sneede #8877766645
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20050105000000.000[-5:EST]
+                        <DTUSER>20050105000000.000[-5:EST]
+                        <TRNAMT>-2.00
+                        <FITID>2005010500000000012342
+                        <NAME>Check Card Withdrawl
+                        <MEMO>Whitaker Center Trace #2466100LV3FRV1GFG 7991
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEP
+                        <DTPOSTED>20050201000000.000[-5:EST]
+                        <DTUSER>20050201000000.000[-5:EST]
+                        <TRNAMT>127.04
+                        <FITID>2005020100000000012345
+                        <NAME>Deposit
+                        <MEMO>Deposit J76 - Accounting Credit/Debit Seminar
+                    </STMTTRN>
+                </BANKTRANLIST>
+                <LEDGERBAL>
+                    <BALAMT>374.09
+                    <DTASOF>20060101230000.000[-5:EST]
+                </LEDGERBAL>
+                <AVAILBAL>
+                    <BALAMT>247.05
+                    <DTASOF>20060101230000.000[-5:EST]
+                </AVAILBAL>
+            </STMTRS>
+        </STMTTRNRS>
+        <STMTTRNRS>
+            <TRNUID>0
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <STMTRS>
+                <CURDEF>USD
+                <BANKACCTFROM>
+                    <BANKID>123456789
+                    <ACCTID>121212121
+                    <ACCTTYPE>SAVINGS
+                </BANKACCTFROM>
+                <BANKTRANLIST>
+                    <DTSTART>20050101000000.000[-5:EST]
+                    <DTEND>20050201230000.000[-5:EST]
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20050101000000.000[-5:EST]
+                        <DTUSER>20050101000000.000[-5:EST]
+                        <TRNAMT>295.00
+                        <FITID>2005010100000000012345
+                        <NAME>Home Banking
+                        <MEMO>Credit Home Banking Ref #854435
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20050201000000.000[-5:EST]
+                        <DTUSER>20050201000000.000[-5:EST]
+                        <TRNAMT>-95.00
+                        <FITID>2005010500000000012342
+                        <NAME>Check Card Withdrawl
+                        <MEMO>Mullert Towers Trace #758346KRS365V5RTS 9881
+                    </STMTTRN>
+                </BANKTRANLIST>
+                <LEDGERBAL>
+                    <BALAMT>200.00
+                    <DTASOF>20060101230000.000[-5:EST]
+                </LEDGERBAL>
+                <AVAILBAL>
+                    <BALAMT>200.00
+                    <DTASOF>20060101230000.000[-5:EST]
+                </AVAILBAL>
+            </STMTRS>
+        </STMTTRNRS>
+        <STMTTRNRS>
+            <TRNUID>0
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <STMTRS>
+                <CURDEF>USD
+                <BANKACCTFROM>
+                    <BANKID>123456789
+                    <ACCTID>080808080
+                    <ACCTTYPE>MONEYMRKT
+                </BANKACCTFROM>
+                <BANKTRANLIST>
+                    <DTSTART>20050101000000.000[-5:EST]
+                    <DTEND>20050201230000.000[-5:EST]
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20050101000000.000[-5:EST]
+                        <DTUSER>20050101000000.000[-5:EST]
+                        <TRNAMT>495.00
+                        <FITID>2005010100000000012345
+                        <NAME>Business Banking
+                        <MEMO>Credit Business Banking Ref #556324
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20050201000000.000[-5:EST]
+                        <DTUSER>20050201000000.000[-5:EST]
+                        <TRNAMT>-95.00
+                        <FITID>2005010500000000012342
+                        <NAME>Check Card Withdrawl
+                        <MEMO>Williams Center : Trace #645246KRF775V5QFT 0341
+                    </STMTTRN>
+                </BANKTRANLIST>
+                <LEDGERBAL>
+                    <BALAMT>400.00
+                    <DTASOF>20060101230000.000[-5:EST]
+                </LEDGERBAL>
+                <AVAILBAL>
+                    <BALAMT>400.00
+                    <DTASOF>20060101230000.000[-5:EST]
+                </AVAILBAL>
+            </STMTRS>
+        </STMTTRNRS>
+        <STMTTRNRS>
+            <TRNUID>0
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <STMTRS>
+                <CURDEF>USD
+                <BANKACCTFROM>
+                    <BANKID>123456789
+                    <ACCTID>454545454
+                    <ACCTTYPE>CREDITLINE
+                </BANKACCTFROM>
+                <BANKTRANLIST>
+                    <DTSTART>20050101000000.000[-5:EST]
+                    <DTEND>20050201230000.000[-5:EST]
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20050101000000.000[-5:EST]
+                        <DTUSER>20050101000000.000[-5:EST]
+                        <TRNAMT>25.00
+                        <FITID>2005010100000000012345
+                        <NAME>Online Payment
+                        <MEMO>Thank you for your payment. Reference #556324
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>FEE
+                        <DTPOSTED>20050201000000.000[-5:EST]
+                        <DTUSER>20050201000000.000[-5:EST]
+                        <TRNAMT>-35.00
+                        <FITID>2005010500000000012342
+                        <NAME>Late Fee
+                        <MEMO>Please contact customer service with questions. (800)555-4191
+                    </STMTTRN>
+                </BANKTRANLIST>
+                <LEDGERBAL>
+                    <BALAMT>-10.00
+                    <DTASOF>20060101230000.000[-5:EST]
+                </LEDGERBAL>
+                <AVAILBAL>
+                    <BALAMT>0.00
+                    <DTASOF>20060101230000.000[-5:EST]
+                </AVAILBAL>
+            </STMTRS>
+        </STMTTRNRS>
+    </BANKMSGSRSV1>
+    <CREDITCARDMSGSRSV1>
+        <CCSTMTTRNRS>
+            <TRNUID>0
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+                <MESSAGE>SUCCESS
+            </STATUS>
+            <CCSTMTRS>
+                <CURDEF>USD
+                <CCACCTFROM>
+                    <ACCTID>5555000022221111
+                </CCACCTFROM>
+                <BANKTRANLIST>
+                    <DTSTART>20050101000000.000[-5:EST]
+                    <DTEND>20050201230000.000[-5:EST]
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20050101000000.000[-5:EST]
+                        <DTUSER>20050101000000.000[-5:EST]
+                        <TRNAMT>128.95
+                        <FITID>2005010100000000012345
+                        <NAME>Online Payment
+                        <MEMO>Thank you for your payment. Reference #1210365
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20050110000000.000[-5:EST]
+                        <DTUSER>20050110000000.000[-5:EST]
+                        <TRNAMT>-208.86
+                        <FITID>2005011000000000012345
+                        <NAME>Joe's Fish Market
+                        <MEMO>Groceries - 121 Main St. Mtn View CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20050120000000.000[-5:EST]
+                        <DTUSER>20050120000000.000[-5:EST]
+                        <TRNAMT>34.57
+                        <FITID>2005012000000000012345
+                        <NAME>Edna's Clothing &amp; Supplies
+                        <MEMO>Return \ 12845 1st. St. Mtn View CA 94043
+                    </STMTTRN>
+                </BANKTRANLIST>
+                <LEDGERBAL>
+                    <BALAMT>-45.34
+                    <DTASOF>20060101230000.000[-5:EST]
+                </LEDGERBAL>
+                <AVAILBAL>
+                    <BALAMT>1954.66
+                    <DTASOF>20060101230000.000[-5:EST]
+                </AVAILBAL>
+            </CCSTMTRS>
+        </CCSTMTTRNRS>
+    </CREDITCARDMSGSRSV1>
+</OFX>
