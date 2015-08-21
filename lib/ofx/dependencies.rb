@@ -2,7 +2,6 @@ require "nokogiri"
 require "bigdecimal"
 require "kconv"
 
-require_relative "errors"
 require_relative "builder"
 require_relative "parser/base"
 require_relative "parser/ofx102"

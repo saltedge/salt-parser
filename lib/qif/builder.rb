@@ -43,7 +43,7 @@ module SaltParser
         end
 
         if body.nil? or body.match(/(^!.+)/)
-          raise Qif::Error.new(Qif::Error::EmptyFileBody)
+          raise SaltParser::Error::EmptyFileBody.new
         end
       end
 
@@ -51,7 +51,7 @@ module SaltParser
         return string if Kconv.isutf8(string)
         string.encode(Encoding::UTF_8.to_s, Encoding::ISO_8859_1.to_s)
       rescue Exception
-        raise Qif::Error.new(Qif::Error::InvalidEncoding % { :encoding => Encoding::UTF_8.to_s })
+        raise SaltParser::Error::InvalidEncoding.new
       end
     end
   end

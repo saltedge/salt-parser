@@ -49,7 +49,7 @@ module SaltParser
           statuses = html.search("status").reverse
           statuses.each do |status|
             if status.search("severity").inner_text == "ERROR"
-              errors << SaltParser::OFX::RequestError.new(["[#{status.search("code").inner_text}]", status.search("message").inner_text].join(" ").strip)
+              errors << SaltParser::Error::RequestError.new(["[#{status.search("code").inner_text}]", status.search("message").inner_text].join(" ").strip)
             end
           end
         end
@@ -69,7 +69,7 @@ module SaltParser
                 :available_balance => build_available_balance(account),
                 :currency          => account.search("stmtrs > curdef").inner_text
               )
-            rescue SaltParser::OFX::ParseError => error
+            rescue SaltParser::Error::ParseError => error
               errors << error
             end
           end
@@ -88,7 +88,7 @@ module SaltParser
                 :balance      => build_balance(account),
                 :currency     => account.search("curdef").inner_text
               )
-            rescue SaltParser::OFX::ParseError => error
+            rescue SaltParser::Error::ParseError => error
               errors << error
             end
           end
@@ -111,7 +111,7 @@ module SaltParser
                 :units        => compute_investment_units(account),
                 :unit_price   => compute_investment_unit_price(account)
               )
-            rescue OFX::ParseError => error
+            rescue SaltParser::Error::ParseError => error
               errors << error
             end
           end
@@ -121,7 +121,7 @@ module SaltParser
           transactions.each_with_object([]) do |transaction, transactions|
             begin
               transactions << build_transaction(transaction, account_id)
-            rescue OFX::ParseError => error
+            rescue SaltParser::Error::ParseError => error
               errors << error
             end
           end
@@ -153,7 +153,7 @@ module SaltParser
               else
                 transactions << build_investment_transaction(transaction.parent, account_id)
               end
-            rescue SaltParser::OFX::ParseError => error
+            rescue SaltParser::Error::ParseError => error
               errors << error
             end
           end
@@ -290,7 +290,7 @@ module SaltParser
             build_amount(element)
           end
         rescue TypeError => error
-          raise SaltParser::OFX::ParseError.new(SaltParser::OFX::ParseError::AMOUNT)
+          raise SaltParser::Error::ParseError.new(SaltParser::Error::ParseError::AMOUNT)
         end
 
         def build_date(date)
@@ -301,7 +301,7 @@ module SaltParser
 
           Time.parse(date)
         rescue TypeError, ArgumentError => error
-          raise SaltParser::OFX::ParseError.new(SaltParser::OFX::ParseError::TIME)
+          raise SaltParser::Error::ParseError.new(SaltParser::Error::ParseError::TIME)
         end
 
         def parse_float(incoming, options={})
@@ -347,7 +347,7 @@ module SaltParser
 
           string.to_f
         rescue => error
-          raise SaltParser::OFX::ParseError.new(SaltParser::OFX::ParseError::FLOAT)
+          raise SaltParser::Error::ParseError.new(SaltParser::Error::ParseError::FLOAT)
         end
 
         def sanitize_float_string!(string)

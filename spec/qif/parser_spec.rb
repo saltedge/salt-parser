@@ -82,7 +82,7 @@ describe SaltParser::Qif::Builder do
     it "should fail" do
       expect {
         SaltParser::Qif::Builder.new("spec/qif/fixtures/invalid_date_format.qif").parser
-      }.to raise_error(SaltParser::Qif::Error, /Could not parse date with format/)
+      }.to raise_error(SaltParser::Error::UnsupportedDateFormat)
     end
   end
 
@@ -131,17 +131,17 @@ describe SaltParser::Qif::Builder do
   end
 
   it "should reject the file without valid body" do
-    expect{ SaltParser::Qif::Builder.new("spec/qif/fixtures/empty_body.qif").parser }.to raise_error(SaltParser::Qif::Error, "File body is blank.")
+    expect{ SaltParser::Qif::Builder.new("spec/qif/fixtures/empty_body.qif").parser }.to raise_error(SaltParser::Error::EmptyFileBody)
   end
 
   it "should reject the file with wrong encoding" do
     Kconv.should_receive(:isutf8).and_raise(StandardError)
-    expect{ SaltParser::Qif::Builder.new("spec/qif/fixtures/3_records_ddmmyyyy.qif").parser }.to raise_error(SaltParser::Qif::Error, "Invalid file encoding, expected: 'UTF-8'.")
+    expect{ SaltParser::Qif::Builder.new("spec/qif/fixtures/3_records_ddmmyyyy.qif").parser }.to raise_error(SaltParser::Error::InvalidEncoding)
   end
 
   it "should reject the file with unparsable date" do
     Chronic.should_receive(:parse).and_return(nil)
-    expect{ SaltParser::Qif::Builder.new("spec/qif/fixtures/3_records_ddmmyyyy.qif").parser }.to raise_error(SaltParser::Qif::Error, /Could not parse date with format/)
+    expect{ SaltParser::Qif::Builder.new("spec/qif/fixtures/3_records_ddmmyyyy.qif").parser }.to raise_error(SaltParser::Error::UnsupportedDateFormat)
   end
 
   it "should initialize with an IO object" do

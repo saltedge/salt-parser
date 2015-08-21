@@ -13,7 +13,7 @@ module SaltParser
           @content        = convert_to_utf8(resource.read)
           @headers, @body = prepare(content)
         rescue Exception
-          raise OFX::UnsupportedFileError
+          raise SaltParser::Error::UnsupportedFileError
         end
 
         case headers["VERSION"]
@@ -22,7 +22,7 @@ module SaltParser
         when /200|202|211/ then
           @parser = SaltParser::OFX::Parser::OFX211.new(:headers => headers, :body => body)
         else
-          raise SaltParser::OFX::UnsupportedFileError
+          raise SaltParser::Error::UnsupportedFileError
         end
       end
 
@@ -43,7 +43,7 @@ module SaltParser
         header_text, body_text = content.dup.split(/<OFX>/, 2)
         header_text.gsub!("encoding=\"USASCII\"", "encoding=\"US-ASCII\"") if header_text.include?("encoding=\"USASCII\"")
 
-        raise SaltParser::OFX::UnsupportedFileError unless body_text
+        raise SaltParser::Error::UnsupportedFileError unless body_text
 
         headers = extract_headers(header_text)
         body    = extract_body(body_text)
@@ -61,7 +61,7 @@ module SaltParser
           break if headers
         end
 
-        raise SaltParser::OFX::UnsupportedFileError if headers.empty?
+        raise SaltParser::Error::UnsupportedFileError if headers.empty?
         headers
       end
 

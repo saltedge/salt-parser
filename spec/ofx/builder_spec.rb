@@ -15,7 +15,7 @@ describe SaltParser::OFX::Builder do
     it "raises error if file has not valid format" do
       expect do
         SaltParser::OFX::Builder.new("spec/ofx/fixtures/missing_headers.ofx").parser
-      end.to raise_error(SaltParser::OFX::UnsupportedFileError)
+      end.to raise_error(SaltParser::Error::UnsupportedFileError)
     end
 
     it "parses file without balances" do
@@ -34,7 +34,7 @@ describe SaltParser::OFX::Builder do
       parser.accounts.first.transactions.size.should == 1
       parser.errors.size.should                      == 2
 
-      parser.errors.first.should be_a_kind_of(SaltParser::OFX::ParseError)
+      parser.errors.first.should be_a_kind_of(SaltParser::Error::ParseError)
     end
 
     it "does not raise errors if transactions list is empty" do

@@ -12,5 +12,6 @@ module SaltParser
 end
 
 require_relative "accounts"
+require_relative "errors"
 require "ofx/dependencies"
 require "qif/dependencies"

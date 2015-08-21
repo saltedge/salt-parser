@@ -36,13 +36,13 @@ describe SaltParser::OFX::Parser do
   it "should raise exception when trying to parse an unsupported OFX version" do
     expect {
       SaltParser::OFX::Builder.new("spec/ofx/fixtures/invalid_version.ofx")
-    }.to raise_error(SaltParser::OFX::UnsupportedFileError)
+    }.to raise_error(SaltParser::Error::UnsupportedFileError)
   end
 
   it "should raise exception when trying to parse an invalid file" do
     expect {
       SaltParser::OFX::Builder.new("spec/ofx/fixtures/avatar.gif")
-    }.to raise_error(SaltParser::OFX::UnsupportedFileError)
+    }.to raise_error(SaltParser::Error::UnsupportedFileError)
   end
 
   describe "headers" do

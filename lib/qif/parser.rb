@@ -59,7 +59,7 @@ module SaltParser
 
         dates.each do |row|
           unless Chronic.parse(row)
-            raise Qif::Error.new(Qif::Error::UnsupportedDateFormat % { :format => row })
+            raise SaltParser::Error::UnsupportedDateFormat.new
           end
         end
       end
