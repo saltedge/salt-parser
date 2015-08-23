@@ -13,11 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Gem for parsing OFX, HBCI, QIF and SWIFT formats."
   s.description = <<-TXT
     Gem for parsing OFX, HBCI, QIF and SWIFT formats.
-    Usage:
-    ```OFX("v102.ofx") do |ofx|
-      p ofx
-    end```
-TXT
+  TXT
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {spec}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |file| File.basename(f) }

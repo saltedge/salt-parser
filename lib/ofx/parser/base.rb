@@ -1,5 +1,5 @@
 module SaltParser
-  module OFX
+  module Ofx
     module Parser
       class Base
         ACCOUNT_TYPES = {
@@ -37,7 +37,7 @@ module SaltParser
         end
 
         def build_accounts
-          @accounts = OFX::Accounts.new
+          @accounts = Ofx::Accounts.new
           build_bank_account
           build_credit_card_account
           build_investments_account
@@ -59,7 +59,7 @@ module SaltParser
             begin
               account_id = account.search("bankacctfrom > acctid").inner_text
 
-              @accounts << SaltParser::OFX::Account.new(
+              @accounts << SaltParser::Ofx::Account.new(
                 :bank_id           => account.search("bankacctfrom > bankid").inner_text,
                 :id                => account_id,
                 :name              => account.parent.search("desc").inner_text,
@@ -80,7 +80,7 @@ module SaltParser
             begin
               account_id = account.search("ccacctfrom > acctid").inner_text
               next if account_id.blank?
-              @accounts << SaltParser::OFX::Account.new(
+              @accounts << SaltParser::Ofx::Account.new(
                 :id           => account_id,
                 :name         => account.search("desc").inner_text,
                 :type         => ACCOUNT_TYPES["CREDITCARD"],
@@ -101,7 +101,7 @@ module SaltParser
               broker_id  = account.search("invacctfrom > brokerid").inner_text
 
               next if broker_id.blank? or account_id.blank?
-              @accounts << SaltParser::OFX::Account.new(
+              @accounts << SaltParser::Ofx::Account.new(
                 :id           => account_id,
                 :broker_id    => broker_id,
                 :type         => ACCOUNT_TYPES["INVESTMENT"],
@@ -128,7 +128,7 @@ module SaltParser
         end
 
         def build_transaction(transaction, account_id)
-          SaltParser::OFX::Transaction.new(
+          SaltParser::Ofx::Transaction.new(
             :amount            => build_amount(transaction),
             :amount_in_pennies => ((build_amount(transaction) * 100).round 2).to_i,
             :fit_id            => transaction.search("fitid").inner_text,
@@ -160,7 +160,7 @@ module SaltParser
         end
 
         def build_investment_transaction(transaction, account_id)
-          SaltParser::OFX::Transaction.new(
+          SaltParser::Ofx::Transaction.new(
             :amount            => build_investment_amount(transaction),
             :amount_in_pennies => ((build_investment_amount(transaction) * 100).round 2).to_i,
             :fit_id            => transaction.search("fitid").inner_text,
@@ -176,7 +176,7 @@ module SaltParser
         end
 
         def build_sign_on
-          @sign_on = SaltParser::OFX::SignOn.new(
+          @sign_on = SaltParser::Ofx::SignOn.new(
             :language          => html.search("signonmsgsrsv1 > sonrs > language").inner_text,
             :fi_id             => html.search("signonmsgsrsv1 > sonrs > fi > fid").inner_text,
             :fi_name           => html.search("signonmsgsrsv1 > sonrs > fi > org").inner_text,
@@ -190,7 +190,7 @@ module SaltParser
           return nil unless account.search("ledgerbal > balamt").size > 0
 
           if account.search("ledgerbal > balamt").inner_text.match(/[\d]{14}\.[\d]+/)
-            SaltParser::OFX::Balance.new(
+            SaltParser::Ofx::Balance.new(
               :amount => 0.0,
               :amount_in_pennies => 0,
               :posted_at => build_date(account.search("ledgerbal > balamt").inner_text)
@@ -198,7 +198,7 @@ module SaltParser
           else
             amount = parse_float(account.search("ledgerbal > balamt").inner_text)
 
-            SaltParser::OFX::Balance.new(
+            SaltParser::Ofx::Balance.new(
               :amount => amount,
               :amount_in_pennies => ((amount * 100).round 2).to_i,
               :posted_at => build_date(account.search("ledgerbal > dtasof").inner_text)
@@ -210,7 +210,7 @@ module SaltParser
           return nil unless account.search("availbal").size > 0
 
           if account.search("availbal > balamt").inner_text.match(/[\d]{14}\.[\d]+/)
-            SaltParser::OFX::Balance.new(
+            SaltParser::Ofx::Balance.new(
               :amount => 0.0,
               :amount_in_pennies => 0,
               :posted_at => build_date(account.search("availbal > balamt").inner_text)
@@ -218,7 +218,7 @@ module SaltParser
           else
             amount = parse_float(account.search("availbal > balamt").inner_text)
 
-            SaltParser::OFX::Balance.new(
+            SaltParser::Ofx::Balance.new(
               :amount => amount,
               :amount_in_pennies => ((amount * 100).round 2).to_i,
               :posted_at => build_date(account.search("availbal > dtasof").inner_text)
@@ -251,7 +251,7 @@ module SaltParser
             return nil
           end
 
-          SaltParser::OFX::Balance.new(
+          SaltParser::Ofx::Balance.new(
             :amount => amount,
             :amount_in_pennies => ((amount * 100).round 2).to_i
           )
@@ -280,7 +280,7 @@ module SaltParser
         def build_amount(element)
           parse_float(element.search("trnamt", "total").inner_text)
         rescue TypeError => error
-          raise SaltParser::OFX::ParseError.new(SaltParser::OFX::ParseError::AMOUNT)
+          raise SaltParser::Ofx::ParseError.new(SaltParser::Ofx::ParseError::AMOUNT)
         end
 
         def build_investment_amount(element)

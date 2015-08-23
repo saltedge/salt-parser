@@ -1,7 +1,7 @@
 require "spec_helper"
 
-describe SaltParser::OFX::Account do
-  let(:ofx)     { SaltParser::OFX::Builder.new("spec/ofx/fixtures/v102.ofx") }
+describe SaltParser::Ofx::Account do
+  let(:ofx)     { SaltParser::Ofx::Builder.new("spec/ofx/fixtures/v102.ofx") }
   let(:parser)  { ofx.parser }
   let(:account) { parser.accounts.first }
   let(:hash)    { account.to_hash }
@@ -68,7 +68,7 @@ describe SaltParser::OFX::Account do
         end
 
         it "should return nil if AVAILBAL not found" do
-          ofx     = SaltParser::OFX::Builder.new("spec/ofx/fixtures/utf8.ofx")
+          ofx     = SaltParser::Ofx::Builder.new("spec/ofx/fixtures/utf8.ofx")
           account = ofx.parser.accounts.first
           account.available_balance.should be_nil
         end
@@ -76,7 +76,7 @@ describe SaltParser::OFX::Account do
     end
 
     context "Credit Card" do
-      let(:ofx)     { SaltParser::OFX::Builder.new("spec/ofx/fixtures/v211.ofx") }
+      let(:ofx)     { SaltParser::Ofx::Builder.new("spec/ofx/fixtures/v211.ofx") }
       let(:account) { parser.accounts.last }
 
       it "should return id" do

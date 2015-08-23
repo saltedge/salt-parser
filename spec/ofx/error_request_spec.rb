@@ -1,9 +1,9 @@
 require "spec_helper"
 
 describe "Error request" do
-  let(:parser)  { SaltParser::OFX::Builder.new("spec/ofx/fixtures/request_error.ofx").parser }
-  let(:parser2) { SaltParser::OFX::Builder.new("spec/ofx/fixtures/request_error2.ofx").parser }
-  let(:parser3) { SaltParser::OFX::Builder.new("spec/ofx/fixtures/request_error3.ofx").parser }
+  let(:parser)  { SaltParser::Ofx::Builder.new("spec/ofx/fixtures/request_error.ofx").parser }
+  let(:parser2) { SaltParser::Ofx::Builder.new("spec/ofx/fixtures/request_error2.ofx").parser }
+  let(:parser3) { SaltParser::Ofx::Builder.new("spec/ofx/fixtures/request_error3.ofx").parser }
 
   describe "errors" do
     it "should contain SaltParser::Error::RequestError" do

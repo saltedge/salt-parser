@@ -1,7 +1,7 @@
 require "spec_helper"
 
-describe SaltParser::OFX::Accounts do
-  let(:ofx)      { SaltParser::OFX::Builder.new("spec/ofx/fixtures/v211.ofx") }
+describe SaltParser::Ofx::Accounts do
+  let(:ofx)      { SaltParser::Ofx::Builder.new("spec/ofx/fixtures/v211.ofx") }
   let(:accounts) { ofx.parser.accounts }
   let(:hash)     { accounts.to_hash }
 
@@ -12,7 +12,7 @@ describe SaltParser::OFX::Accounts do
 
     describe "#find" do
       it "returns first by id" do
-        accounts.find("123456").class.should == SaltParser::OFX::Account
+        accounts.find("123456").class.should == SaltParser::Ofx::Account
       end
     end
 

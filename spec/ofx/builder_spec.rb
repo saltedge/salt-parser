@@ -1,31 +1,31 @@
 require "spec_helper"
 
-describe SaltParser::OFX::Builder do
-  let(:ofx)    { SaltParser::OFX::Builder.new("spec/ofx/fixtures/v102.ofx") }
-  let(:ofx2)   { SaltParser::OFX::Builder.new("spec/ofx/fixtures/ms_money.ofx") }
+describe SaltParser::Ofx::Builder do
+  let(:ofx)    { SaltParser::Ofx::Builder.new("spec/ofx/fixtures/v102.ofx") }
+  let(:ofx2)   { SaltParser::Ofx::Builder.new("spec/ofx/fixtures/ms_money.ofx") }
   let(:parser) { ofx.parser }
 
   describe "initialize" do
     it "does not raise error if valid file given" do
-      expect{ SaltParser::OFX::Builder.new("spec/ofx/fixtures/v102.ofx") }.not_to raise_error
-      expect{ SaltParser::OFX::Builder.new("spec/ofx/fixtures/v211.ofx") }.not_to raise_error
-      expect{ SaltParser::OFX::Builder.new("spec/ofx/fixtures/v202.ofx") }.not_to raise_error
+      expect{ SaltParser::Ofx::Builder.new("spec/ofx/fixtures/v102.ofx") }.not_to raise_error
+      expect{ SaltParser::Ofx::Builder.new("spec/ofx/fixtures/v211.ofx") }.not_to raise_error
+      expect{ SaltParser::Ofx::Builder.new("spec/ofx/fixtures/v202.ofx") }.not_to raise_error
     end
 
     it "raises error if file has not valid format" do
       expect do
-        SaltParser::OFX::Builder.new("spec/ofx/fixtures/missing_headers.ofx").parser
+        SaltParser::Ofx::Builder.new("spec/ofx/fixtures/missing_headers.ofx").parser
       end.to raise_error(SaltParser::Error::UnsupportedFileError)
     end
 
     it "parses file without balances" do
-      parser = SaltParser::OFX::Builder.new("spec/ofx/fixtures/ms_money.ofx").parser
+      parser = SaltParser::Ofx::Builder.new("spec/ofx/fixtures/ms_money.ofx").parser
       parser.accounts.size.should == 1
       parser.accounts.first.transactions.size.should == 1
     end
 
     it "does not raise errors if parsing gone bad" do
-      parser = SaltParser::OFX::Builder.new("spec/ofx/fixtures/date_missing.ofx").parser
+      parser = SaltParser::Ofx::Builder.new("spec/ofx/fixtures/date_missing.ofx").parser
 
       expect {parser.accounts}.to_not raise_error
 
@@ -38,7 +38,7 @@ describe SaltParser::OFX::Builder do
     end
 
     it "does not raise errors if transactions list is empty" do
-      parser = SaltParser::OFX::Builder.new("spec/ofx/fixtures/transactions_empty.ofx").parser
+      parser = SaltParser::Ofx::Builder.new("spec/ofx/fixtures/transactions_empty.ofx").parser
 
       expect {parser.accounts}.to_not raise_error
 
@@ -50,7 +50,7 @@ describe SaltParser::OFX::Builder do
     end
 
     it "returns even partial data" do
-      parser = SaltParser::OFX::Builder.new("spec/ofx/fixtures/accounts_partial.ofx").parser
+      parser = SaltParser::Ofx::Builder.new("spec/ofx/fixtures/accounts_partial.ofx").parser
 
       expect {parser.accounts}.to_not raise_error
 
@@ -69,7 +69,7 @@ describe SaltParser::OFX::Builder do
     end
 
     it "returns even partial data" do
-      parser = SaltParser::OFX::Builder.new("spec/ofx/fixtures/creditcards_partial.ofx").parser
+      parser = SaltParser::Ofx::Builder.new("spec/ofx/fixtures/creditcards_partial.ofx").parser
 
       expect {parser.accounts}.to_not raise_error
       parser.accounts.size.should == 3
@@ -86,7 +86,7 @@ describe SaltParser::OFX::Builder do
     end
 
     it "returns investment data" do
-      parser = SaltParser::OFX::Builder.new("spec/ofx/fixtures/investment_transactions_response.ofx").parser
+      parser = SaltParser::Ofx::Builder.new("spec/ofx/fixtures/investment_transactions_response.ofx").parser
 
       expect {parser.accounts}.to_not raise_error
 
@@ -104,7 +104,7 @@ describe SaltParser::OFX::Builder do
     end
 
     it "returns investment data" do
-      parser = SaltParser::OFX::Builder.new("spec/ofx/fixtures/investment_transactions_response2.ofx").parser
+      parser = SaltParser::Ofx::Builder.new("spec/ofx/fixtures/investment_transactions_response2.ofx").parser
 
       expect {parser.accounts}.to_not raise_error
 
@@ -122,7 +122,7 @@ describe SaltParser::OFX::Builder do
     end
 
     it "does not fail if account balance is missing" do
-      parser = SaltParser::OFX::Builder.new("spec/ofx/fixtures/empty_balance.ofx").parser
+      parser = SaltParser::Ofx::Builder.new("spec/ofx/fixtures/empty_balance.ofx").parser
 
       expect {parser.accounts}.to_not raise_error
 

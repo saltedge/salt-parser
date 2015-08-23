@@ -1,22 +1,22 @@
 require "spec_helper"
 
-describe SaltParser::OFX::Parser do
-  let(:ofx) { SaltParser::OFX::Builder.new("spec/ofx/fixtures/v102.ofx") }
+describe SaltParser::Ofx::Parser do
+  let(:ofx) { SaltParser::Ofx::Builder.new("spec/ofx/fixtures/v102.ofx") }
 
   it "should accept file path" do
-    ofx = SaltParser::OFX::Builder.new("spec/ofx/fixtures/v102.ofx")
+    ofx = SaltParser::Ofx::Builder.new("spec/ofx/fixtures/v102.ofx")
     ofx.content.should_not be_nil
   end
 
   it "should accept file handler" do
     file = open("spec/ofx/fixtures/v102.ofx")
-    ofx = SaltParser::OFX::Builder.new(file)
+    ofx = SaltParser::Ofx::Builder.new(file)
     ofx.content.should_not be_nil
   end
 
   it "should accept file content" do
     file = open("spec/ofx/fixtures/v102.ofx").read
-    ofx =SaltParser::OFX::Builder.new(file)
+    ofx =SaltParser::Ofx::Builder.new(file)
     ofx.content.should_not be_nil
   end
 
@@ -25,7 +25,7 @@ describe SaltParser::OFX::Parser do
   end
 
   it "should work with UTF8 and Latin1 encodings" do
-    ofx = SaltParser::OFX::Builder.new("spec/ofx/fixtures/utf8.ofx")
+    ofx = SaltParser::Ofx::Builder.new("spec/ofx/fixtures/utf8.ofx")
     ofx.content.should == open("spec/ofx/fixtures/utf8.ofx").read
   end
 
@@ -35,13 +35,13 @@ describe SaltParser::OFX::Parser do
 
   it "should raise exception when trying to parse an unsupported OFX version" do
     expect {
-      SaltParser::OFX::Builder.new("spec/ofx/fixtures/invalid_version.ofx")
+      SaltParser::Ofx::Builder.new("spec/ofx/fixtures/invalid_version.ofx")
     }.to raise_error(SaltParser::Error::UnsupportedFileError)
   end
 
   it "should raise exception when trying to parse an invalid file" do
     expect {
-      SaltParser::OFX::Builder.new("spec/ofx/fixtures/avatar.gif")
+      SaltParser::Ofx::Builder.new("spec/ofx/fixtures/avatar.gif")
     }.to raise_error(SaltParser::Error::UnsupportedFileError)
   end
 
@@ -87,7 +87,7 @@ describe SaltParser::OFX::Parser do
     end
 
     it "should parse headers with CR and without LF" do
-      ofx = SaltParser::OFX::Builder.new(ofx_with_carriage_return)
+      ofx = SaltParser::Ofx::Builder.new(ofx_with_carriage_return)
       ofx.headers.size.should be(9)
     end
   end

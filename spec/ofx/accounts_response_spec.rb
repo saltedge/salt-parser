@@ -1,7 +1,7 @@
 require "spec_helper"
 
 describe "Bank accounts response" do
-  let(:ofx)      { SaltParser::OFX::Builder.new("spec/ofx/fixtures/accounts_response.ofx") }
+  let(:ofx)      { SaltParser::Ofx::Builder.new("spec/ofx/fixtures/accounts_response.ofx") }
   let(:parser)   { ofx.parser }
   let(:accounts) { parser.accounts }
 

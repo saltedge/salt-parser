@@ -1,7 +1,7 @@
 require "spec_helper"
 
-describe SaltParser::OFX::Transaction do
-  let(:ofx)     { SaltParser::OFX::Builder.new("spec/ofx/fixtures/v102.ofx") }
+describe SaltParser::Ofx::Transaction do
+  let(:ofx)     { SaltParser::Ofx::Builder.new("spec/ofx/fixtures/v102.ofx") }
   let(:parser)  { ofx.parser }
   let(:account) { parser.accounts.first }
 
@@ -130,7 +130,7 @@ describe SaltParser::OFX::Transaction do
   end
 
   context "with other types" do
-    let(:ofx)     { SaltParser::OFX::Builder.new("spec/ofx/fixtures/bb.ofx") }
+    let(:ofx)     { SaltParser::Ofx::Builder.new("spec/ofx/fixtures/bb.ofx") }
     let(:parser)  { ofx.parser }
     let(:account) { parser.accounts.first }
 

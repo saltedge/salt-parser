@@ -1,7 +1,7 @@
 module SaltParser
-  module OFX
+  module Ofx
     module Parser
-      class OFX211 < SaltParser::OFX::Parser::Base
+      class OFX211 < SaltParser::Ofx::Parser::Base
         VERSION = "2.1.1"
 
         def self.parse_headers(header_text)

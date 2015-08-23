@@ -1,7 +1,7 @@
 require "spec_helper"
 
-describe SaltParser::OFX::Balance do
-  let(:ofx)     { SaltParser::OFX::Builder.new("spec/ofx/fixtures/v102.ofx") }
+describe SaltParser::Ofx::Balance do
+  let(:ofx)     { SaltParser::Ofx::Builder.new("spec/ofx/fixtures/v102.ofx") }
   let(:parser)  { ofx.parser }
   let(:account) { parser.accounts.first }
   let(:balance) { account.balance }

@@ -1,5 +1,5 @@
 module SaltParser
-  module OFX
+  module Ofx
     class Transaction < SaltParser::Base
       attr_accessor :amount, :amount_in_pennies, :check_number, :fit_id,
                     :memo, :name, :payee, :posted_at, :ref_number, :type,

@@ -1,11 +1,11 @@
 require "spec_helper"
 
-describe SaltParser::OFX::Parser::OFX211 do
-  let(:ofx)    { SaltParser::OFX::Builder.new("spec/ofx/fixtures/v211.ofx") }
+describe SaltParser::Ofx::Parser::OFX211 do
+  let(:ofx)    { SaltParser::Ofx::Builder.new("spec/ofx/fixtures/v211.ofx") }
   let(:parser) { ofx.parser }
 
   it "should have a version" do
-    SaltParser::OFX::Parser::OFX211::VERSION.should == "2.1.1"
+    SaltParser::Ofx::Parser::OFX211::VERSION.should == "2.1.1"
   end
 
   it "should set headers" do
@@ -18,11 +18,11 @@ describe SaltParser::OFX::Parser::OFX211 do
 
   it "should set accounts" do
     parser.accounts.should be_a_kind_of(Array)
-    parser.accounts.first.should be_a_kind_of(SaltParser::OFX::Account)
+    parser.accounts.first.should be_a_kind_of(SaltParser::Ofx::Account)
   end
 
   it "should set sign_on" do
-    parser.sign_on.should be_a_kind_of(SaltParser::OFX::SignOn)
+    parser.sign_on.should be_a_kind_of(SaltParser::Ofx::SignOn)
   end
 
   context "transactions" do

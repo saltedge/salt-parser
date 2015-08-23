@@ -1,11 +1,11 @@
 require "spec_helper"
 
-describe SaltParser::OFX::Parser::OFX102 do
-  let(:ofx)    { SaltParser::OFX::Builder.new("spec/ofx/fixtures/v102.ofx") }
+describe SaltParser::Ofx::Parser::OFX102 do
+  let(:ofx)    { SaltParser::Ofx::Builder.new("spec/ofx/fixtures/v102.ofx") }
   let(:parser) { ofx.parser }
 
   it "should have a version" do
-    SaltParser::OFX::Parser::OFX102::VERSION.should == "1.0.2"
+    SaltParser::Ofx::Parser::OFX102::VERSION.should == "1.0.2"
   end
 
   it "should set headers" do
@@ -13,7 +13,7 @@ describe SaltParser::OFX::Parser::OFX102 do
   end
 
   it "should trim trailing whitespace from headers" do
-    headers = SaltParser::OFX::Parser::OFX102.parse_headers("VERSION:102   ")
+    headers = SaltParser::Ofx::Parser::OFX102.parse_headers("VERSION:102   ")
     headers["VERSION"].should == "102"
   end
 
@@ -23,11 +23,11 @@ describe SaltParser::OFX::Parser::OFX102 do
 
   it "should set accounts" do
     parser.accounts.should be_a_kind_of(Array)
-    parser.accounts.first.should be_a_kind_of(SaltParser::OFX::Account)
+    parser.accounts.first.should be_a_kind_of(SaltParser::Ofx::Account)
   end
 
   it "should set account" do
-    parser.sign_on.should be_a_kind_of(SaltParser::OFX::SignOn)
+    parser.sign_on.should be_a_kind_of(SaltParser::Ofx::SignOn)
   end
 
   it "should know about all transaction types" do
@@ -35,10 +35,10 @@ describe SaltParser::OFX::Parser::OFX102 do
       'CREDIT', 'DEBIT', 'INT', 'DIV', 'FEE', 'SRVCHG', 'DEP', 'ATM', 'POS', 'XFER',
       'CHECK', 'PAYMENT', 'CASH', 'DIRECTDEP', 'DIRECTDEBIT', 'REPEATPMT', 'OTHER'
     ]
-    valid_types.sort.should == SaltParser::OFX::Parser::OFX102::TRANSACTION_TYPES.keys.sort
+    valid_types.sort.should == SaltParser::Ofx::Parser::OFX102::TRANSACTION_TYPES.keys.sort
 
     valid_types.each do |transaction_type|
-      transaction_type.downcase.to_sym.should equal SaltParser::OFX::Parser::OFX102::TRANSACTION_TYPES[transaction_type]
+      transaction_type.downcase.to_sym.should equal SaltParser::Ofx::Parser::OFX102::TRANSACTION_TYPES[transaction_type]
     end
   end
 end

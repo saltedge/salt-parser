@@ -1,5 +1,5 @@
 module SaltParser
-  module OFX
+  module Ofx
     class SignOn < SaltParser::Base
       attr_accessor :language, :fi_id, :fi_name, :code, :severity, :message
 

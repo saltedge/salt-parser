@@ -1,5 +1,5 @@
 module SaltParser
-  module OFX
+  module Ofx
     class Balance < SaltParser::Base
       attr_accessor :amount, :amount_in_pennies, :posted_at
 

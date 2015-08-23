@@ -1,5 +1,5 @@
 module SaltParser
-  module OFX
+  module Ofx
     class Builder < SaltParser::Builder
 
       def initialize(resource)
@@ -14,9 +14,9 @@ module SaltParser
 
         @parser = case headers["VERSION"]
         when /102|103/ then
-          SaltParser::OFX::Parser::OFX102.new(:headers => headers, :body => body)
+          SaltParser::Ofx::Parser::OFX102.new(:headers => headers, :body => body)
         when /200|202|211/ then
-          SaltParser::OFX::Parser::OFX211.new(:headers => headers, :body => body)
+          SaltParser::Ofx::Parser::OFX211.new(:headers => headers, :body => body)
         else
           raise SaltParser::Error::UnsupportedFileError
         end
@@ -40,8 +40,8 @@ module SaltParser
         # parser a chance to parse the headers.
         headers = nil
 
-        SaltParser::OFX::Parser.constants.grep(/OFX/).each do |name|
-          headers = SaltParser::OFX::Parser.const_get(name).parse_headers(header_text)
+        SaltParser::Ofx::Parser.constants.grep(/OFX/).each do |name|
+          headers = SaltParser::Ofx::Parser.const_get(name).parse_headers(header_text)
           break if headers
         end
 
