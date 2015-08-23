@@ -1,7 +1,6 @@
 module SaltParser
   module Qif
-    class Builder
-      attr_reader :header, :body, :content, :parser
+    class Builder < SaltParser::Builder
 
       def initialize(resource, date_format="%m/%d/%Y")
         resource = open_resource(resource)
@@ -10,17 +9,7 @@ module SaltParser
         @content = convert_to_utf8(resource.read)
         prepare(content)
 
-        @parser = Parser.new(:header => header, :body => body, :date_format => date_format)
-      end
-
-      def open_resource(resource)
-        if resource.respond_to?(:read)
-          resource
-        else
-          open(resource)
-        end
-      rescue Exception
-        StringIO.new(resource)
+        @parser = Parser.new(:headers => headers, :body => body, :date_format => date_format)
       end
 
       private
@@ -34,21 +23,14 @@ module SaltParser
             @body   = slice.first
           else
             next if Qif::Accounts::NOT_SUPPORTED_ACCOUNTS.keys.include?(slice.first)
-            @header = slice.first
-            @body   = slice.last
+            @headers = slice.first
+            @body    = slice.last
           end
         end
 
         if body.nil? or body.match(/(^!.+)/)
-          raise SaltParser::Error::EmptyFileBody.new
+          raise SaltParser::Error::EmptyFileBody
         end
-      end
-
-      def convert_to_utf8(string)
-        return string if Kconv.isutf8(string)
-        string.encode(Encoding::UTF_8.to_s, Encoding::ISO_8859_1.to_s)
-      rescue Exception
-        raise SaltParser::Error::InvalidEncoding.new
       end
     end
   end

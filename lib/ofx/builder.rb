@@ -1,36 +1,25 @@
 module SaltParser
   module OFX
-    class Builder
-      attr_reader :headers, :body, :content, :parser
+    class Builder < SaltParser::Builder
 
       def initialize(resource)
         resource = open_resource(resource)
         resource.rewind
         begin
-          @content        = convert_to_utf8(resource.read)
-          @headers, @body = prepare(content)
+          @content = convert_to_utf8(resource.read)
+          prepare(content)
         rescue Exception
           raise SaltParser::Error::UnsupportedFileError
         end
 
-        case headers["VERSION"]
+        @parser = case headers["VERSION"]
         when /102|103/ then
-          @parser = SaltParser::OFX::Parser::OFX102.new(:headers => headers, :body => body)
+          SaltParser::OFX::Parser::OFX102.new(:headers => headers, :body => body)
         when /200|202|211/ then
-          @parser = SaltParser::OFX::Parser::OFX211.new(:headers => headers, :body => body)
+          SaltParser::OFX::Parser::OFX211.new(:headers => headers, :body => body)
         else
           raise SaltParser::Error::UnsupportedFileError
         end
-      end
-
-      def open_resource(resource)
-        if resource.respond_to?(:read)
-          resource
-        else
-          open(resource)
-        end
-      rescue Exception
-        StringIO.new(resource)
       end
 
       private
@@ -42,14 +31,12 @@ module SaltParser
 
         raise SaltParser::Error::UnsupportedFileError unless body_text
 
-        headers = extract_headers(header_text)
-        body    = extract_body(body_text)
-
-        [headers, body]
+        @headers = extract_headers(header_text)
+        @body    = extract_body(body_text)
       end
 
       def extract_headers(header_text)
-        # Header format is different between versions. Give each
+        # Header format is different among versions. Give each
         # parser a chance to parse the headers.
         headers = nil
 
@@ -68,11 +55,6 @@ module SaltParser
         body_text.gsub!(/\s+</m, "<")
         body_text.gsub!(/>\s+/m, ">")
         body_text.gsub!(/<(\w+?)>([^<]+)/m, '<\1>\2</\1>')
-      end
-
-      def convert_to_utf8(string)
-        return string if Kconv.isutf8(string)
-        string.encode(Encoding::UTF_8.to_s, Encoding::ISO_8859_1.to_s)
       end
     end
   end

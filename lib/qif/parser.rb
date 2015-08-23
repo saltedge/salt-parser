@@ -1,10 +1,10 @@
 module SaltParser
   module Qif
     class Parser
-      attr_reader :header, :body, :accounts, :date_format
+      attr_reader :headers, :body, :accounts, :date_format
 
       def initialize(options = {})
-        @header      = options[:header].try(:chomp)
+        @headers     = options[:headers].try(:chomp)
         @body        = options[:body]
         @date_format = options[:date_format]
         @accounts    = Qif::Accounts.new
@@ -17,8 +17,8 @@ module SaltParser
 
       def parse_account
         @accounts << Qif::Account.new({
-          :name         => Qif::Accounts::SUPPORTED_ACCOUNTS[header]["name"],
-          :type         => Qif::Accounts::SUPPORTED_ACCOUNTS[header]["type"],
+          :name         => Qif::Accounts::SUPPORTED_ACCOUNTS[headers]["name"],
+          :type         => Qif::Accounts::SUPPORTED_ACCOUNTS[headers]["type"],
           :transactions => build_transactions
         })
       end
