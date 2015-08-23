@@ -1,10 +1,7 @@
 module SaltParser
   module Qif
     class Builder
-      attr_reader :header
-      attr_reader :body
-      attr_reader :content
-      attr_reader :parser
+      attr_reader :header, :body, :content, :parser
 
       def initialize(resource, date_format="%m/%d/%Y")
         resource = open_resource(resource)

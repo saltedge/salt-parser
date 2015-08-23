@@ -1,17 +1,8 @@
 module SaltParser
   module OFX
     class Account < SaltParser::Base
-      attr_accessor :balance
-      attr_accessor :bank_id
-      attr_accessor :broker_id
-      attr_accessor :currency
-      attr_accessor :id
-      attr_accessor :name
-      attr_accessor :transactions
-      attr_accessor :type
-      attr_accessor :units
-      attr_accessor :unit_price
-      attr_accessor :available_balance
+      attr_accessor :balance, :bank_id, :broker_id, :currency, :id, :name,
+                    :transactions, :type, :units, :unit_price, :available_balance
 
       def identifier
         id

@@ -1,12 +1,7 @@
 module SaltParser
   module OFX
     class SignOn < SaltParser::Base
-      attr_accessor :language
-      attr_accessor :fi_id
-      attr_accessor :fi_name
-      attr_accessor :code
-      attr_accessor :severity
-      attr_accessor :message
+      attr_accessor :language, :fi_id, :fi_name, :code, :severity, :message
 
       def to_hash
         {

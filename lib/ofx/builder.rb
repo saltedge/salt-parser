@@ -1,10 +1,7 @@
 module SaltParser
   module OFX
     class Builder
-      attr_reader :headers
-      attr_reader :body
-      attr_reader :content
-      attr_reader :parser
+      attr_reader :headers, :body, :content, :parser
 
       def initialize(resource)
         resource = open_resource(resource)

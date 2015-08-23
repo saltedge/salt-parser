@@ -1,9 +1,7 @@
 module SaltParser
   module Qif
     class Account < SaltParser::Base
-      attr_accessor :name
-      attr_accessor :type
-      attr_accessor :transactions
+      attr_accessor :name, :type, :transactions
 
       def identifier
         name

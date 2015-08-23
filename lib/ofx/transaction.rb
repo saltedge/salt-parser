@@ -1,20 +1,9 @@
 module SaltParser
   module OFX
     class Transaction < SaltParser::Base
-      attr_accessor :amount
-      attr_accessor :amount_in_pennies
-      attr_accessor :check_number
-      attr_accessor :fit_id
-      attr_accessor :memo
-      attr_accessor :name
-      attr_accessor :payee
-      attr_accessor :posted_at
-      attr_accessor :ref_number
-      attr_accessor :type
-      attr_accessor :sic
-      attr_accessor :units
-      attr_accessor :unit_price
-      attr_accessor :account_id
+      attr_accessor :amount, :amount_in_pennies, :check_number, :fit_id,
+                    :memo, :name, :payee, :posted_at, :ref_number, :type,
+                    :sic, :units, :unit_price, :account_id
 
       def to_hash
         {
