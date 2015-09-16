@@ -2,6 +2,10 @@
 
 Library for parsing OFX, HBCI, QIF and SWIFT formats.
 
+TODOS:
+- Add SWIFT parser
+- Add HBCI parser
+
 == Credits
 #TODO
 

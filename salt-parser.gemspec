@@ -11,9 +11,7 @@ Gem::Specification.new do |s|
   s.homepage    = "http://example.com"
   s.license     = "Proprietary"
   s.summary     = "Gem for parsing OFX, HBCI, QIF and SWIFT formats."
-  s.description = <<-TXT
-    Gem for parsing OFX, HBCI, QIF and SWIFT formats.
-  TXT
+  s.description = "Gem for parsing OFX, HBCI, QIF and SWIFT formats."
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {spec}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |file| File.basename(f) }
