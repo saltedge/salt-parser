@@ -6,10 +6,9 @@ Gem::Specification.new do |s|
   s.name        = "salt-parser"
   s.version     = SaltParser::Version::STRING
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO"]
-  s.email       = ["todo@example.com"]
+  s.authors     = ["saltedge team"]
+  s.email       = ["support@saltedge.com"]
   s.homepage    = "http://example.com"
-  s.license     = "Proprietary"
   s.summary     = "Gem for parsing OFX, HBCI, QIF and SWIFT formats."
   s.description = "Gem for parsing OFX, HBCI, QIF and SWIFT formats."
   s.files         = `git ls-files`.split("\n")
