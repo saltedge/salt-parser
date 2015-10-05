@@ -4,7 +4,9 @@ Library for parsing OFX, HBCI, QIF and SWIFT formats.
 
 = Install
 
-`gem install salt-parser`
+```ruby
+gem install salt-parser
+```
 
 
 TODOS:
