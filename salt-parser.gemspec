@@ -15,6 +15,7 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {spec}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |file| File.basename(f) }
   s.require_paths = ["lib"]
+  s.licenses      = ["MIT"]
 
   s.add_dependency "nokogiri"
   s.add_development_dependency "rspec", "~> 3.0"
