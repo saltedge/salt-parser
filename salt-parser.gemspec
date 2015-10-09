@@ -17,6 +17,8 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.licenses      = ["MIT"]
 
+  s.metadata = { "issue_tracker" => "https://github.com/saltedge/salt-parser/issues" }
+
   s.add_dependency "nokogiri"
   s.add_development_dependency "rspec", "~> 3.0"
   s.add_development_dependency 'bundler', '~> 1.3'
