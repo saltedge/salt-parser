@@ -4,6 +4,7 @@ group :test do
   gem 'timecop'
   gem 'rspec'
   gem 'simplecov', require: false
+  gem 'rake'
 end
 
 gem 'activesupport'
