@@ -17,3 +17,4 @@ require_relative "builder"
 
 require "ofx/dependencies"
 require "qif/dependencies"
+require "swift/dependencies"

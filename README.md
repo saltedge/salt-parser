@@ -10,7 +10,6 @@ gem install salt-parser
 
 
 ## TODOS:
-- Add SWIFT parser
 - Add HBCI parser
 - Add code examples
 
@@ -20,6 +19,7 @@ Special thanks to:
 
 - @annacruz [ofx](https://github.com/annacruz/ofx)
 - @jemmyw [qif](https://github.com/jemmyw/Qif)
+- @betterplace [swift](https://github.com/betterplace/mt940_parser)
 
 
 ### License
