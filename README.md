@@ -1,6 +1,6 @@
 ### Salt Parser
 
-Library for parsing OFX, HBCI, QIF and SWIFT formats.
+Library for parsing OFX, QIF and SWIFT formats.
 
 ### Install
 
@@ -9,10 +9,8 @@ gem install salt-parser
 ```
 
 
-## TODOS:
-- Add SWIFT parser
-- Add HBCI parser
-- Add code examples
+### Examples:
+- Could be found in specs
 
 ### Credits
 
@@ -20,6 +18,7 @@ Special thanks to:
 
 - @annacruz [ofx](https://github.com/annacruz/ofx)
 - @jemmyw [qif](https://github.com/jemmyw/Qif)
+- @betterplace [swift](https://github.com/betterplace/mt940_parser)
 
 
 ### License

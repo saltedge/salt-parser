@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.authors     = ["saltedge team"]
   s.email       = ["support@saltedge.com"]
   s.homepage    = "http://saltedge.com"
-  s.summary     = "Gem for parsing OFX, HBCI, QIF and SWIFT formats."
-  s.description = "Gem for parsing OFX, HBCI, QIF and SWIFT formats."
+  s.summary     = "Gem for parsing OFX, QIF and SWIFT formats."
+  s.description = "Gem for parsing OFX, QIF and SWIFT formats."
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {spec}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |file| File.basename(f) }
