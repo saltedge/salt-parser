@@ -14,8 +14,14 @@ require 'salt-parser'
 require 'pp'
 
 ofx = SaltParser::Ofx::Builder.new("spec/ofx/fixtures/v102.ofx").parser
-pp "OFX account", ofx.accounts.first.to_hash
 
+account = ofx.accounts.first
+pp "OFX account", account.to_hash
+
+transaction = account.transactions.first
+pp "OFX transaction", transaction.to_hash
+
+###Other examples
 qif = SaltParser::Qif::Builder.new("spec/qif/fixtures/bank_account.qif", "%d/%m/%Y").parser
 pp "QIF account", qif.accounts.first.to_hash
 
