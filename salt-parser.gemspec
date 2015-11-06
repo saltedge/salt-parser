@@ -1,5 +1,6 @@
 # -*- encoding: utf-8 -*-
-$:.push File.expand_path("../lib", __FILE__)
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "salt-parser/version"
 
 Gem::Specification.new do |s|
@@ -19,9 +20,9 @@ Gem::Specification.new do |s|
 
   s.metadata = { "issue_tracker" => "https://github.com/saltedge/salt-parser/issues" }
 
-  s.add_dependency "nokogiri"
+  s.add_dependency "nokogiri", "~> 1.6"
   s.add_development_dependency "rspec", "~> 3.0"
-  s.add_development_dependency 'bundler', '~> 1.3'
-  s.add_development_dependency "rake"
-  s.add_development_dependency "pry-byebug"
+  s.add_development_dependency 'bundler', "~> 1.3"
+  s.add_development_dependency "rake", "~> 1.6"
+  s.add_development_dependency "pry-byebug", "~> 1.3"
 end
