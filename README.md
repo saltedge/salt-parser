@@ -8,9 +8,20 @@ Library for parsing OFX, QIF and SWIFT formats.
 gem install salt-parser
 ```
 
-
 ### Examples:
-- Could be found in specs
+```ruby
+require 'salt-parser'
+require 'pp'
+
+ofx = SaltParser::Ofx::Builder.new("spec/ofx/fixtures/v102.ofx").parser
+pp "OFX account", ofx.accounts.first.to_hash
+
+qif = SaltParser::Qif::Builder.new("spec/qif/fixtures/bank_account.qif", "%d/%m/%Y").parser
+pp "QIF account", qif.accounts.first.to_hash
+
+swift = SaltParser::Swift::Builder.new("spec/swift/fixtures/sepa_mt9401.txt").parser
+pp "SWIFT account", swift.accounts.first.to_hash
+```
 
 ### Credits
 
