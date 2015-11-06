@@ -1,6 +1,3 @@
-require "active_support"
-require "active_support/core_ext"
-
 module SaltParser
   class Base
     def initialize(attrs)
@@ -10,11 +7,3 @@ module SaltParser
     end
   end
 end
-
-require_relative "accounts"
-require_relative "errors"
-require_relative "builder"
-
-require "ofx/dependencies"
-require "qif/dependencies"
-require "swift/dependencies"
