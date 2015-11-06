@@ -1,5 +1,6 @@
 ### Salt Parser
 [![Build Status](https://travis-ci.org/saltedge/salt-parser.svg?branch=master)](https://travis-ci.org/saltedge/salt-parser)
+
 Library for parsing OFX, QIF and SWIFT formats.
 
 ### Install
